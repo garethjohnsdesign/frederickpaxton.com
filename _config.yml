@@ -2,12 +2,12 @@
 title: Frederick Paxton
 timezone: UTC
 collections:
+  posts:
+    title: Posts
+    output: true
   projects:
     title: Projects
     output: true
-  posts:
-    title: Posts
-    output: false
   uploads:
     title: Uploads
     output: false

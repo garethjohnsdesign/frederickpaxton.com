@@ -1,7 +1,8 @@
 ---
 title: Info
-clients-text: |-
-  Aesthetica, Address, Another, Africa, Buzzfeed, Clash, Dazed, Huck, Hunger, i-D, Its Nice That, Konbini, Riposte, The Guardian, The Independent, Twin, Time Out, Vice
+clients-text: Aesthetica, Address, Another, Africa, Buzzfeed, Clash, Dazed, Huck,
+  Hunger, i-D, Its Nice That, Konbini, Riposte, The Guardian, The Independent, Twin,
+  Time Out, Vice
 layout: info
 ---
 
