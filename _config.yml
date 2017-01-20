@@ -2,18 +2,12 @@
 title: Frederick Paxton
 timezone: UTC
 collections:
-  clients:
-    title: Clients
+  projects:
+    title: Projects
     output: true
   posts:
     title: Posts
-    output: true
-  services:
-    title: Services
-    output: true
-  team:
-    title: Team
-    output: true
+    output: false
   uploads:
     title: Uploads
     output: false
@@ -23,20 +17,6 @@ defaults:
     type: pages
   values:
     layout: page
-- scope:
-    path: ''
-    type: posts
-  values:
-    permalink: "/blog/:title/"
-    layout: post
-    image: 
-    description: 
-- scope:
-    path: ''
-    type: services
-  values:
-    permalink: "/services/:title/"
-    layout: service
 url: http://frederickpaxton.com
 description: Documentary & Fine Art / Filmmaker & Photographer
 permalink: pretty

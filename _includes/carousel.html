@@ -1,0 +1,15 @@
+<!-- Flickity HTML init -->
+<div class="gallery">
+{% assign slide_documents = site.projects | sort: 'date' | reverse | where: "is-featured", "true" %}
+{% for slide in slide_documents %}
+<div class="gallery-cell" style="background-image: url({{slide.image}})">
+	
+<div class="row carousel__text align-middle align-center">
+	<div class="shrink columns">
+	<h1><a href="{{ slide.url }}">{{slide.title}}</a></h1>
+	</div>
+</div>
+
+</div>
+{% endfor %}
+</div>

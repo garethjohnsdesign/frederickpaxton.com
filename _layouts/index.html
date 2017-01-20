@@ -2,62 +2,67 @@
 layout: default
 ---
 
-<!-- Hero -->
-<section class="index__hero">
-  <div class="index__hero__cell">
-      <div class="row index__hero__cell__text align-middle">
-          <div class="small-11 medium-8 large-6 columns">
-            <h1>Test</h1>
-          </div>
-       </div> 
-  </div>
-</section>
-<!-- End Hero -->
-
-<!-- Intro -->
-<section class="index__intro">
+<!--
+<section class="section">
+  <div class="section-wrapper">
+    
     <div class="row">
-      <div class="small-12 medium-9 columns">
-        <h3>Listen Up is a promotion and communications agency specialising in music and events, consistently delivering results to clients in a diverse range of genres</h3>
-      </div>
-    </div>
-</section>
-<!-- End Intro -->
-
-<!-- Clients -->
-<section class="index__clients">
-<div class="row collapse">
-  {% assign clients = site.clients | sort: 'position' | where: "is-front", "true" %}
-  {% for client in clients %}
-    <div class="small-12 medium-6 large-4 columns">
-    {% include client-excerpt.html %}
-    </div>
-  {% endfor %}
-</div>
-</section>
-<!-- End Clients -->
-
-<!-- Services -->
-<section class="index__services">
-<div class="row">
-  
-<div class="small-3 columns index__section__title">
-<h4>Services</h4>
-</div>
-
-<div class="small-9 columns index__services__sections">
-{% for service in site.services %}
-<div class="index__services__section">
-<h4>{{ service.title }}</h4>
-<h5>{{ service.subtitle }}</h5>
-<p>{{ service.content }}</p>
-<div class="index__more">
-  <a href="services/{{ service.title | downcase }}" class="plus">More</a>
-</div>
+      <div class="small-12 columns">
+        
+<div class="gallery">
+{% assign slide_documents = site.projects %}
+{% for slide in slide_documents %}
+<div class="gallery-cell">
+<img src="{{slide.image}}" alt="Test">
 </div>
 {% endfor %}
 </div>
-
-</div>
+        
+      </div>
+    </div>
+    
+  </div>
 </section>
-<!-- End Services -->
+-->
+
+
+<!--
+<section class="section">
+  <div class="section-wrapper">
+    <div class="gallery">
+    {% assign slide_documents = site.projects %}
+    {% for slide in slide_documents %}
+    <div class="gallery-cell">
+    <img src="{{slide.image}}" alt="Test">
+    </div>
+    {% endfor %}
+    </div>
+  </div>
+</section>
+-->
+
+<!-- <section class="section"> -->
+<!--
+  <div class="carousel">
+    {% assign slide_documents = site.projects %}
+    {% for slide in slide_documents %}
+    <div class="carousel-cell">
+    <img src="{{slide.image}}" alt="Test">
+    </div>
+    {% endfor %}
+  </div>
+-->
+<!-- </section> -->
+
+
+
+<!-- Flickity HTML init -->
+<div class="carousel"> 
+   {% assign slide_documents = site.projects %}
+    {% for slide in slide_documents %}
+    <div class="carousel-cell">
+      <img src="{{slide.image}}" alt="{{slide.title}}">
+    </div>
+    {% endfor %}
+</div>
+

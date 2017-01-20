@@ -7,7 +7,7 @@
 		"uuidString": "550FEDE5-7AFF-4FD3-8DBE-A45DE2D02921"
 		}
 	],
-"creatorBuild": "25479",
+"creatorBuild": "25504",
 "files": {
 	"\/404.md": {
 		"cS": 0,
@@ -26,24 +26,6 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
-		},
-	"\/_clients\/a-trak.markdown": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_clients\/a-trak.markdown",
-		"oF": 0
-		},
-	"\/_clients\/aatw-records.markdown": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_clients\/aatw-records.markdown",
-		"oF": 0
-		},
-	"\/_clients\/abode.markdown": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_clients\/abode.markdown",
-		"oF": 0
 		},
 	"\/_config.yml": {
 		"ft": 8192,
@@ -67,6 +49,12 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_includes\/analytics.html",
+		"oF": 0
+		},
+	"\/_includes\/carousel.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_includes\/carousel.html",
 		"oF": 0
 		},
 	"\/_includes\/client-excerpt.html": {
@@ -147,22 +135,10 @@
 		"oAP": "\/_includes\/team-excerpt.html",
 		"oF": 0
 		},
-	"\/_layouts\/about.html": {
+	"\/_layouts\/archive.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_layouts\/about.html",
-		"oF": 0
-		},
-	"\/_layouts\/client.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_layouts\/client.html",
-		"oF": 0
-		},
-	"\/_layouts\/clients.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_layouts\/clients.html",
+		"oAP": "\/_layouts\/archive.html",
 		"oF": 0
 		},
 	"\/_layouts\/contact.html": {
@@ -195,6 +171,12 @@
 		"oAP": "\/_layouts\/missing.html",
 		"oF": 0
 		},
+	"\/_layouts\/motion.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_layouts\/motion.html",
+		"oF": 0
+		},
 	"\/_layouts\/page.html": {
 		"ft": 8192,
 		"oA": 0,
@@ -207,40 +189,88 @@
 		"oAP": "\/_layouts\/post.html",
 		"oF": 0
 		},
-	"\/_layouts\/service.html": {
+	"\/_layouts\/project.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_layouts\/service.html",
+		"oAP": "\/_layouts\/project.html",
 		"oF": 0
 		},
-	"\/_layouts\/services.html": {
+	"\/_layouts\/stills.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_layouts\/services.html",
+		"oAP": "\/_layouts\/stills.html",
 		"oF": 0
 		},
-	"\/_services\/digital.markdown": {
+	"\/_projects\/art-basel-miami.markdown": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_services\/digital.markdown",
+		"oAP": "\/_projects\/art-basel-miami.markdown",
 		"oF": 0
 		},
-	"\/_services\/events.markdown": {
+	"\/_projects\/behind-the-zero-line.markdown": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_services\/events.markdown",
+		"oAP": "\/_projects\/behind-the-zero-line.markdown",
 		"oF": 0
 		},
-	"\/_services\/press.markdown": {
+	"\/_projects\/conflict-edges.markdown": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_services\/press.markdown",
+		"oAP": "\/_projects\/conflict-edges.markdown",
 		"oF": 0
 		},
-	"\/_services\/radio.markdown": {
+	"\/_projects\/connection-disconnection.markdown": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_services\/radio.markdown",
+		"oAP": "\/_projects\/connection-disconnection.markdown",
+		"oF": 0
+		},
+	"\/_projects\/euro-crisis.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_projects\/euro-crisis.markdown",
+		"oF": 0
+		},
+	"\/_projects\/europes-edges-ice-core-sampling.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_projects\/europes-edges-ice-core-sampling.markdown",
+		"oF": 0
+		},
+	"\/_projects\/ghosts-of-aleppo.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_projects\/ghosts-of-aleppo.markdown",
+		"oF": 0
+		},
+	"\/_projects\/harmony.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_projects\/harmony.markdown",
+		"oF": 0
+		},
+	"\/_projects\/iraq.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_projects\/iraq.markdown",
+		"oF": 0
+		},
+	"\/_projects\/north-korea.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_projects\/north-korea.markdown",
+		"oF": 0
+		},
+	"\/_projects\/singles.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_projects\/singles.markdown",
+		"oF": 0
+		},
+	"\/_projects\/ukraine.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_projects\/ukraine.markdown",
 		"oF": 0
 		},
 	"\/_site": {
@@ -375,6 +405,22 @@
 		"oAP": "\/_team\/olivia-warnford-davis.markdown",
 		"oF": 0
 		},
+	"\/_uploads\/behind-the-zero-line-thumb.jpg": {
+		"ft": 16384,
+		"iS": 312223,
+		"oA": 0,
+		"oAP": "\/_uploads\/behind-the-zero-line-thumb.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/placeholder.jpg": {
+		"ft": 16384,
+		"iS": 393613,
+		"oA": 0,
+		"oAP": "\/_uploads\/placeholder.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/_uploads\/placeholder.png": {
 		"ft": 32768,
 		"iS": 24751,
@@ -383,103 +429,13 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/_uploads\/team-001.jpg": {
-		"ft": 16384,
-		"iS": 36229,
-		"oA": 0,
-		"oAP": "\/_uploads\/team-001.jpg",
-		"oF": 0,
-		"opt": 0
+	"\/archive.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/archive.html",
+		"oF": 0
 		},
-	"\/_uploads\/team-002.jpg": {
-		"ft": 16384,
-		"iS": 41463,
-		"oA": 0,
-		"oAP": "\/_uploads\/team-002.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_uploads\/team-003.jpg": {
-		"ft": 16384,
-		"iS": 54115,
-		"oA": 0,
-		"oAP": "\/_uploads\/team-003.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_uploads\/team-004.jpg": {
-		"ft": 16384,
-		"iS": 40446,
-		"oA": 0,
-		"oAP": "\/_uploads\/team-004.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_uploads\/team-005.jpg": {
-		"ft": 16384,
-		"iS": 48471,
-		"oA": 0,
-		"oAP": "\/_uploads\/team-005.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_uploads\/team-006.jpg": {
-		"ft": 16384,
-		"iS": 79888,
-		"oA": 0,
-		"oAP": "\/_uploads\/team-006.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_uploads\/team-007.jpg": {
-		"ft": 16384,
-		"iS": 58069,
-		"oA": 0,
-		"oAP": "\/_uploads\/team-007.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_uploads\/team-008.jpg": {
-		"ft": 16384,
-		"iS": 45596,
-		"oA": 0,
-		"oAP": "\/_uploads\/team-008.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_uploads\/team-009.jpg": {
-		"ft": 16384,
-		"iS": 54035,
-		"oA": 0,
-		"oAP": "\/_uploads\/team-009.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_uploads\/team-010.jpg": {
-		"ft": 16384,
-		"iS": 90405,
-		"oA": 0,
-		"oAP": "\/_uploads\/team-010.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_uploads\/team-011.jpg": {
-		"ft": 16384,
-		"iS": 55630,
-		"oA": 0,
-		"oAP": "\/_uploads\/team-011.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_uploads\/venue.jpg": {
-		"ft": 16384,
-		"iS": 114942,
-		"oA": 0,
-		"oAP": "\/_uploads\/venue.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/about.md": {
+	"\/archive.md": {
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
@@ -488,7 +444,7 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"oA": 0,
-		"oAP": "\/about.html",
+		"oAP": "\/archive.html",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
@@ -13364,24 +13320,6 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/clients.md": {
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"eLB": 0,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 2,
-		"oAP": "\/clients.md",
-		"oF": 1,
-		"oFM": 9,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
 	"\/contact.md": {
 		"cS": 0,
 		"eF": 1,
@@ -13426,10 +13364,10 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/index.html",
-		"oF": 0,
-		"oFM": 0,
+		"oA": 2,
+		"oAP": "\/index.md",
+		"oF": 1,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
@@ -13521,6 +13459,24 @@
 		"oA": 2,
 		"oAP": "\/robots.txt",
 		"oF": 0
+		},
+	"\/stills.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/stills.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
 		}
 	},
 "hooks": [
@@ -14217,6 +14173,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-await-in-loop": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-bitwise": {
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
@@ -14756,6 +14716,10 @@
 		"prefer-const": {
 			"active": 0,
 			"optionString": "{'destructuring': 'any', 'ignoreReadBeforeAssign': false}"
+			},
+		"prefer-destructuring": {
+			"active": 0,
+			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
 			},
 		"prefer-numeric-literals": {
 			"active": 0,
