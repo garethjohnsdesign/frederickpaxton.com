@@ -1,0 +1,24 @@
+---
+title: A-Trak
+categories:
+- radio
+- digital
+- press
+tags:
+- artist
+position: 0
+image: 
+is-featured: 
+is-front: 
+website: http://atrak.com
+facebook: https://www.facebook.com/atrak
+twitter: https://twitter.com/atrak
+instagram: https://instagram.com/atrak
+spotify: https://open.spotify.com/artist/3TaUSUXn41GixL7zbvrIDt
+soundcloud: https://soundcloud.com/a-trak
+youtube: https://www.youtube.com/user/djatrak
+apple: https://itunes.apple.com/gb/artist/a-trak/id70281883
+layout: client
+---
+
+DJ A-Trak has traveled all over the world, performing at DJ competitions, clubs, and music festivals in countries including Australia, Japan, South Africa, and Norway, all before the tender age of 18. He was the youngest DJ to ever win a DJ-battling world championship (at 15); the first to win all three major championships -- International Turntablist Federation (ITF), Disco Mix Club (DMC), and Vestax World Extravaganza; and the first to win five world championship competitions -- again, all before 18. The turntablist wunderkind made himself a pioneer in this subculture of hip-hop just within a few years. As if the tide couldn't turn more in his favor, Kanye West picked him up to be his personal touring DJ. With featured interviews in hip-hop magazines and on MTV in the mid-2000s, A-Trak began giving this almost lost art form much-needed mainstream exposure. Born in Montreal, Canada, Alain Macklovitch first attempted to scratch vinyl when he was 13, on his father's old record player. Soon after, he bought more professional DJ equipment and began teaching himself how to scratch. In 1995, he helped form the Montreal rap group Obscure Disorder with his older brother David Macklovitch, aka Dave One (who also formed the synth pop revivalist duo Chromeo in 2003), and their after-school friends. Dave One and A-Trak established their own label, Audio Research, and they released Obscure Disorder's first single, "Lyrically Exposed," through Fat Beats Records in 1997. The record helped reveal Canadian hip-hop to the burgeoning U.S. independent scene. That same year A-Trak started his now legendary DJ battling career, beginning with his victory at the DMC World Championship in Italy and moving on to capturing the crowns at the ITF, Vestax World, and DMC Team World Championships in 1999 and 2000. Although DJ Q-Bert invited him to be an honorary member of the Invisbl Skratch Piklz after his first world competition, A-Trak found an affinity with DJ Craze, who beat him in the 1998 DMC World Championship. Thus, together they founded their own DJ collective, the Allies, in 1999. In 2000, at the age of 18, A-Trak retired from the battling scene in order to pursue his own musical endeavors and focus more on the Audio Research label with his brother. He did a host of side projects here and there, including working with artists like underground crew Non Phixion and Stones Throw Records label head Peanut Butter Wolf, but he also put out Allies-related records like 2004's Monkeyboy Breaks, a vital and popular 12" LP for DJs to use for battling. The turning point in his career came in May 2004 when he was performing in a London record store where Kanye West happened to witness his crafty handiwork. An impressed West pulled him into DJing for his North American tour, which eventually extended into Europe and Asia. Aside from being West's touring DJ, A-Trak was enlisted to do turntablist cuts on some of West's G.O.O.D. Music projects, including the highly acclaimed LPs Be (Common) and Late Registration (West). Making big moves for himself, he gathered bits and pieces of video footage from his old battling days and up-and-coming career and composed the autobiographical DVD Sunglasses Is a Must. It was released in March 2006 in anticipation of delivering a solo album in the near future. A-Trak got back to music the following year, combining Southern rap and dance music on the genre-bending remix album Dirty South Dance, as well as producing tracks for rapper Kid Sister. In 2008, the DJ was commissioned by Nike to bring his production skills to bear on a mix for their Nike+ mixtape series (with previous entries including LCD Soundsystem's 45:33), releasing the album Running Man to coincide with the company's Human Race running event that year. The year 2009 would prove to be prodigious for A-Trak, who not only released his own entry in the Fabriclive series, Fabriclive.45, but also teamed up with American producer Armand Van Helden to form the disco house duo Duck Sauce, who found massive worldwide success with their single "Barbra Streisand." A-Trak also continued to find steady work doing remixes, reworking tracks by artists like MSTRKRFT, Justice, and the Rapture, as well as dropping in to make appearances on albums by Drake and Kid Cudi. Duck Sauce joined the legendary and revived Casablanca label with their 2013 EP Radio Stereo, and in 2014 he joined Dipset rapper Cam'ron for the EP Federal Reserve.

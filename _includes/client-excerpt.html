@@ -1,0 +1,25 @@
+<!-- Excerpt -->
+<div class="excerpt">
+  <a href="{{ client.url }}">
+
+  <!-- Excerpt Title -->
+  <div class="row excerpt__title align-middle">
+    <div class="small-12 columns text-center">
+      <p>{{ client.title }}</p>
+    </div>
+  </div>
+  <!-- End Excerpt Title -->
+
+  <!-- Excerpt Image -->
+  <div class="excerpt__image">
+  {% if client.image %}
+    <img src="{{client.image}}" alt="{{client.image}}">
+    {% else %}
+    <img src="/uploads/placeholder.png" alt="{{client.title}}">
+  {% endif %}
+  </div>
+  <!-- End Image -->
+
+  </a>
+</div>
+<!-- End Excerpt -->

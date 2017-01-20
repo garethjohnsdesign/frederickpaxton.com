@@ -1,0 +1,65 @@
+---
+title: Frederick Paxton
+timezone: UTC
+collections:
+  clients:
+    title: Clients
+    output: true
+  posts:
+    title: Posts
+    output: true
+  services:
+    title: Services
+    output: true
+  team:
+    title: Team
+    output: true
+  uploads:
+    title: Uploads
+    output: false
+defaults:
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+- scope:
+    path: ''
+    type: posts
+  values:
+    permalink: "/blog/:title/"
+    layout: post
+    image: 
+    description: 
+- scope:
+    path: ''
+    type: services
+  values:
+    permalink: "/services/:title/"
+    layout: service
+url: http://frederickpaxton.com
+description: Documentary & Fine Art / Filmmaker & Photographer
+permalink: pretty
+exclude: 
+gems:
+- jekyll-seo-tag
+- jekyll-sitemap
+- jekyll-feed
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+highlighter: rouge
+company: Frederick Paxton
+email: studio@frederickpaxton.com
+google_site_verification: 
+analytics: 
+logo: "/assets/img/logo.svg"
+per_page: 12
+date_format: "%b %d, %Y"
+future: true
+social:
+  facebook:
+  instagram: https://www.instagram.com/frederickpaxton/
+  twitter: https://twitter.com/freddiepaxton
+  linkedin:

@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+<!-- Intro -->
+<!--
+<section class="services__intro">
+    <div class="row">
+      <div class="small-12 medium-9 columns">
+        <h2>{{ page.title }}</h2>
+        <h3>{{ page.subtitle }}</h3>
+        {{ page.content }}
+      </div>
+    </div>
+</section>
+-->
+<!-- End Intro -->
+
+<!-- Services -->
+<section class="index__services">
+<div class="row">
+  
+<div class="small-3 columns index__section__title">
+<h4>Services</h4>
+</div>
+
+<div class="small-9 columns index__services__sections">
+{% for service in site.services %}
+<div class="index__services__section">
+<h4>{{ service.title }}</h4>
+<h5>{{ service.subtitle }}</h5>
+<p>{{ service.content }}</p>
+<div class="index__more">
+  <a href="services/{{ service.title | downcase }}" class="plus">More</a>
+</div>
+</div>
+{% endfor %}
+</div>
+
+</div>
+</section>
+<!-- End Services -->
+
+
