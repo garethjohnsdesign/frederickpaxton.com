@@ -1,21 +1,15 @@
 <!-- Excerpt -->
 <div class="excerpt">
-  <a href="{{ project.url }}">
 
-  <!-- Excerpt Title -->
-  <div class="row excerpt__title align-middle">
-    <div class="small-12 columns text-center">
-      <p>{{ project.title }}</p>
-    </div>
-  </div>
-  <!-- End Excerpt Title -->
+    <!-- Excerpt Image -->
 
-  <!-- Excerpt Image -->
-  <div class="excerpt__image">
-  <img src="{{project.image}}" alt="{{project.title}}">
-  </div>
-  <!-- End Image -->
+      <a href="{{ project.url }}"><img src="{{project.image}}" alt="{{project.title}}"></a>
 
-  </a>
+    <!-- End Image -->
+
+    <a href="{{ project.url }}">{{ project.title }}</a>
+    
 </div>
 <!-- End Excerpt -->
+
+

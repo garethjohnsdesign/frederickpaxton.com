@@ -57,12 +57,6 @@
 		"oAP": "\/_includes\/carousel.html",
 		"oF": 0
 		},
-	"\/_includes\/client-excerpt.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_includes\/client-excerpt.html",
-		"oF": 0
-		},
 	"\/_includes\/excerpt.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -429,12 +423,6 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/archive.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/archive.html",
-		"oF": 0
-		},
 	"\/archive.md": {
 		"cS": 0,
 		"eF": 1,
@@ -443,10 +431,10 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/archive.html",
-		"oF": 0,
-		"oFM": 0,
+		"oA": 2,
+		"oAP": "\/archive.md",
+		"oF": 1,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
@@ -13312,24 +13300,6 @@
 		"ft": 4096,
 		"oA": 0,
 		"oAP": "\/CHANGELOG.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
-	"\/contact.md": {
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"eLB": 0,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/contact.html",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
