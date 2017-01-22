@@ -3,7 +3,7 @@ title: Ukraine Kiev
 categories:
 - stills
 image: "/uploads/ukraine-kiev-thumb.jpg"
-video:
+video: 
 images:
 - "/uploads/behind-the-zero-line-01.jpg"
 - "/uploads/behind-the-zero-line-02.jpg"
@@ -19,3 +19,4 @@ images:
 is-front: true
 layout: project
 ---
+

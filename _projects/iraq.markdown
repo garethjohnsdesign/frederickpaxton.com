@@ -10,4 +10,3 @@ is-front: true
 layout: project
 ---
 
-
