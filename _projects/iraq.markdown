@@ -5,10 +5,10 @@ categories:
 - stills
 - motion
 image: "/uploads/iraq-thumb.jpg"
-video: 195475649
+video: 197785201
 images: 
 is-front: true
-is-info-shown: false
+is-info-shown: true
 is-ongoing: false
 layout: project
 ---

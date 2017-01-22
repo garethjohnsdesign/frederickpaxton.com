@@ -6,10 +6,6 @@ categories:
 image: "/uploads/ukraine-kiev-thumb.jpg"
 video: 86699583
 images:
-- "/uploads/behind-the-zero-line-01.jpg"
-- "/uploads/behind-the-zero-line-02.jpg"
-- "/uploads/behind-the-zero-line-03.jpg"
-- "/uploads/behind-the-zero-line-04.jpg"
 is-front: true
 is-info-shown: tru
 is-ongoing: false

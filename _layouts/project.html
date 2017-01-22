@@ -7,7 +7,7 @@ layout: default
 <!-- Project Video -->
 {% if page.video %}
 <div class="row align-center project__video">
-  <div class="small-12 medium-10 large-10 columns">
+  <div class="small-12 medium-9 large-9 columns">
     <div class="flex-video widescreen vimeo">
       <iframe src="https://player.vimeo.com/video/{{ page.video }}?color=ffffff&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     </div>
@@ -19,7 +19,7 @@ layout: default
 <!-- Project Meta -->
 {% if page.is-info-shown %}
 <div class="row align-center project__meta">
-  <div class="small-12 medium-10 large-10 columns">
+  <div class="small-12 medium-9 large-9 columns">
     <div class="row">
       <div class="small-6 medium-6 columns">
       <div class="project__meta__title">{{ page.title }}</div>
@@ -55,7 +55,7 @@ layout: default
 <!-- Project Images -->
 {% if page.images %}
 <div class="row align-center">
-<div class="small-12 medium-10 large-9 columns project__images">
+<div class="small-12 medium-8 large-8 columns project__images">
     {% for image in page.images %}
     <img src="{{image}}">
     {% endfor %}

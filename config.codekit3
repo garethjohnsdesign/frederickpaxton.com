@@ -371,11 +371,11 @@
 		},
 	"\/_uploads\/behind-the-zero-line-thumb.jpg": {
 		"ft": 16384,
-		"iS": 312223,
+		"iS": 158937,
 		"oA": 0,
 		"oAP": "\/_uploads\/behind-the-zero-line-thumb.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/_uploads\/conflict-edges-thumb.jpg": {
 		"ft": 16384,
@@ -435,11 +435,11 @@
 		},
 	"\/_uploads\/north-korea-thumb.jpg": {
 		"ft": 16384,
-		"iS": 143811,
+		"iS": 140230,
 		"oA": 0,
 		"oAP": "\/_uploads\/north-korea-thumb.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/_uploads\/placeholder.jpg": {
 		"ft": 16384,
@@ -13656,10 +13656,10 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 2,
-		"oAP": "\/stills.md",
-		"oF": 1,
-		"oFM": 9,
+		"oA": 0,
+		"oAP": "\/stills.html",
+		"oF": 0,
+		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,

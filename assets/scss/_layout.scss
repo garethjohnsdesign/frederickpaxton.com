@@ -181,62 +181,13 @@ div.row.excerpt__title {
   color: $color--gray;
 }
 
-// 8. Contact
+// 8. Info
 // -------
 
-
-
-// 5. Index
-// --------
-
-.section {
-}
-
-
-// 11. Clients
-// ----------
-
-
-.clients__intro {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
-.clients__list {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
-.clients__category {
+.info {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-
-.clients__category__title {
-  color: $color--red;
-}
-
-
-// 11. Footer
-// ----------
-
-footer {
-  background-color: $color--black;
-  color: $color--white;
-  padding: 2rem 2rem;
-  a {
-    color: $color--white;
-    display: block;
-    }
-  @include breakpoint(small only) {
-    padding: 2rem;
-  }
-}
-
-.footer__detail {
-  color: $color--gray;
-}
-
 
 // 5. Index
 // --------
@@ -297,12 +248,12 @@ z-index: 0;
 
 // Project
 .project {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
 }
 
 .project__video {
-//   padding: 3rem;
+ padding-top: 1rem;
 }
 
 
