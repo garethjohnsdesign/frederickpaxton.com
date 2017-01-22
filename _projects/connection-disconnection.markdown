@@ -5,10 +5,16 @@ categories:
 - stills
 - motion
 image: "/uploads/connection-disconnection-thumb.jpg"
-video: 195475649
-images: 
+video: 197781897
+images:
+- "/uploads/connection-disconnection-001.jpg"
+- "/uploads/connection-disconnection-002.jpg"
+- "/uploads/connection-disconnection-003.jpg"
+- "/uploads/connection-disconnection-004.jpg"
+- "/uploads/connection-disconnection-005.jpg"
+- "/uploads/connection-disconnection-006.jpg"
 is-front: true
-is-info-shown: false
+is-info-shown: true
 is-ongoing: true
 layout: project
 ---
