@@ -96,9 +96,12 @@ nav {
     @include breakpoint(small only) {
       margin: 0.75rem;
     }
+/*
     img {
       width:100%;
     }
+*/
+/*
     &:hover .excerpt__image:after {
       background:$color--black;
       transition: $primary-transition;
@@ -108,8 +111,10 @@ nav {
       opacity: 1;
       color: $color--white;
     } 
+*/
 }
 
+/*
 .excerpt__title {
   position:absolute;
   width: 100%;
@@ -124,11 +129,16 @@ nav {
       margin: 0rem;
     }
 }
+*/
 
+
+/*
 div.row.excerpt__title {
   margin: 0rem;
 }
+*/
 
+/*
 .excerpt__image:after {
   content:'\A';
   position:absolute;
@@ -139,6 +149,11 @@ div.row.excerpt__title {
   background:$color--black;
   transition: $primary-transition;
   opacity:0;
+}
+*/
+
+.excerpt__image {
+  margin-bottom: 0.5rem;
 }
 
 

@@ -2,12 +2,16 @@
 <div class="excerpt">
 
     <!-- Excerpt Image -->
+    <div class="excerpt__image">
+    <a href="{{ project.url }}"><img src="{{project.image}}" alt="{{project.title}}"></a>
+    </div>
+    <!-- End Excerpt Image -->
 
-      <a href="{{ project.url }}"><img src="{{project.image}}" alt="{{project.title}}"></a>
-
-    <!-- End Image -->
-
+    <!-- Excerpt Text -->
+    <div class="excerpt__text">
     <a href="{{ project.url }}">{{ project.title }}</a>
+    </div>
+    <!-- End Excerpt Text -->
     
 </div>
 <!-- End Excerpt -->
