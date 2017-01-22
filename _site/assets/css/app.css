@@ -8558,6 +8558,9 @@ nav {
 }
 */
 .top-bar-right-mobile {
+  z-index: 1014; }
+
+.top-bar {
   z-index: 1004; }
 
 .top-bar__right {
