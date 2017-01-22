@@ -1,5 +1,6 @@
 ---
 title: Art Basel Miami
+date: 2013-12-01 17:03:00 Z
 categories:
 - motion
 image: "/uploads/art-basel-miami-thumb.jpg"
