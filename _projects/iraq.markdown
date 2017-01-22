@@ -1,5 +1,6 @@
 ---
 title: Iraq
+date: 2014-01-01 17:04:00 Z
 categories:
 - stills
 - motion
