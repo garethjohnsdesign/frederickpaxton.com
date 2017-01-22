@@ -5,7 +5,7 @@ categories:
 - stills
 image: "/uploads/ukraine-kiev-thumb.jpg"
 video: 86699583
-images:
+images: 
 is-front: true
 is-info-shown: tru
 is-ongoing: false
