@@ -1,5 +1,6 @@
 ---
 title: Connection Disconnection
+date: 2013-01-01 17:12:00 Z
 categories:
 - stills
 - motion
