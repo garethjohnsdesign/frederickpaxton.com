@@ -1,5 +1,6 @@
 ---
 title: Singles
+date: 2010-01-01 17:10:00 Z
 categories:
 - stills
 image: "/uploads/singles-thumb.jpg"
