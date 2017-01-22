@@ -1,6 +1,10 @@
 ---
 title: Euro Crisis
-image: "/uploads/placeholder.jpg"
+categories:
+- stills
+image: "/uploads/euro-crisis-thumb.jpg"
+video:
+images: 
+is-front: true
 layout: project
 ---
-

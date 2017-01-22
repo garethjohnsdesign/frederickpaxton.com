@@ -1,6 +1,11 @@
 ---
 title: North Korea
-image: "/uploads/placeholder.jpg"
+categories:
+- stills
+- motion
+image: "/uploads/north-korea-thumb.jpg"
+video: 195475649
+images: 
+is-front: true
 layout: project
 ---
-

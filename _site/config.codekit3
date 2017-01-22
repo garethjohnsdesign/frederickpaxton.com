@@ -287,7 +287,71 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/behind-the-zero-line-thumb.jpg",
 		"oF": 0,
+		"opt": 1
+		},
+	"\/_uploads\/conflict-edges-thumb.jpg": {
+		"ft": 16384,
+		"iS": 178929,
+		"oA": 0,
+		"oAP": "\/_uploads\/conflict-edges-thumb.jpg",
+		"oF": 0,
 		"opt": 0
+		},
+	"\/_uploads\/connection-disconnection-thumb.jpg": {
+		"ft": 16384,
+		"iS": 104485,
+		"oA": 0,
+		"oAP": "\/_uploads\/connection-disconnection-thumb.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/euro-crisis-thumb.jpg": {
+		"ft": 16384,
+		"iS": 109021,
+		"oA": 0,
+		"oAP": "\/_uploads\/euro-crisis-thumb.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/europes-edges-ice-core-sampling.jpg": {
+		"ft": 16384,
+		"iS": 26109,
+		"oA": 0,
+		"oAP": "\/_uploads\/europes-edges-ice-core-sampling.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/ghosts-of-aleppo-thumb.jpg": {
+		"ft": 16384,
+		"iS": 266120,
+		"oA": 0,
+		"oAP": "\/_uploads\/ghosts-of-aleppo-thumb.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/harmony-thumb.jpg": {
+		"ft": 16384,
+		"iS": 149453,
+		"oA": 0,
+		"oAP": "\/_uploads\/harmony-thumb.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/iraq-thumb.jpg": {
+		"ft": 16384,
+		"iS": 150523,
+		"oA": 0,
+		"oAP": "\/_uploads\/iraq-thumb.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/north-korea-thumb.jpg": {
+		"ft": 16384,
+		"iS": 143811,
+		"oA": 0,
+		"oAP": "\/_uploads\/north-korea-thumb.jpg",
+		"oF": 0,
+		"opt": 1
 		},
 	"\/_uploads\/placeholder.jpg": {
 		"ft": 16384,
@@ -302,6 +366,22 @@
 		"iS": 24751,
 		"oA": 0,
 		"oAP": "\/_uploads\/placeholder.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/singles-thumb.jpg": {
+		"ft": 16384,
+		"iS": 84688,
+		"oA": 0,
+		"oAP": "\/_uploads\/singles-thumb.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/ukraine-kiev-thumb.jpg": {
+		"ft": 16384,
+		"iS": 107586,
+		"oA": 0,
+		"oAP": "\/_uploads\/ukraine-kiev-thumb.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -13310,6 +13390,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/robots.txt",
+		"oF": 0
+		},
+	"\/stills.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/stills.html",
 		"oF": 0
 		},
 	"\/stills.md": {

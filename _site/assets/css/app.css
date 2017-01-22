@@ -8623,7 +8623,11 @@ div.row.excerpt__title {
 }
 */
 .excerpt__image {
-  margin-bottom: 0.5rem; }
+  margin-bottom: 0.5rem;
+  transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1); }
+
+.excerpt__image:hover {
+  opacity: 0.75; }
 
 .clients__intro {
   padding-top: 3rem;

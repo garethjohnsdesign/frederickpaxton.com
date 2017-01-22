@@ -154,6 +154,11 @@ div.row.excerpt__title {
 
 .excerpt__image {
   margin-bottom: 0.5rem;
+  transition: $primary-transition;
+}
+
+.excerpt__image:hover {
+  opacity: 0.75;
 }
 
 
