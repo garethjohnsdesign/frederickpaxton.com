@@ -1,5 +1,6 @@
 ---
 title: Ghosts of Aleppo
+date: 2014-08-01 17:04:00 Z
 categories:
 - stills
 - motion
