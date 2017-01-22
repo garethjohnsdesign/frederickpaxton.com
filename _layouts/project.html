@@ -2,10 +2,66 @@
 layout: default
 ---
 
-<!-- Content -->
-<div class="row page__content">
-  <div class="small-10 medium-10 columns">
-    {{ page.content | markdownify }}
+<section class="project">
+
+<!-- Project Video -->
+{% if page.video %}
+<div class="row align-center project__video">
+  <div class="small-12 medium-10 large-10 columns">
+    <div class="flex-video widescreen vimeo">
+      <iframe src="https://player.vimeo.com/video/{{ page.video }}?color=ffffff&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </div>
   </div>
 </div>
-<!-- End Content -->
+{% endif %}
+<!-- End Project Video -->
+
+<!-- Project Meta -->
+{% if page.is-info-shown %}
+<div class="row align-center project__meta">
+  <div class="small-12 medium-10 large-10 columns">
+    <div class="row">
+      <div class="small-6 medium-6 columns">
+      <div class="project__meta__title">{{ page.title }}</div>
+      
+      {% if page.is-ongoing %}
+      <div class="project__meta__date">Ongoing</div>
+      {% else %}
+      <div class="project__meta__date">{{ page.date | date: site.date_format }}</div>
+      {% endif %}
+    
+      </div>
+      
+      <div class="small-6 medium-6 columns text-right project__meta__info">
+      <a data-toggle="show-more">Info</a>
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}
+<!-- End Project Meta -->
+
+<!-- Project Text -->
+<div class="project__text" id="show-more" data-toggler data-animate="fade-in fade-out">
+  <div class="row align-center">
+    <div class="small-12 medium-7 large-7 columns">
+      {{ page.content | markdownify }}
+    </div>
+  </div>
+</div>
+<!-- End Project Text -->
+
+
+<!-- Project Images -->
+{% if page.images %}
+<div class="row align-center">
+<div class="small-12 medium-10 large-9 columns project__images">
+    {% for image in page.images %}
+    <img src="{{image}}">
+    {% endfor %}
+</div>
+</div>
+{% endif %}
+<!-- End Project Images -->
+
+</section>

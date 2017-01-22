@@ -6,7 +6,9 @@ categories:
 image: "/uploads/conflict-edges-thumb.jpg"
 video: 
 images: 
-is-front: true
+is-front:
+is-info-shown: false
+is-ongoing: true
 layout: project
 ---
 

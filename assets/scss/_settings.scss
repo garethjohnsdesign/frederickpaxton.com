@@ -114,7 +114,6 @@ $grid-column-gutter: (
   medium: 50px,
 );
 $grid-column-align-edge: true;
-$grid-column-align-edge: false;
 $block-grid-max: 8;
 
 // 4. Base Typography
@@ -431,7 +430,7 @@ $mediaobject-image-width-stacked: 100%;
 
 $menu-margin: 0;
 $menu-margin-nested: 1rem;
-$menu-item-padding: 0.7rem 1rem;
+$menu-item-padding: 0.7rem 2rem 0.7rem 0rem;
 // $menu-item-color-active: $white;
 $menu-item-color-active: $color--gray;
 // $menu-item-background-active: get-color(primary);
@@ -634,10 +633,11 @@ $tooltip-radius: $global-radius;
 // 37. Top Bar
 // -----------
 
-$topbar-padding: 1rem;
+// $topbar-padding: 1rem;
+$topbar-padding: 1rem 0rem 1rem 0rem;
 // $topbar-background: $light-gray;
 $topbar-background: $color--white;
 $topbar-submenu-background: $topbar-background;
-$topbar-title-spacing: 0.5rem;
+$topbar-title-spacing: 0.5rem 0.5rem 0.5rem 0.5rem;
 $topbar-input-width: 200px;
 $topbar-unstack-breakpoint: medium;

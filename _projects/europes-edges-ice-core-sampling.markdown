@@ -8,6 +8,8 @@ image: "/uploads/europes-edges-ice-core-sampling.jpg"
 video: 68452140
 images: 
 is-front: true
+is-info-shown: false
+is-ongoing: false
 layout: project
 ---
 

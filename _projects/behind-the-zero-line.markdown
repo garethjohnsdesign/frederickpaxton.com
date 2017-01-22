@@ -7,18 +7,20 @@ categories:
 image: "/uploads/behind-the-zero-line-thumb.jpg"
 video: 197785201
 images:
-- "/uploads/behind-the-zero-line-01.jpg"
-- "/uploads/behind-the-zero-line-02.jpg"
-- "/uploads/behind-the-zero-line-03.jpg"
-- "/uploads/behind-the-zero-line-04.jpg"
-- "/uploads/behind-the-zero-line-05.jpg"
-- "/uploads/behind-the-zero-line-06.jpg"
-- "/uploads/behind-the-zero-line-07.jpg"
-- "/uploads/behind-the-zero-line-08.jpg"
-- "/uploads/behind-the-zero-line-09.jpg"
-- "/uploads/behind-the-zero-line-10.jpg"
-- "/uploads/behind-the-zero-line-11.jpg"
+- "/uploads/behind-the-zero-line-001.jpg"
+- "/uploads/behind-the-zero-line-002.jpg"
+- "/uploads/behind-the-zero-line-003.jpg"
+- "/uploads/behind-the-zero-line-004.jpg"
+- "/uploads/behind-the-zero-line-005.jpg"
+- "/uploads/behind-the-zero-line-006.jpg"
+- "/uploads/behind-the-zero-line-007.jpg"
+- "/uploads/behind-the-zero-line-008.jpg"
+- "/uploads/behind-the-zero-line-009.jpg"
+- "/uploads/behind-the-zero-line-010.jpg"
+- "/uploads/behind-the-zero-line-011.jpg"
 is-front: true
+is-info-shown: true
+is-ongoing: false
 layout: project
 ---
 

@@ -7,6 +7,8 @@ image: "/uploads/north-korea-thumb.jpg"
 video:
 images: 
 is-front: true
+is-info-shown: false
+is-ongoing: false
 layout: project
 ---
 

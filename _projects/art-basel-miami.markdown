@@ -7,6 +7,8 @@ image: "/uploads/art-basel-miami-thumb.jpg"
 video: 90980531
 images: 
 is-front: true
+is-info-shown: false
+is-ongoing: false
 layout: project
 ---
 

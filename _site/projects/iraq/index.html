@@ -71,22 +71,52 @@
 
 
 
-<nav>
-  <div class="top-bar"> 
-    <div class="row expanded align-middle">
-    
-      <div class="top-bar-title">
+
+    <div class="top-bar row expanded align-middle">
+      
+      <div class="small-6 medium-4 columns">
         <a href="/">Frederick Paxton</a>
       </div>
       
-      <div class="top-bar-right-mobile show-for-small-only">
-        <button class="hamburger hamburger--collapse" id="toggle" data-toggler=".is-active" type="button" data-toggle="overlay toggle">
+      <div class="small-6 columns show-for-medium">
+        <ul class="dropdown menu" data-dropdown-menu>
+          
+          
+          
+          
+          <li><a href="/motion/">Motion</a></li>
+          
+          
+          
+          
+          
+          <li><a href="/stills/">Stills</a></li>
+          
+          
+          
+          
+          
+          <li><a href="/archive/">Archive</a></li>
+          
+          
+          
+          
+          
+          <li><a href="/info/">Info</a></li>
+          
+          
+        </ul>
+      </div>
+      
+      <div class="columns show-for-small-only text-right">
+        <button class="hamburger hamburger--collapse top-bar__right" id="toggle" data-toggler=".is-active" type="button" data-toggle="overlay toggle">
           <span class="hamburger-box">
             <span class="hamburger-inner"></span>
           </span>
         </button>
       </div>
       
+<!--
       <div class="top-bar-left show-for-medium">
         <ul class="dropdown menu" data-dropdown-menu>
           
@@ -116,10 +146,9 @@
           
         </ul>
       </div>
+-->
     
     </div>
-  </div>
-</nav>
 
 
 <!-- End Navigation -->
@@ -161,14 +190,41 @@
 <!-- End Menu --> 
 
 <!-- Content -->
-<!-- Content -->
-<div class="row page__content">
-  <div class="small-10 medium-10 columns">
-    
+<section class="project">
 
+<!-- Project Video -->
+
+<div class="row align-center project__video">
+  <div class="small-12 medium-10 large-10 columns">
+    <div class="flex-video widescreen vimeo">
+      <iframe src="https://player.vimeo.com/video/195475649?color=ffffff&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </div>
   </div>
 </div>
-<!-- End Content -->
+
+<!-- End Project Video -->
+
+<!-- Project Meta -->
+
+<!-- End Project Meta -->
+
+<!-- Project Text -->
+<div class="project__text" id="show-more" data-toggler data-animate="fade-in fade-out">
+  <div class="row align-center">
+    <div class="small-12 medium-7 large-7 columns">
+      
+
+    </div>
+  </div>
+</div>
+<!-- End Project Text -->
+
+
+<!-- Project Images -->
+
+<!-- End Project Images -->
+
+</section>
 <!-- End Content -->
 
 </body>

@@ -8,6 +8,8 @@ image: "/uploads/iraq-thumb.jpg"
 video: 195475649
 images: 
 is-front: true
+is-info-shown: false
+is-ongoing: false
 layout: project
 ---
 
