@@ -5,7 +5,8 @@ layout: default
 <!-- Featured Clients -->
 <section class="clients__featured">
   <div class="row expanded collapse small-up-1 medium-up-2 large-up-3">
-    {% for project in site.projects %}
+    {% assign sorted = (site.projects | sort: 'date') | reverse %}
+    {% for project in sorted %}
       {% if project.categories contains 'stills' %}
         <div class="columns">
           {% include excerpt.html %}

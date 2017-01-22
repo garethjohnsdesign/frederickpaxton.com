@@ -57,6 +57,12 @@
 		"oAP": "\/_includes\/carousel.html",
 		"oF": 0
 		},
+	"\/_includes\/excerpt.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_includes\/excerpt.html",
+		"oF": 0
+		},
 	"\/_includes\/footer.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -201,10 +207,22 @@
 		"oAP": "\/_projects\/behind-the-zero-line.markdown",
 		"oF": 0
 		},
+	"\/_projects\/conflict-edges.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_projects\/conflict-edges.markdown",
+		"oF": 0
+		},
 	"\/_projects\/connection-disconnection.markdown": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_projects\/connection-disconnection.markdown",
+		"oF": 0
+		},
+	"\/_projects\/euro-crisis.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_projects\/euro-crisis.markdown",
 		"oF": 0
 		},
 	"\/_projects\/europes-edges-ice-core-sampling.markdown": {
@@ -223,6 +241,30 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_projects\/harmony.markdown",
+		"oF": 0
+		},
+	"\/_projects\/iraq.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_projects\/iraq.markdown",
+		"oF": 0
+		},
+	"\/_projects\/north-korea.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_projects\/north-korea.markdown",
+		"oF": 0
+		},
+	"\/_projects\/singles.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_projects\/singles.markdown",
+		"oF": 0
+		},
+	"\/_projects\/ukraine.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_projects\/ukraine.markdown",
 		"oF": 0
 		},
 	"\/_site": {

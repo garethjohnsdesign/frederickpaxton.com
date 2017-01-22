@@ -9,8 +9,8 @@
 
     <!-- Excerpt Text -->
     <div class="excerpt__text">
-    <a href="{{ project.url }}">{{ project.title }}</a><br>
-    <a href="{{ project.url }}">{{ project.title }}</a>
+    <a href="{{ project.url }}" class="excerpt__text__title">{{ project.title }}</a><br>
+    <a href="{{ project.url }}" class="excerpt__text__date">{{ project.date | date: site.date_format }}</a>
     </div>
     <!-- End Excerpt Text -->
     

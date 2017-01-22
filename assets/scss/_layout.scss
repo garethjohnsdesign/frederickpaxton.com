@@ -88,7 +88,7 @@ nav {
 .excerpt {
   position:relative;
   opacity:1;
-  margin: 0.5rem;
+  margin: 1rem;
   transition: $primary-transition;
     @include breakpoint(medium only) {
       margin: 0.75rem;
@@ -161,6 +161,13 @@ div.row.excerpt__title {
   opacity: 0.75;
 }
 
+.excerpt__text__title {
+  color: $color--black;
+}
+
+.excerpt__text__date {
+  color: $color--gray;
+}
 
 // 8. Contact
 // -------
@@ -316,7 +323,7 @@ z-index: 0;
 
 .carousel-cell {
   width: 70%;
-  height: 200px;
+  height: 80vh;
   /* flex-box, center image in cell */
   display: -webkit-box;
   display: -webkit-flex;

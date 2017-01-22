@@ -36,7 +36,7 @@ google_site_verification:
 analytics: 
 logo: "/assets/img/logo.svg"
 per_page: 12
-date_format: "%b %d, %Y"
+date_format: "%Y"
 future: true
 social:
   facebook: 
