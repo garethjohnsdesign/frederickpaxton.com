@@ -2360,10 +2360,10 @@ Copyright (c) 2015 Daniel Eden
 
 .animsition-loading {
   background-color: transparent;
-  border-top: 5px solid rgba(0, 0, 0, 0.2);
-  border-right: 5px solid rgba(0, 0, 0, 0.2);
-  border-bottom: 5px solid rgba(0, 0, 0, 0.2);
-  border-left: 5px solid #eee;
+  border-top: 2px solid rgba(0, 0, 0, 0.2);
+  border-right: 2px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+  border-left: 2px solid rgba(0, 0, 0, 0.4);
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
   -webkit-animation-iteration-count: infinite;
@@ -8327,6 +8327,7 @@ http://flickity.metafizzy.co
   height: 44px;
   border: none;
   border-radius: 50%;
+  transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1);
   /*
   background: white;
   background: hsla(0, 0%, 100%, 0.75);
@@ -8341,6 +8342,9 @@ http://flickity.metafizzy.co
   box-shadow: 0 0 0 5px #09F; }
 
 .flickity-prev-next-button:active {
+  opacity: 0.8; }
+
+.flickity-prev-next-button:hover {
   opacity: 0.6; }
 
 .flickity-prev-next-button.previous {
@@ -8536,6 +8540,49 @@ img {
 
 a {
   transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1); }
+
+.info a {
+  transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1);
+  text-shadow: 0.03em 0 #ffffff, -0.03em 0 #ffffff, 0 0.03em #ffffff, 0 -0.03em #ffffff, 0.06em 0 #ffffff, -0.06em 0 #ffffff, 0.09em 0 #ffffff, -0.09em 0 #ffffff, 0.12em 0 #ffffff, -0.12em 0 #ffffff, 0.15em 0 #ffffff, -0.15em 0 #ffffff;
+  background-image: linear-gradient(#2c2c2d, #2c2c2d);
+  background-size: 1px 1px;
+  background-repeat: repeat-x;
+  background-position: 0% 100%;
+  color: #2c2c2d;
+  text-decoration: none; }
+  .info a::selection {
+    text-shadow: 0.03em 0 #2c2c2d, -0.03em 0 #2c2c2d, 0 0.03em #2c2c2d, 0 -0.03em #2c2c2d, 0.06em 0 #2c2c2d, -0.06em 0 #2c2c2d, 0.09em 0 #2c2c2d, -0.09em 0 #2c2c2d, 0.12em 0 #2c2c2d, -0.12em 0 #2c2c2d, 0.15em 0 #2c2c2d, -0.15em 0 #2c2c2d;
+    background: #2c2c2d; }
+  .info a::-moz-selection {
+    text-shadow: 0.03em 0 #2c2c2d, -0.03em 0 #2c2c2d, 0 0.03em #2c2c2d, 0 -0.03em #2c2c2d, 0.06em 0 #2c2c2d, -0.06em 0 #2c2c2d, 0.09em 0 #2c2c2d, -0.09em 0 #2c2c2d, 0.12em 0 #2c2c2d, -0.12em 0 #2c2c2d, 0.15em 0 #2c2c2d, -0.15em 0 #2c2c2d;
+    background: #2c2c2d; }
+  .info a *,
+  .info a *:after, .info a:after,
+  .info a *:before, .info a:before {
+    text-shadow: none; }
+  .info a:visited {
+    color: #2c2c2d; }
+
+.info a:hover {
+  text-shadow: 0.03em 0 #ffffff, -0.03em 0 #ffffff, 0 0.03em #ffffff, 0 -0.03em #ffffff, 0.06em 0 #ffffff, -0.06em 0 #ffffff, 0.09em 0 #ffffff, -0.09em 0 #ffffff, 0.12em 0 #ffffff, -0.12em 0 #ffffff, 0.15em 0 #ffffff, -0.15em 0 #ffffff;
+  background-image: linear-gradient(#9B9B9B, #9B9B9B);
+  background-size: 1px 1px;
+  background-repeat: repeat-x;
+  background-position: 0% 100%;
+  color: #9B9B9B;
+  text-decoration: none; }
+  .info a:hover::selection {
+    text-shadow: 0.03em 0 #2c2c2d, -0.03em 0 #2c2c2d, 0 0.03em #2c2c2d, 0 -0.03em #2c2c2d, 0.06em 0 #2c2c2d, -0.06em 0 #2c2c2d, 0.09em 0 #2c2c2d, -0.09em 0 #2c2c2d, 0.12em 0 #2c2c2d, -0.12em 0 #2c2c2d, 0.15em 0 #2c2c2d, -0.15em 0 #2c2c2d;
+    background: #2c2c2d; }
+  .info a:hover::-moz-selection {
+    text-shadow: 0.03em 0 #2c2c2d, -0.03em 0 #2c2c2d, 0 0.03em #2c2c2d, 0 -0.03em #2c2c2d, 0.06em 0 #2c2c2d, -0.06em 0 #2c2c2d, 0.09em 0 #2c2c2d, -0.09em 0 #2c2c2d, 0.12em 0 #2c2c2d, -0.12em 0 #2c2c2d, 0.15em 0 #2c2c2d, -0.15em 0 #2c2c2d;
+    background: #2c2c2d; }
+  .info a:hover *,
+  .info a:hover *:after, .info a:hover:after,
+  .info a:hover *:before, .info a:hover:before {
+    text-shadow: none; }
+  .info a:hover:visited {
+    color: #9B9B9B; }
 
 .uppercase {
   text-transform: uppercase; }

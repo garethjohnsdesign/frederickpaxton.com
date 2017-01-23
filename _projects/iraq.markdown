@@ -7,7 +7,7 @@ categories:
 image: "/uploads/iraq-thumb.jpg"
 video: 197785201
 images: 
-is-front: true
+is-front: false
 is-info-shown: true
 is-ongoing: false
 layout: project

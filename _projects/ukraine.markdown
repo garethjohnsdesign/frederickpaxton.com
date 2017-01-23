@@ -6,8 +6,8 @@ categories:
 image: "/uploads/ukraine-kiev-thumb.jpg"
 video: 86699583
 images: 
-is-front: true
-is-info-shown: tru
+is-front: false
+is-info-shown: true
 is-ongoing: false
 layout: project
 ---

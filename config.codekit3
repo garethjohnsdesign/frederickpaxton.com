@@ -1572,7 +1572,7 @@
 	"\/bower_components\/animsition\/dist\/js\/animsition.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/bower_components\/animsition\/dist\/js\/animsition.js",
 		"oF": 0,
 		"sC": 1,
@@ -14159,8 +14159,14 @@
 			},
 		{
 			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "\/bower_components\/wow\/dist\/wow.js",
+			"linkedFileAbbreviatedPath": "\/bower_components\/animsition\/dist\/js\/animsition.js",
 			"position": 5,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 0,
+			"linkedFileAbbreviatedPath": "\/bower_components\/wow\/dist\/wow.js",
+			"position": 6,
 			"type": 0
 			}
 		]

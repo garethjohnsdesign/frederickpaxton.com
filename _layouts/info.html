@@ -11,8 +11,8 @@ layout: default
   <p><a href="https://goo.gl/maps/NS6kffzB6SQ2">Map</a><br>
   <a href="https://goo.gl/maps/MF7nJ5GGEPw">Directions</a></p>
   
-  <a href="tel:07736683278">+44 (0)7736 683278</a><br>
-  <a href="mailto:info@frederickpaxton.com">info@frederickpaxton.com</a><br>
+  <p><a href="tel:07736683278">+44 (0)7736 683278</a><br>
+  <a href="mailto:info@frederickpaxton.com">info@frederickpaxton.com</a></p>
   
   <p><a href="{{site.social.instagram}}">Instagram</a><br>
   <a href="{{site.social.twitter}}">Twitter</a><br></p>
@@ -22,8 +22,16 @@ layout: default
 
 <div class="large-6 medium-6 small-12 columns">
 {{ content }}
-Clients
-{{ page.clients-text | markdownify }}
+<p>Clients<br>
+{% for client in page.clients %}
+<a href="{{ client.link }}" target="_blank">{{ client.title }}</a>{% if forloop.last == false %},{% endif %}
+{% endfor %}</p>
+
+<p>Press<br>
+{% for press in page.press %}
+<a href="{{ press.link }}" target="_blank">{{ press.title }}</a>{% if forloop.last == false %},{% endif %}
+{% endfor %}</p>
+
 </div>
 </div>
 </section>

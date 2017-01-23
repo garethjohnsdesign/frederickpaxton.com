@@ -1,5 +1,5 @@
 ---
-title: Europes Edges Ice Core Sampling
+title: Europe's Edges Ice Core Sampling
 date: 2013-05-01 17:09:00 Z
 categories:
 - stills

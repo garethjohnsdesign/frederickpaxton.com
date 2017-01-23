@@ -24,11 +24,11 @@ http://flickity.metafizzy.co
 
 .flickity-enabled.is-draggable {
   -webkit-tap-highlight-color: transparent;
-          tap-highlight-color: transparent;
+  tap-highlight-color: transparent;
   -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .flickity-enabled.is-draggable .flickity-viewport {
@@ -51,6 +51,7 @@ http://flickity.metafizzy.co
   height: 44px;
   border: none;
   border-radius: 50%;
+  transition: $primary-transition;
 /*
   background: white;
   background: hsla(0, 0%, 100%, 0.75);
@@ -69,6 +70,10 @@ http://flickity.metafizzy.co
 }
 
 .flickity-prev-next-button:active {
+  opacity: 0.8;
+}
+
+.flickity-prev-next-button:hover {
   opacity: 0.6;
 }
 

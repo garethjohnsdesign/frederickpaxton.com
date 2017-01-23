@@ -37,6 +37,13 @@ clients:
   link: http://www.anothermag.com
 - title: VICE
   link: http://www.anothermag.com
+press:
+- title: British Journal of Photography
+  link: http://www.aestheticamagazine.com
+- title: Magnum
+  link: http://www.addresspublications.com
+- title: Another
+  link: http://www.anothermag.com
 layout: info
 ---
 

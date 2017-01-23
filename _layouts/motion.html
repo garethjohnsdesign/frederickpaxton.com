@@ -2,15 +2,15 @@
 layout: default
 ---
 
-<!-- Featured Clients -->
-  <div class="row expanded small-up-1 medium-up-2 large-up-3">
-    {% assign sorted = (site.projects | sort: 'date') | reverse %}
-    {% for project in sorted %}
-      {% if project.categories contains 'motion' %}
-        <div class="columns">
-          {% include excerpt.html %}
-        </div>
-      {% endif %}
-    {% endfor %}
-  </div>
-<!-- End Featured Clients -->
+<!-- Motion -->
+<div class="row expanded small-up-1 medium-up-2 large-up-3">
+  {% assign sorted = (site.projects | sort: 'date') | reverse %}
+  {% for project in sorted %}
+    {% if project.categories contains 'motion' %}
+      <div class="columns">
+        {% include excerpt.html %}
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+<!-- End Motion -->

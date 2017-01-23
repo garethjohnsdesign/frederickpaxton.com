@@ -38,8 +38,22 @@ img {
   color: $color--white;
 }
 
+
 a { 
   transition: $primary-transition;
+}
+
+$color-text:        $color--black;
+$color-background:  $color--white;
+$color-selection:   $color--black;
+
+.info a { 
+  transition: $primary-transition;
+  @include link-underline($color-background, $color-text, $color-selection);
+}
+
+.info a:hover { 
+  @include link-underline($color-background, $color--gray, $color-selection);
 }
 
 // 2. Typography
