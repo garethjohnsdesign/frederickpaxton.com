@@ -1,5 +1,6 @@
 ---
 title: Stills
+position: 1
 images:
 - "/uploads/singles-001.jpg"
 - "/uploads/singles-002.jpg"
