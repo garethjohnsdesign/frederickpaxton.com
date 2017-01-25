@@ -6,7 +6,7 @@ categories:
 - motion
 image: "/uploads/connection-disconnection-thumb.jpg"
 vimeo: 197781897
-youtube:
+youtube: 
 images:
 - "/uploads/connection-disconnection-001.jpg"
 - "/uploads/connection-disconnection-002.jpg"

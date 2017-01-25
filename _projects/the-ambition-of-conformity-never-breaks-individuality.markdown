@@ -5,7 +5,7 @@ categories:
 - motion
 image: "/uploads/art-basel-miami-thumb.jpg"
 vimeo: 90980531
-youtube:
+youtube: 
 images: 
 is-front: false
 is-meta-shown: true

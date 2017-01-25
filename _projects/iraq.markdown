@@ -5,7 +5,7 @@ categories:
 - stills
 - motion
 image: "/uploads/iraq-thumb.jpg"
-vimeo:
+vimeo: 
 youtube: KbsesrAMjTw
 images:
 - "/uploads/iraq-001.jpg"

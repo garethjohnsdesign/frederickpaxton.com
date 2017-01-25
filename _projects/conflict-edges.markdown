@@ -4,7 +4,7 @@ date: 2010-01-01 17:03:00 Z
 categories:
 - stills
 image: "/uploads/conflict-edges-thumb.jpg"
-vimeo:
+vimeo: 
 youtube: 
 images:
 - "/uploads/conflict-edges-001.jpg"

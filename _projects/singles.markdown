@@ -5,7 +5,7 @@ categories:
 - stills
 image: "/uploads/singles-thumb.jpg"
 vimeo: 
-youtube:
+youtube: 
 images:
 - "/uploads/singles-001.jpg"
 - "/uploads/singles-002.jpg"

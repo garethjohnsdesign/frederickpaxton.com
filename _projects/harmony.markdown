@@ -4,8 +4,8 @@ date: 2016-12-01 17:12:00 Z
 categories:
 - motion
 image: "/uploads/harmony-thumb.jpg"
-vimeo:
-youtube:
+vimeo: 
+youtube: 
 images:
 - "/uploads/harmony-001.jpg"
 - "/uploads/harmony-002.jpg"

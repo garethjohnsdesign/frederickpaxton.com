@@ -6,7 +6,7 @@ categories:
 - motion
 image: "/uploads/europes-edges-ice-core-sampling.jpg"
 vimeo: 68452140
-youtube:
+youtube: 
 images: 
 is-front: true
 is-meta-shown: true

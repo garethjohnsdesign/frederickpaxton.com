@@ -5,7 +5,7 @@ categories:
 - stills
 - motion
 image: "/uploads/ghosts-of-aleppo-thumb.jpg"
-vimeo:
+vimeo: 
 youtube: CiyyWiO-IKY
 images:
 - "/uploads/ghosts-of-aleppo-001.jpg"

@@ -5,7 +5,7 @@ categories:
 - motion
 image: "/uploads/ukraine-kiev-thumb.jpg"
 vimeo: 86699583
-youtube:
+youtube: 
 images: 
 is-front: false
 is-meta-shown: true

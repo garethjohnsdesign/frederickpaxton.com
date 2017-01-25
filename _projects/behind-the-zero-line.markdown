@@ -6,7 +6,7 @@ categories:
 - motion
 image: "/uploads/behind-the-zero-line-thumb.jpg"
 vimeo: 197785201
-youtube:
+youtube: 
 images:
 - "/uploads/behind-the-zero-line-001.jpg"
 - "/uploads/behind-the-zero-line-002.jpg"

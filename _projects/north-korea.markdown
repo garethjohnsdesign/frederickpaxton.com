@@ -5,7 +5,7 @@ categories:
 - stills
 image: "/uploads/north-korea-thumb.jpg"
 vimeo: 
-youtube:
+youtube: 
 images:
 - "/uploads/north-korea-001.jpg"
 - "/uploads/north-korea-002.jpg"
