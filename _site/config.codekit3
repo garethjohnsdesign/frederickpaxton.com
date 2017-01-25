@@ -117,12 +117,6 @@
 		"oAP": "\/_layouts\/default.html",
 		"oF": 0
 		},
-	"\/_layouts\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_layouts\/index.html",
-		"oF": 0
-		},
 	"\/_layouts\/info.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -163,72 +157,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_layouts\/stills.html",
-		"oF": 0
-		},
-	"\/_projects\/behind-the-zero-line.markdown": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_projects\/behind-the-zero-line.markdown",
-		"oF": 0
-		},
-	"\/_projects\/conflict-edges.markdown": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_projects\/conflict-edges.markdown",
-		"oF": 0
-		},
-	"\/_projects\/connection-disconnection.markdown": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_projects\/connection-disconnection.markdown",
-		"oF": 0
-		},
-	"\/_projects\/europes-edges-ice-core-sampling.markdown": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_projects\/europes-edges-ice-core-sampling.markdown",
-		"oF": 0
-		},
-	"\/_projects\/ghosts-of-aleppo.markdown": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_projects\/ghosts-of-aleppo.markdown",
-		"oF": 0
-		},
-	"\/_projects\/harmony.markdown": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_projects\/harmony.markdown",
-		"oF": 0
-		},
-	"\/_projects\/iraq.markdown": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_projects\/iraq.markdown",
-		"oF": 0
-		},
-	"\/_projects\/north-korea.markdown": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_projects\/north-korea.markdown",
-		"oF": 0
-		},
-	"\/_projects\/singles.markdown": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_projects\/singles.markdown",
-		"oF": 0
-		},
-	"\/_projects\/the-ambition-of-conformity-never-breaks-individuality.markdown": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_projects\/the-ambition-of-conformity-never-breaks-individuality.markdown",
-		"oF": 0
-		},
-	"\/_projects\/ukraine.markdown": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_projects\/ukraine.markdown",
 		"oF": 0
 		},
 	"\/_site": {
