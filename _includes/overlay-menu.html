@@ -1,17 +1,11 @@
 <!-- Overlay Menu -->
 <div class="overlay" id="overlay" data-toggler=".open">
 
-<!--
-  <button class="close-button" data-toggle="overlay" type="button">
-      <span aria-hidden="true">&times;</span>
-  </button>
--->
-
   <nav class="overlay-menu">
       <ul>
         {% for link in site.data.navigation %}
           <li class="element">
-            <a href="{{link.href}}">{{link.title}}</a>
+            <a href="{{link.url}}">{{link.title}}</a>
           </li>
         {% endfor %}
       </ul>

@@ -2,67 +2,12 @@
 layout: default
 ---
 
-<!--
-<section class="section">
-  <div class="section-wrapper">
-    
-    <div class="row">
-      <div class="small-12 columns">
-        
-<div class="gallery">
-{% assign slide_documents = site.projects %}
-{% for slide in slide_documents %}
-<div class="gallery-cell">
-<img src="{{slide.image}}" alt="Test">
-</div>
-{% endfor %}
-</div>
-        
-      </div>
-    </div>
-    
-  </div>
-</section>
--->
-
-
-<!--
-<section class="section">
-  <div class="section-wrapper">
-    <div class="gallery">
-    {% assign slide_documents = site.projects %}
-    {% for slide in slide_documents %}
-    <div class="gallery-cell">
-    <img src="{{slide.image}}" alt="Test">
-    </div>
-    {% endfor %}
-    </div>
-  </div>
-</section>
--->
-
-<!-- <section class="section"> -->
-<!--
-  <div class="carousel">
-    {% assign slide_documents = site.projects %}
-    {% for slide in slide_documents %}
-    <div class="carousel-cell">
-    <img src="{{slide.image}}" alt="Test">
-    </div>
-    {% endfor %}
-  </div>
--->
-<!-- </section> -->
-
-
-
-<!-- Flickity HTML init -->
+  
 <div class="carousel"> 
-   {% assign slide_documents = site.projects | where: "is-front", "true" %}
+    {% assign slide_documents = site.projects | where: "is-front", "true" %}
     {% for slide in slide_documents %}
     <div class="carousel-cell">
       <img src="{{slide.image}}" alt="{{slide.title}}">
     </div>
     {% endfor %}
 </div>
-

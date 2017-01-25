@@ -33,12 +33,6 @@
 		"oAP": "\/_config.yml",
 		"oF": 0
 		},
-	"\/_data\/navigation-mobile.yml": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_data\/navigation-mobile.yml",
-		"oF": 0
-		},
 	"\/_data\/navigation.yml": {
 		"ft": 8192,
 		"oA": 2,
@@ -49,12 +43,6 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_includes\/analytics.html",
-		"oF": 0
-		},
-	"\/_includes\/carousel.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_includes\/carousel.html",
 		"oF": 0
 		},
 	"\/_includes\/excerpt.html": {
@@ -79,12 +67,6 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_includes\/icons.html",
-		"oF": 0
-		},
-	"\/_includes\/map-script.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_includes\/map-script.html",
 		"oF": 0
 		},
 	"\/_includes\/navigation.html": {
@@ -123,22 +105,10 @@
 		"oAP": "\/_includes\/socials.html",
 		"oF": 0
 		},
-	"\/_includes\/team-excerpt.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_includes\/team-excerpt.html",
-		"oF": 0
-		},
 	"\/_layouts\/archive.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_layouts\/archive.html",
-		"oF": 0
-		},
-	"\/_layouts\/contact.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_layouts\/contact.html",
 		"oF": 0
 		},
 	"\/_layouts\/default.html": {
@@ -195,12 +165,6 @@
 		"oAP": "\/_layouts\/stills.html",
 		"oF": 0
 		},
-	"\/_projects\/art-basel-miami.markdown": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_projects\/art-basel-miami.markdown",
-		"oF": 0
-		},
 	"\/_projects\/behind-the-zero-line.markdown": {
 		"ft": 8192,
 		"oA": 2,
@@ -217,12 +181,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_projects\/connection-disconnection.markdown",
-		"oF": 0
-		},
-	"\/_projects\/euro-crisis.markdown": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_projects\/euro-crisis.markdown",
 		"oF": 0
 		},
 	"\/_projects\/europes-edges-ice-core-sampling.markdown": {
@@ -259,6 +217,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_projects\/singles.markdown",
+		"oF": 0
+		},
+	"\/_projects\/the-ambition-of-conformity-never-breaks-individuality.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_projects\/the-ambition-of-conformity-never-breaks-individuality.markdown",
 		"oF": 0
 		},
 	"\/_projects\/ukraine.markdown": {
@@ -375,7 +339,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/behind-the-zero-line-thumb.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/_uploads\/conflict-edges-001.jpg": {
 		"ft": 16384,
@@ -639,7 +603,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/conflict-edges-thumb.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/_uploads\/connection-disconnection-001.jpg": {
 		"ft": 16384,
@@ -713,11 +677,251 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/_uploads\/ghosts-of-aleppo-001.jpg": {
+		"ft": 16384,
+		"iS": 188208,
+		"oA": 0,
+		"oAP": "\/_uploads\/ghosts-of-aleppo-001.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/ghosts-of-aleppo-002.jpg": {
+		"ft": 16384,
+		"iS": 157090,
+		"oA": 0,
+		"oAP": "\/_uploads\/ghosts-of-aleppo-002.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/ghosts-of-aleppo-003.jpg": {
+		"ft": 16384,
+		"iS": 197347,
+		"oA": 0,
+		"oAP": "\/_uploads\/ghosts-of-aleppo-003.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/ghosts-of-aleppo-004.jpg": {
+		"ft": 16384,
+		"iS": 159730,
+		"oA": 0,
+		"oAP": "\/_uploads\/ghosts-of-aleppo-004.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/ghosts-of-aleppo-005.jpg": {
+		"ft": 16384,
+		"iS": 148054,
+		"oA": 0,
+		"oAP": "\/_uploads\/ghosts-of-aleppo-005.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/ghosts-of-aleppo-006.jpg": {
+		"ft": 16384,
+		"iS": 118039,
+		"oA": 0,
+		"oAP": "\/_uploads\/ghosts-of-aleppo-006.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/ghosts-of-aleppo-007.jpg": {
+		"ft": 16384,
+		"iS": 108195,
+		"oA": 0,
+		"oAP": "\/_uploads\/ghosts-of-aleppo-007.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/ghosts-of-aleppo-008.jpg": {
+		"ft": 16384,
+		"iS": 220512,
+		"oA": 0,
+		"oAP": "\/_uploads\/ghosts-of-aleppo-008.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/ghosts-of-aleppo-009.jpg": {
+		"ft": 16384,
+		"iS": 88494,
+		"oA": 0,
+		"oAP": "\/_uploads\/ghosts-of-aleppo-009.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/ghosts-of-aleppo-010.jpg": {
+		"ft": 16384,
+		"iS": 71373,
+		"oA": 0,
+		"oAP": "\/_uploads\/ghosts-of-aleppo-010.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/ghosts-of-aleppo-011.jpg": {
+		"ft": 16384,
+		"iS": 172795,
+		"oA": 0,
+		"oAP": "\/_uploads\/ghosts-of-aleppo-011.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/ghosts-of-aleppo-012.jpg": {
+		"ft": 16384,
+		"iS": 224520,
+		"oA": 0,
+		"oAP": "\/_uploads\/ghosts-of-aleppo-012.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/ghosts-of-aleppo-013.jpg": {
+		"ft": 16384,
+		"iS": 122711,
+		"oA": 0,
+		"oAP": "\/_uploads\/ghosts-of-aleppo-013.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/ghosts-of-aleppo-014.jpg": {
+		"ft": 16384,
+		"iS": 130688,
+		"oA": 0,
+		"oAP": "\/_uploads\/ghosts-of-aleppo-014.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/ghosts-of-aleppo-015.jpg": {
+		"ft": 16384,
+		"iS": 217354,
+		"oA": 0,
+		"oAP": "\/_uploads\/ghosts-of-aleppo-015.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/ghosts-of-aleppo-016.jpg": {
+		"ft": 16384,
+		"iS": 151402,
+		"oA": 0,
+		"oAP": "\/_uploads\/ghosts-of-aleppo-016.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/ghosts-of-aleppo-017.jpg": {
+		"ft": 16384,
+		"iS": 195909,
+		"oA": 0,
+		"oAP": "\/_uploads\/ghosts-of-aleppo-017.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/ghosts-of-aleppo-018.jpg": {
+		"ft": 16384,
+		"iS": 231414,
+		"oA": 0,
+		"oAP": "\/_uploads\/ghosts-of-aleppo-018.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/ghosts-of-aleppo-019.jpg": {
+		"ft": 16384,
+		"iS": 131139,
+		"oA": 0,
+		"oAP": "\/_uploads\/ghosts-of-aleppo-019.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/ghosts-of-aleppo-020.jpg": {
+		"ft": 16384,
+		"iS": 63911,
+		"oA": 0,
+		"oAP": "\/_uploads\/ghosts-of-aleppo-020.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/ghosts-of-aleppo-021.jpg": {
+		"ft": 16384,
+		"iS": 69503,
+		"oA": 0,
+		"oAP": "\/_uploads\/ghosts-of-aleppo-021.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/ghosts-of-aleppo-022.jpg": {
+		"ft": 16384,
+		"iS": 130035,
+		"oA": 0,
+		"oAP": "\/_uploads\/ghosts-of-aleppo-022.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/ghosts-of-aleppo-023.jpg": {
+		"ft": 16384,
+		"iS": 146771,
+		"oA": 0,
+		"oAP": "\/_uploads\/ghosts-of-aleppo-023.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/ghosts-of-aleppo-024.jpg": {
+		"ft": 16384,
+		"iS": 118451,
+		"oA": 0,
+		"oAP": "\/_uploads\/ghosts-of-aleppo-024.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/ghosts-of-aleppo-025.jpg": {
+		"ft": 16384,
+		"iS": 123363,
+		"oA": 0,
+		"oAP": "\/_uploads\/ghosts-of-aleppo-025.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/_uploads\/ghosts-of-aleppo-thumb.jpg": {
 		"ft": 16384,
 		"iS": 266120,
 		"oA": 0,
 		"oAP": "\/_uploads\/ghosts-of-aleppo-thumb.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/_uploads\/harmony-001.jpg": {
+		"ft": 16384,
+		"iS": 129931,
+		"oA": 0,
+		"oAP": "\/_uploads\/harmony-001.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/harmony-002.jpg": {
+		"ft": 16384,
+		"iS": 123202,
+		"oA": 0,
+		"oAP": "\/_uploads\/harmony-002.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/harmony-003.jpg": {
+		"ft": 16384,
+		"iS": 88940,
+		"oA": 0,
+		"oAP": "\/_uploads\/harmony-003.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/harmony-004.jpg": {
+		"ft": 16384,
+		"iS": 104033,
+		"oA": 0,
+		"oAP": "\/_uploads\/harmony-004.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/harmony-005.jpg": {
+		"ft": 16384,
+		"iS": 172751,
+		"oA": 0,
+		"oAP": "\/_uploads\/harmony-005.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -726,6 +930,222 @@
 		"iS": 149453,
 		"oA": 0,
 		"oAP": "\/_uploads\/harmony-thumb.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/iraq-001.jpg": {
+		"ft": 16384,
+		"iS": 92565,
+		"oA": 0,
+		"oAP": "\/_uploads\/iraq-001.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/iraq-002.jpg": {
+		"ft": 16384,
+		"iS": 120120,
+		"oA": 0,
+		"oAP": "\/_uploads\/iraq-002.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/iraq-003.jpg": {
+		"ft": 16384,
+		"iS": 214501,
+		"oA": 0,
+		"oAP": "\/_uploads\/iraq-003.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/iraq-004.jpg": {
+		"ft": 16384,
+		"iS": 106747,
+		"oA": 0,
+		"oAP": "\/_uploads\/iraq-004.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/iraq-005.jpg": {
+		"ft": 16384,
+		"iS": 148063,
+		"oA": 0,
+		"oAP": "\/_uploads\/iraq-005.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/iraq-006.jpg": {
+		"ft": 16384,
+		"iS": 172738,
+		"oA": 0,
+		"oAP": "\/_uploads\/iraq-006.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/iraq-007.jpg": {
+		"ft": 16384,
+		"iS": 125239,
+		"oA": 0,
+		"oAP": "\/_uploads\/iraq-007.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/iraq-008.jpg": {
+		"ft": 16384,
+		"iS": 131622,
+		"oA": 0,
+		"oAP": "\/_uploads\/iraq-008.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/iraq-009.jpg": {
+		"ft": 16384,
+		"iS": 89667,
+		"oA": 0,
+		"oAP": "\/_uploads\/iraq-009.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/iraq-010.jpg": {
+		"ft": 16384,
+		"iS": 202415,
+		"oA": 0,
+		"oAP": "\/_uploads\/iraq-010.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/iraq-011.jpg": {
+		"ft": 16384,
+		"iS": 138568,
+		"oA": 0,
+		"oAP": "\/_uploads\/iraq-011.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/iraq-012.jpg": {
+		"ft": 16384,
+		"iS": 111828,
+		"oA": 0,
+		"oAP": "\/_uploads\/iraq-012.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/iraq-013.jpg": {
+		"ft": 16384,
+		"iS": 151991,
+		"oA": 0,
+		"oAP": "\/_uploads\/iraq-013.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/iraq-014.jpg": {
+		"ft": 16384,
+		"iS": 199675,
+		"oA": 0,
+		"oAP": "\/_uploads\/iraq-014.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/iraq-015.jpg": {
+		"ft": 16384,
+		"iS": 186484,
+		"oA": 0,
+		"oAP": "\/_uploads\/iraq-015.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/iraq-016.jpg": {
+		"ft": 16384,
+		"iS": 122156,
+		"oA": 0,
+		"oAP": "\/_uploads\/iraq-016.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/iraq-017.jpg": {
+		"ft": 16384,
+		"iS": 160606,
+		"oA": 0,
+		"oAP": "\/_uploads\/iraq-017.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/iraq-018.jpg": {
+		"ft": 16384,
+		"iS": 81142,
+		"oA": 0,
+		"oAP": "\/_uploads\/iraq-018.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/iraq-019.jpg": {
+		"ft": 16384,
+		"iS": 140079,
+		"oA": 0,
+		"oAP": "\/_uploads\/iraq-019.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/iraq-020.jpg": {
+		"ft": 16384,
+		"iS": 168861,
+		"oA": 0,
+		"oAP": "\/_uploads\/iraq-020.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/iraq-021.jpg": {
+		"ft": 16384,
+		"iS": 204117,
+		"oA": 0,
+		"oAP": "\/_uploads\/iraq-021.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/iraq-022.jpg": {
+		"ft": 16384,
+		"iS": 198118,
+		"oA": 0,
+		"oAP": "\/_uploads\/iraq-022.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/iraq-023.jpg": {
+		"ft": 16384,
+		"iS": 233675,
+		"oA": 0,
+		"oAP": "\/_uploads\/iraq-023.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/iraq-024.jpg": {
+		"ft": 16384,
+		"iS": 219327,
+		"oA": 0,
+		"oAP": "\/_uploads\/iraq-024.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/iraq-025.jpg": {
+		"ft": 16384,
+		"iS": 162709,
+		"oA": 0,
+		"oAP": "\/_uploads\/iraq-025.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/iraq-026.jpg": {
+		"ft": 16384,
+		"iS": 157757,
+		"oA": 0,
+		"oAP": "\/_uploads\/iraq-026.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/iraq-027.jpg": {
+		"ft": 16384,
+		"iS": 122901,
+		"oA": 0,
+		"oAP": "\/_uploads\/iraq-027.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -895,7 +1315,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/north-korea-thumb.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/_uploads\/placeholder.jpg": {
 		"ft": 16384,
@@ -1087,7 +1507,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/singles-thumb.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/_uploads\/ukraine-kiev-thumb.jpg": {
 		"ft": 16384,
@@ -1124,28 +1544,6 @@
 		"oAP": "\/assets\/css\/app-min.css",
 		"oF": 0,
 		"oS": 0
-		},
-	"\/assets\/css\/app.css.map": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/css\/app.css.map",
-		"oF": 0
-		},
-	"\/assets\/css\/app_old.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/assets\/css\/app_old-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/assets\/css\/app_old.css.map": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/css\/app_old.css.map",
-		"oF": 0
 		},
 	"\/assets\/fonts\/BasisGrotesque.eot": {
 		"ft": 8192,

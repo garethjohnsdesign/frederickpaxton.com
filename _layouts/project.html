@@ -5,19 +5,32 @@ layout: default
 <section class="project">
 
 <!-- Project Video -->
-{% if page.video %}
+{% if page.vimeo %}
 <div class="row align-center project__video">
   <div class="small-12 medium-9 large-9 columns">
-    <div class="flex-video widescreen vimeo">
-      <iframe src="https://player.vimeo.com/video/{{ page.video }}?color=ffffff&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    <div class="responsive-embed widescreen">
+      <iframe src="https://player.vimeo.com/video/{{ page.vimeo }}?color=ffffff&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     </div>
   </div>
 </div>
 {% endif %}
 <!-- End Project Video -->
 
+<!-- Project Video -->
+{% if page.youtube %}
+<div class="row align-center project__video">
+  <div class="small-12 medium-9 large-9 columns">
+    <div class="responsive-embed widescreen">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/{{page.youtube}}" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
+{% endif %}
+<!-- End Project Video -->
+
+
 <!-- Project Meta -->
-{% if page.is-info-shown %}
+{% if page.is-meta-shown %}
 <div class="row align-center project__meta">
   <div class="small-12 medium-9 large-9 columns">
     <div class="row">
@@ -33,7 +46,7 @@ layout: default
       </div>
       
       <div class="small-6 medium-6 columns text-right project__meta__info">
-      <a data-toggle="show-more">Info</a>
+      {% if page.is-info-shown %}<a data-toggle="show-more">Info</a>{% endif %}
       </div>
     </div>
   </div>

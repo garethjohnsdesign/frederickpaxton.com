@@ -4,7 +4,8 @@ date: 2010-01-01 17:10:00 Z
 categories:
 - stills
 image: "/uploads/singles-thumb.jpg"
-video: 
+vimeo: 
+youtube:
 images:
 - "/uploads/singles-001.jpg"
 - "/uploads/singles-002.jpg"
@@ -28,7 +29,8 @@ images:
 - "/uploads/singles-020.jpg"
 - "/uploads/singles-021.jpg"
 is-front: true
-is-info-shown: false
+is-meta-shown: false
+is-info-shown: true
 is-ongoing: true
 layout: project
 ---

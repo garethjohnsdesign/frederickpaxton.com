@@ -1,52 +1,43 @@
-{% for entry in site.data.navigation %}
-{% capture fullurl %}{{ site.baseurl }}{{ entry.url }}{% endcapture %}
-{% if fullurl == page.url %}
-{% assign current_page = fullurl %}
-{% break %}
-{% elsif page.url contains fullurl %}
-{% assign current_page = fullurl %}
-{% endif %}
-{% endfor %}
+{% for entry in site.data.navigation %}{% capture fullurl %}{{ site.baseurl }}{{ entry.url }}{% endcapture %}{% if fullurl == page.url %}{% assign current_page = fullurl %}{% break %}{% elsif page.url contains fullurl %}{% assign current_page = fullurl %}{% endif %}{% endfor %}
 
-
-    <div class="top-bar row expanded align-middle">
-      
-      <div class="small-6 medium-4 columns">
-        <a href="/" class="animsition-link">{{ site.title }}</a>
-      </div>
-      
-      <div class="small-6 columns show-for-medium">
-        <ul class="dropdown menu" data-dropdown-menu>
-          {% for entry in site.data.navigation %}
-          {% if entry.url == current_page %}
-          {% assign current = ' class="active"' %}
-          {% else %}
-          {% assign current = null %}
-          {% endif %}
-          {% assign sublinks = entry.sublinks %}
-          {% if sublinks %}
-          <li{{ current }}>
-          <a href="{{ site.baseurl }}{{ entry.url }}" class="animsition-link">{{ entry.title }}</a>
-          <ul class="menu vertical">
-          {% for sublink in sublinks %}
-          <li><a href="{{ site.baseurl }}{{ sublink.url }}" class="animsition-link">{{ sublink.title }}</a></li>
-          {% endfor %}
-          </ul>
-          </li>
-          {% else %}
-          <li{{ current }}><a href="{{ site.baseurl }}{{ entry.url }}" class="animsition-link">{{ entry.title }}</a></li>
-          {% endif %}
-          {% endfor %}
-        </ul>
-      </div>
-      
-      <div class="columns show-for-small-only text-right">
-        <button class="hamburger hamburger--collapse top-bar__right" id="toggle" data-toggler=".is-active" type="button" data-toggle="overlay toggle">
-          <span class="hamburger-box">
-            <span class="hamburger-inner"></span>
-          </span>
-        </button>
-      </div>
-      
-    </div>
+<div class="top-bar row expanded align-middle">
+  
+  <div class="small-6 medium-4 columns">
+    <a href="/" class="animsition-link">{{ site.title }}</a>
+  </div>
+  
+  <div class="small-6 columns show-for-medium">
+    <ul class="dropdown menu" data-dropdown-menu>
+      {% for entry in site.data.navigation %}
+      {% if entry.url == current_page %}
+      {% assign current = ' class="active"' %}
+      {% else %}
+      {% assign current = null %}
+      {% endif %}
+      {% assign sublinks = entry.sublinks %}
+      {% if sublinks %}
+      <li{{ current }}>
+      <a href="{{ site.baseurl }}{{ entry.url }}" class="animsition-link">{{ entry.title }}</a>
+      <ul class="menu vertical">
+      {% for sublink in sublinks %}
+      <li><a href="{{ site.baseurl }}{{ sublink.url }}" class="animsition-link">{{ sublink.title }}</a></li>
+      {% endfor %}
+      </ul>
+      </li>
+      {% else %}
+      <li{{ current }}><a href="{{ site.baseurl }}{{ entry.url }}" class="animsition-link">{{ entry.title }}</a></li>
+      {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+  
+  <div class="columns show-for-small-only text-right top-bar-right-mobile">
+    <button class="hamburger hamburger--collapse" id="toggle" data-toggler=".is-active" type="button" data-toggle="overlay toggle">
+      <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+      </span>
+    </button>
+  </div>
+  
+</div>
 

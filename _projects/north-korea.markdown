@@ -4,7 +4,8 @@ date: 2014-01-01 17:05:00 Z
 categories:
 - stills
 image: "/uploads/north-korea-thumb.jpg"
-video: 
+vimeo: 
+youtube:
 images:
 - "/uploads/north-korea-001.jpg"
 - "/uploads/north-korea-002.jpg"
@@ -26,7 +27,8 @@ images:
 - "/uploads/north-korea-018.jpg"
 - "/uploads/north-korea-019.jpg"
 is-front: true
-is-info-shown: true
+is-meta-shown: true
+is-info-shown: false
 is-ongoing: false
 layout: project
 ---

@@ -60,6 +60,9 @@ http://flickity.metafizzy.co
   /* vertically center */
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
+  @include breakpoint(small only) {
+  display: none;
+  }
 }
 
 // .flickity-prev-next-button:hover { background: white; }
