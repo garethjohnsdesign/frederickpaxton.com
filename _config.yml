@@ -17,6 +17,19 @@ defaults:
     type: pages
   values:
     layout: page
+- scope:
+    path: ''
+    type: projects
+  values:
+    image:
+    vimeo:
+    youtube: 
+    images:
+    is-front:
+    is-meta-shown:
+    is-info-shown:
+    is-ongoing:
+    layout: project
 url: http://frederickpaxton.com
 description: Documentary & Fine Art / Filmmaker & Photographer
 permalink: pretty
