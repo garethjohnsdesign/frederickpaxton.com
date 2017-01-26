@@ -36,6 +36,11 @@ is-front: true
 is-meta-shown: true
 is-info-shown: false
 is-ongoing: false
+new-images:
+- image: "/uploads/ghosts-of-aleppo-004.jpg"
+  caption: Ghosts Test
+- image: "/uploads/ghosts-of-aleppo-005.jpg"
+  caption: Ghosts Test Two
 layout: project
 ---
 
