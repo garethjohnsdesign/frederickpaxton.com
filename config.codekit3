@@ -117,6 +117,12 @@
 		"oAP": "\/_layouts\/default.html",
 		"oF": 0
 		},
+	"\/_layouts\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_layouts\/index.html",
+		"oF": 0
+		},
 	"\/_layouts\/info.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -157,6 +163,72 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_layouts\/stills.html",
+		"oF": 0
+		},
+	"\/_projects\/behind-the-zero-line.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_projects\/behind-the-zero-line.markdown",
+		"oF": 0
+		},
+	"\/_projects\/conflict-edges.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_projects\/conflict-edges.markdown",
+		"oF": 0
+		},
+	"\/_projects\/connection-disconnection.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_projects\/connection-disconnection.markdown",
+		"oF": 0
+		},
+	"\/_projects\/europes-edges-ice-core-sampling.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_projects\/europes-edges-ice-core-sampling.markdown",
+		"oF": 0
+		},
+	"\/_projects\/ghosts-of-aleppo.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_projects\/ghosts-of-aleppo.markdown",
+		"oF": 0
+		},
+	"\/_projects\/harmony.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_projects\/harmony.markdown",
+		"oF": 0
+		},
+	"\/_projects\/iraq.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_projects\/iraq.markdown",
+		"oF": 0
+		},
+	"\/_projects\/north-korea.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_projects\/north-korea.markdown",
+		"oF": 0
+		},
+	"\/_projects\/singles.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_projects\/singles.markdown",
+		"oF": 0
+		},
+	"\/_projects\/the-ambition-of-conformity-never-breaks-individuality.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_projects\/the-ambition-of-conformity-never-breaks-individuality.markdown",
+		"oF": 0
+		},
+	"\/_projects\/ukraine.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_projects\/ukraine.markdown",
 		"oF": 0
 		},
 	"\/_site": {
@@ -1261,6 +1333,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/_uploads\/Screen Shot 2017-01-20 at 22.31.52.png": {
+		"ft": 32768,
+		"iS": 1412768,
+		"oA": 0,
+		"oAP": "\/_uploads\/Screen Shot 2017-01-20 at 22.31.52.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/_uploads\/singles-001.jpg": {
 		"ft": 16384,
 		"iS": 86125,
@@ -1473,32 +1553,38 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"\/assets\/fonts\/BasisGrotesque.eot": {
+	"\/assets\/fonts\/GTSectra-Book.eot": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/BasisGrotesque.eot",
+		"oAP": "\/assets\/fonts\/GTSectra-Book.eot",
 		"oF": 0
 		},
-	"\/assets\/fonts\/BasisGrotesque.svg": {
+	"\/assets\/fonts\/GTSectra-Book.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/GTSectra-Book.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/GTSectra-Book.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/BasisGrotesque.svg",
+		"oAP": "\/assets\/fonts\/GTSectra-Book.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/fonts\/BasisGrotesque.ttf": {
+	"\/assets\/fonts\/GTSectra-Book.ttf": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/BasisGrotesque.ttf",
+		"oAP": "\/assets\/fonts\/GTSectra-Book.ttf",
 		"oF": 0
 		},
-	"\/assets\/fonts\/BasisGrotesque.woff": {
+	"\/assets\/fonts\/GTSectra-Book.woff": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/BasisGrotesque.woff",
+		"oAP": "\/assets\/fonts\/GTSectra-Book.woff",
 		"oF": 0
 		},
 	"\/assets\/icons\/android-chrome-192x192.png": {
@@ -14438,10 +14524,10 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/stills.html",
-		"oF": 0,
-		"oFM": 0,
+		"oA": 2,
+		"oAP": "\/stills.md",
+		"oF": 1,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,

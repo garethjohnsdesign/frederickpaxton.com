@@ -3,14 +3,15 @@ layout: default
 ---
 
 <!-- Motion -->
-<div class="row expanded small-up-1 medium-up-2 large-up-3">
+
   {% assign sorted = (site.projects | sort: 'date') | reverse %}
   {% for project in sorted %}
     {% if project.categories contains 'motion' %}
-      <div class="columns">
+      <div class="row align-center">
+      <div class="small-12 medium-8 large-8 columns">
         {% include excerpt.html %}
+      </div>
       </div>
     {% endif %}
   {% endfor %}
-</div>
 <!-- End Motion -->

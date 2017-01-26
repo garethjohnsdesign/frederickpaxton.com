@@ -46,7 +46,7 @@
 // 1. Global
 // ---------
 
-$global-font-size: 100%;
+$global-font-size: 95%;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
 /*
@@ -72,7 +72,10 @@ $black: #0a0a0a;
 $white: #fefefe;
 $body-background: $white;
 $body-font-color: $black;
-$body-font-family: 'BasisGrotesque', Helvetica, Roboto, Arial, sans-serif;
+// $body-font-family: 'Times', Helvetica, Roboto, Arial, sans-serif;
+// $body-font-family: 'TiemposText-Regular', Helvetica, Roboto, Arial, sans-serif;
+// $body-font-family: 'DTLHaarlemmerD', Helvetica, Roboto, Arial, sans-serif;
+$body-font-family: 'GTSectra-Book', Helvetica, Roboto, Arial, sans-serif;
 $body-antialiased: true;
 $global-margin: 1rem;
 $global-padding: 1rem;

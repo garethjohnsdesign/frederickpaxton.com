@@ -13,7 +13,7 @@ $(document).ready(function () {
       {
       boxClass:     'wow',      // default
       animateClass: 'animated', // default
-      offset:       50,          // default
+      offset:       25,          // default
       mobile:       true,       // default
       live:         true        // default
     }
