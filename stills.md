@@ -2,7 +2,8 @@
 title: Stills
 position: 2
 images:
-- "/uploads/singles-001.jpg"
+- image: "/uploads/singles-001.jpg"
+  caption: Some guy
 - "/uploads/singles-002.jpg"
 - "/uploads/singles-003.jpg"
 - "/uploads/singles-004.jpg"
