@@ -10,27 +10,27 @@ vimeo: 197785201
 youtube: 
 images:
 - image: "/uploads/behind-the-zero-line-001.jpg"
-  caption:
+  caption: 
 - image: "/uploads/behind-the-zero-line-002.jpg"
-  caption:
+  caption: 
 - image: "/uploads/behind-the-zero-line-003.jpg"
-  caption:
+  caption: 
 - image: "/uploads/behind-the-zero-line-004.jpg"
-  caption:
+  caption: 
 - image: "/uploads/behind-the-zero-line-005.jpg"
-  caption:
+  caption: 
 - image: "/uploads/behind-the-zero-line-006.jpg"
-  caption:
+  caption: 
 - image: "/uploads/behind-the-zero-line-007.jpg"
-  caption:
+  caption: 
 - image: "/uploads/behind-the-zero-line-008.jpg"
-  caption:
+  caption: 
 - image: "/uploads/behind-the-zero-line-009.jpg"
-  caption:
+  caption: 
 - image: "/uploads/behind-the-zero-line-010.jpg"
-  caption:
+  caption: 
 - image: "/uploads/behind-the-zero-line-011.jpg"
-  caption:
+  caption: 
 is-front: true
 is-meta-shown: true
 is-info-shown: true

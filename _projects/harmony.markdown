@@ -9,15 +9,15 @@ vimeo:
 youtube: 
 images:
 - image: "/uploads/harmony-001.jpg"
-  caption:
+  caption: 
 - image: "/uploads/harmony-002.jpg"
-  caption:
+  caption: 
 - image: "/uploads/harmony-003.jpg"
-  caption:
+  caption: 
 - image: "/uploads/harmony-004.jpg"
-  caption:
+  caption: 
 - image: "/uploads/harmony-005.jpg"
-  caption:
+  caption: 
 is-front: true
 is-meta-shown: true
 is-info-shown: true

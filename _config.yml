@@ -24,9 +24,9 @@ defaults:
     image: 
     vimeo: 
     youtube: 
-    images: 
-      - image:
-        caption:
+    images:
+    - image: 
+      caption: 
     is-front: 
     is-meta-shown: 
     is-info-shown: 

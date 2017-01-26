@@ -9,43 +9,43 @@ vimeo:
 youtube: 
 images:
 - image: "/uploads/north-korea-001.jpg"
-  caption:
+  caption: 
 - image: "/uploads/north-korea-002.jpg"
-  caption:
+  caption: 
 - image: "/uploads/north-korea-003.jpg"
-  caption:
+  caption: 
 - image: "/uploads/north-korea-004.jpg"
-  caption:
+  caption: 
 - image: "/uploads/north-korea-005.jpg"
-  caption:
+  caption: 
 - image: "/uploads/north-korea-006.jpg"
-  caption:
+  caption: 
 - image: "/uploads/north-korea-007.jpg"
-  caption:
+  caption: 
 - image: "/uploads/north-korea-008.jpg"
-  caption:
+  caption: 
 - image: "/uploads/north-korea-009.jpg"
-  caption:
+  caption: 
 - image: "/uploads/north-korea-010.jpg"
-  caption:
+  caption: 
 - image: "/uploads/north-korea-011.jpg"
-  caption:
+  caption: 
 - image: "/uploads/north-korea-012.jpg"
-  caption:
+  caption: 
 - image: "/uploads/north-korea-013.jpg"
-  caption:
+  caption: 
 - image: "/uploads/north-korea-014.jpg"
-  caption:
+  caption: 
 - image: "/uploads/north-korea-015.jpg"
-  caption:
+  caption: 
 - image: "/uploads/north-korea-016.jpg"
-  caption:
+  caption: 
 - image: "/uploads/north-korea-017.jpg"
-  caption:
+  caption: 
 - image: "/uploads/north-korea-018.jpg"
-  caption:
+  caption: 
 - image: "/uploads/north-korea-019.jpg"
-  caption:
+  caption: 
 is-front: true
 is-meta-shown: true
 is-info-shown: false

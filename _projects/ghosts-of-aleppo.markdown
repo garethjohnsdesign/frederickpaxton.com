@@ -9,7 +9,7 @@ image: "/uploads/ghosts-of-aleppo-thumb.jpg"
 youtube: CiyyWiO-IKY
 images:
 - image: "/uploads/ghosts-of-aleppo-001.jpg"
-  caption:
+  caption: 
 - image: "/uploads/ghosts-of-aleppo-002.jpg"
   caption: Ghosts Test
 - image: "/uploads/ghosts-of-aleppo-003.jpg"
@@ -64,3 +64,4 @@ is-info-shown: false
 is-ongoing: false
 layout: project
 ---
+
