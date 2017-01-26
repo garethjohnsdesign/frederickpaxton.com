@@ -9,17 +9,28 @@ image: "/uploads/behind-the-zero-line-thumb.jpg"
 vimeo: 197785201
 youtube: 
 images:
-- "/uploads/behind-the-zero-line-001.jpg"
-- "/uploads/behind-the-zero-line-002.jpg"
-- "/uploads/behind-the-zero-line-003.jpg"
-- "/uploads/behind-the-zero-line-004.jpg"
-- "/uploads/behind-the-zero-line-005.jpg"
-- "/uploads/behind-the-zero-line-006.jpg"
-- "/uploads/behind-the-zero-line-007.jpg"
-- "/uploads/behind-the-zero-line-008.jpg"
-- "/uploads/behind-the-zero-line-009.jpg"
-- "/uploads/behind-the-zero-line-010.jpg"
-- "/uploads/behind-the-zero-line-011.jpg"
+- image: "/uploads/behind-the-zero-line-001.jpg"
+  caption:
+- image: "/uploads/behind-the-zero-line-002.jpg"
+  caption:
+- image: "/uploads/behind-the-zero-line-003.jpg"
+  caption:
+- image: "/uploads/behind-the-zero-line-004.jpg"
+  caption:
+- image: "/uploads/behind-the-zero-line-005.jpg"
+  caption:
+- image: "/uploads/behind-the-zero-line-006.jpg"
+  caption:
+- image: "/uploads/behind-the-zero-line-007.jpg"
+  caption:
+- image: "/uploads/behind-the-zero-line-008.jpg"
+  caption:
+- image: "/uploads/behind-the-zero-line-009.jpg"
+  caption:
+- image: "/uploads/behind-the-zero-line-010.jpg"
+  caption:
+- image: "/uploads/behind-the-zero-line-011.jpg"
+  caption:
 is-front: true
 is-meta-shown: true
 is-info-shown: true

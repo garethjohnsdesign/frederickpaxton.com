@@ -8,7 +8,9 @@ position: 2
 image: "/uploads/europes-edges-ice-core-sampling.jpg"
 vimeo: 68452140
 youtube: 
-images: 
+images:
+- image:
+  caption:
 is-front: true
 is-meta-shown: true
 is-info-shown: true

@@ -64,20 +64,17 @@ layout: default
 </div>
 <!-- End Project Text -->
 
-{% if page.categories contains 'stills' %}
-<section class="project__images">
-{% for photo in page.images %}
-<div class="row align-center">
-<div class="small-12 medium-8 large-8 columns project__image">
-  <img src="{{ photo.image }}" class="wow fadeIn">
-  {% if photo.caption %}
-  <p>{{ photo.caption }}</p>
-  {% endif %}
-</div>
-</div>
-{% endfor %}
-</section>
-{% endif %}
 
+<!-- Project Images -->
+{% if page.images %}
+<div class="row align-center">
+<div class="small-12 medium-8 large-8 columns project__images">
+    {% for image in page.images %}
+    <img src="{{image}}" class="wow fadeIn">
+    {% endfor %}
+</div>
+</div>
+{% endif %}
+<!-- End Project Images -->
 
 </section>

@@ -153,6 +153,12 @@
 		"oAP": "\/_layouts\/post.html",
 		"oF": 0
 		},
+	"\/_layouts\/project-old.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_layouts\/project-old.html",
+		"oF": 0
+		},
 	"\/_layouts\/project.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -1330,14 +1336,6 @@
 		"iS": 24751,
 		"oA": 0,
 		"oAP": "\/_uploads\/placeholder.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_uploads\/Screen Shot 2017-01-20 at 22.31.52.png": {
-		"ft": 32768,
-		"iS": 1412768,
-		"oA": 0,
-		"oAP": "\/_uploads\/Screen Shot 2017-01-20 at 22.31.52.png",
 		"oF": 0,
 		"opt": 0
 		},

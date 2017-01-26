@@ -9,12 +9,18 @@ image: "/uploads/connection-disconnection-thumb.jpg"
 vimeo: 197781897
 youtube: 
 images:
-- "/uploads/connection-disconnection-001.jpg"
-- "/uploads/connection-disconnection-002.jpg"
-- "/uploads/connection-disconnection-003.jpg"
-- "/uploads/connection-disconnection-004.jpg"
-- "/uploads/connection-disconnection-005.jpg"
-- "/uploads/connection-disconnection-006.jpg"
+- image: "/uploads/connection-disconnection-001.jpg"
+  caption:
+- image: "/uploads/connection-disconnection-002.jpg"
+  caption:
+- image: "/uploads/connection-disconnection-003.jpg"
+  caption:
+- image: "/uploads/connection-disconnection-004.jpg"
+  caption:
+- image: "/uploads/connection-disconnection-005.jpg"
+  caption:
+- image: "/uploads/connection-disconnection-006.jpg"
+  caption:
 is-front: true
 is-meta-shown: true
 is-info-shown: true

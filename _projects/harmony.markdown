@@ -8,11 +8,16 @@ image: "/uploads/harmony-thumb.jpg"
 vimeo: 
 youtube: 
 images:
-- "/uploads/harmony-001.jpg"
-- "/uploads/harmony-002.jpg"
-- "/uploads/harmony-003.jpg"
-- "/uploads/harmony-004.jpg"
-- "/uploads/harmony-005.jpg"
+- image: "/uploads/harmony-001.jpg"
+  caption:
+- image: "/uploads/harmony-002.jpg"
+  caption:
+- image: "/uploads/harmony-003.jpg"
+  caption:
+- image: "/uploads/harmony-004.jpg"
+  caption:
+- image: "/uploads/harmony-005.jpg"
+  caption:
 is-front: true
 is-meta-shown: true
 is-info-shown: true

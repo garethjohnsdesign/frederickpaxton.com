@@ -203,21 +203,23 @@ i, cite, em, var, address, dfn {
 }
 
 .project__images {
-  padding-top: 0rem;
+  padding-top: 3rem;
   padding-bottom: 3rem;
 }
 
-.project__images img {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+.project__image {
+  padding-bottom: 2rem;
   transition: $primary-transition;
   @include breakpoint(medium) {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-bottom: 4rem;
   }
   @include breakpoint(large) {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-bottom: 4rem;
+  }
+  p {
+  padding-top: 1rem;
+  color: $color--gray;
+  margin-bottom: 0rem;
   }
 }
 
