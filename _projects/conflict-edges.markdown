@@ -3,6 +3,7 @@ title: Conflict Edges
 date: 2010-01-01 17:03:00 Z
 categories:
 - stills
+position: 8
 image: "/uploads/conflict-edges-thumb.jpg"
 vimeo: 
 youtube: 
