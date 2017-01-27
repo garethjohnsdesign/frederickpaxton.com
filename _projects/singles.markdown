@@ -5,8 +5,6 @@ categories:
 - stills
 position: 3
 image: "/uploads/singles-thumb.jpg"
-vimeo: 
-youtube: 
 images:
 - image: "/uploads/singles-001.jpg"
   caption: 
@@ -50,11 +48,13 @@ images:
   caption: 
 - image: "/uploads/singles-021.jpg"
   caption: 
+- image: "/uploads/singles-test.jpg"
+  caption: Caption Test
 is-front: true
-is-date-shown: true
 is-meta-shown: false
 is-info-shown: true
 is-ongoing: true
+is-date-shown: true
 layout: project
 ---
 
