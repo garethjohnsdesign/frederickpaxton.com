@@ -1,12 +1,10 @@
 ---
 title: North Korea
-date: 2014-01-01 17:05:00 Z
+date: 2014-01-02 17:05:00 Z
 categories:
 - stills
 position: 5
 image: "/uploads/north-korea-thumb.jpg"
-vimeo: 
-youtube: 
 images:
 - image: "/uploads/north-korea-001.jpg"
   caption: 
@@ -47,10 +45,11 @@ images:
 - image: "/uploads/north-korea-019.jpg"
   caption: 
 is-front: true
-is-date-shown: true
 is-meta-shown: true
-is-info-shown: false
+is-info-shown: true
 is-ongoing: false
+is-date-shown: true
 layout: project
 ---
 
+[Link](https://5877d03cd816e24e0acad13a.preview.siteleaf.com)

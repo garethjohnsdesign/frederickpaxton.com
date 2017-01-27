@@ -4,10 +4,10 @@ position: 2
 categories:
 - stills
 images:
-- image: "/uploads/singles-001.jpg"
-  caption: Caption
 - image: "/uploads/singles-002.jpg"
   caption: 
+- image: "/uploads/singles-001.jpg"
+  caption: Caption
 - image: "/uploads/singles-003.jpg"
   caption: 
 - image: "/uploads/singles-004.jpg"
