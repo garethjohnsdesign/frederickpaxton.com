@@ -45,6 +45,12 @@
 		"oAP": "\/_includes\/analytics.html",
 		"oF": 0
 		},
+	"\/_includes\/excerpt.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_includes\/excerpt.html",
+		"oF": 0
+		},
 	"\/_includes\/footer.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -193,6 +199,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_projects\/ghosts-of-aleppo.markdown",
+		"oF": 0
+		},
+	"\/_projects\/harmony.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_projects\/harmony.markdown",
 		"oF": 0
 		},
 	"\/_projects\/iraq.markdown": {
@@ -1538,34 +1550,6 @@
 		"oAP": "\/assets\/css\/app-min.css",
 		"oF": 0,
 		"oS": 0
-		},
-	"\/assets\/fonts\/BasisGrotesque.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/BasisGrotesque.eot",
-		"oF": 0
-		},
-	"\/assets\/fonts\/BasisGrotesque.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/BasisGrotesque.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/assets\/fonts\/BasisGrotesque.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/BasisGrotesque.ttf",
-		"oF": 0
-		},
-	"\/assets\/fonts\/BasisGrotesque.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/BasisGrotesque.woff",
-		"oF": 0
 		},
 	"\/assets\/fonts\/GTSectra-Book.eot": {
 		"ft": 8192,
@@ -14529,6 +14513,24 @@
 		"oA": 2,
 		"oAP": "\/robots.txt",
 		"oF": 0
+		},
+	"\/stills.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/stills.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
 		}
 	},
 "hooks": [
