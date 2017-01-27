@@ -1507,6 +1507,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/_uploads\/singles-test.jpg": {
+		"ft": 16384,
+		"iS": 198976,
+		"oA": 0,
+		"oAP": "\/_uploads\/singles-test.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/_uploads\/singles-thumb.jpg": {
 		"ft": 16384,
 		"iS": 84688,
@@ -2973,6 +2981,42 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/foundation-sites\/.eslintrc",
 		"oF": 0
+		},
+	"\/bower_components\/foundation-sites\/.github\/ISSUE_TEMPLATE.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/bower_components\/foundation-sites\/.github\/ISSUE_TEMPLATE.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bower_components\/foundation-sites\/.github\/PULL_REQUEST_TEMPLATE.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/bower_components\/foundation-sites\/.github\/PULL_REQUEST_TEMPLATE.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
 		},
 	"\/bower_components\/foundation-sites\/.sass-lint.yml": {
 		"ft": 8192,
@@ -14068,6 +14112,253 @@
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/unipointer\/unipointer.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/wallop\/.bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/wallop\/.bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/wallop\/.editorconfig": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/wallop\/.editorconfig",
+		"oF": 0
+		},
+	"\/bower_components\/wallop\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/wallop\/.gitignore",
+		"oF": 0
+		},
+	"\/bower_components\/wallop\/.travis.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/wallop\/.travis.yml",
+		"oF": 0
+		},
+	"\/bower_components\/wallop\/.zuul.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/wallop\/.zuul.yml",
+		"oF": 0
+		},
+	"\/bower_components\/wallop\/CONTRIBUTING.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/bower_components\/wallop\/CONTRIBUTING.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bower_components\/wallop\/css\/wallop--fade.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/wallop\/css\/wallop--fade.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/wallop\/css\/wallop--fold.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/wallop\/css\/wallop--fold.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/wallop\/css\/wallop--rotate.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/wallop\/css\/wallop--rotate.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/wallop\/css\/wallop--scale.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/wallop\/css\/wallop--scale.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/wallop\/css\/wallop--slide.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/wallop\/css\/wallop--slide.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/wallop\/css\/wallop--vertical-slide.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/wallop\/css\/wallop--vertical-slide.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/wallop\/css\/wallop.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/wallop\/css\/wallop.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/wallop\/examples\/animations.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/wallop\/examples\/animations.html",
+		"oF": 0
+		},
+	"\/bower_components\/wallop\/examples\/css\/example.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/wallop\/examples\/css\/example.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/wallop\/examples\/imgs\/1.jpg": {
+		"ft": 16384,
+		"iS": 133001,
+		"oA": 2,
+		"oAP": "\/bower_components\/wallop\/examples\/imgs\/1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/bower_components\/wallop\/examples\/imgs\/2.jpg": {
+		"ft": 16384,
+		"iS": 85459,
+		"oA": 2,
+		"oAP": "\/bower_components\/wallop\/examples\/imgs\/2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/bower_components\/wallop\/examples\/imgs\/3.jpg": {
+		"ft": 16384,
+		"iS": 85318,
+		"oA": 2,
+		"oAP": "\/bower_components\/wallop\/examples\/imgs\/3.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/bower_components\/wallop\/examples\/imgs\/4.jpg": {
+		"ft": 16384,
+		"iS": 95940,
+		"oA": 2,
+		"oAP": "\/bower_components\/wallop\/examples\/imgs\/4.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/bower_components\/wallop\/examples\/imgs\/5.jpg": {
+		"ft": 16384,
+		"iS": 141091,
+		"oA": 2,
+		"oAP": "\/bower_components\/wallop\/examples\/imgs\/5.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/bower_components\/wallop\/examples\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/wallop\/examples\/index.html",
+		"oF": 0
+		},
+	"\/bower_components\/wallop\/examples\/multiple.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/wallop\/examples\/multiple.html",
+		"oF": 0
+		},
+	"\/bower_components\/wallop\/examples\/no-carousel.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/wallop\/examples\/no-carousel.html",
+		"oF": 0
+		},
+	"\/bower_components\/wallop\/js\/Wallop.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/wallop\/js\/Wallop.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/wallop\/js\/Wallop.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/wallop\/js\/Wallop.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/wallop\/package.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/wallop\/package.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/wallop\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/bower_components\/wallop\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bower_components\/wallop\/test.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/wallop\/test.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
