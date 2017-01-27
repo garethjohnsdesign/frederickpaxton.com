@@ -19,7 +19,7 @@ images:
 - image: "/uploads/harmony-005.jpg"
   caption: 
 is-front: true
-is-date-shown:
+is-date-shown: 
 is-meta-shown: true
 is-info-shown: true
 is-ongoing: false
