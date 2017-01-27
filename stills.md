@@ -47,7 +47,7 @@ images:
 - image: "/uploads/singles-021.jpg"
   caption: 
 is-info-shown: false
-is-ongoing: true
+is-ongoing: false
 layout: project
 ---
 
