@@ -51,6 +51,7 @@ images:
 - image: "/uploads/singles-021.jpg"
   caption: 
 is-front: true
+is-date-shown: true
 is-meta-shown: false
 is-info-shown: true
 is-ongoing: true

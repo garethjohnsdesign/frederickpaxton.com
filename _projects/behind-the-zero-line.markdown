@@ -32,6 +32,7 @@ images:
 - image: "/uploads/behind-the-zero-line-011.jpg"
   caption: 
 is-front: true
+is-date-shown: true
 is-meta-shown: true
 is-info-shown: true
 is-ongoing: false

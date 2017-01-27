@@ -59,6 +59,7 @@ images:
 - image: "/uploads/ghosts-of-aleppo-025.jpg"
   caption: Ghosts Test
 is-front: true
+is-date-shown: true
 is-meta-shown: true
 is-info-shown: false
 is-ongoing: false

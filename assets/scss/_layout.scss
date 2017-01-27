@@ -108,8 +108,13 @@ i, cite, em, var, address, dfn {
   opacity: 0.7;
 }
 
+.excerpt__text {
+  padding-top: 0.5rem;
+}
+
 .excerpt__text__title {
   color: $color--black;
+  padding-top: 1rem;
 }
 
 .excerpt__text__date {
@@ -126,6 +131,13 @@ i, cite, em, var, address, dfn {
 
 .info__contact {
   padding-bottom: 2rem;
+}
+
+// 8. Motion
+// -------
+
+.motion__excerpt {
+  padding-bottom: 3rem;
 }
 
 // 5. Index
@@ -214,7 +226,7 @@ i, cite, em, var, address, dfn {
   padding-bottom: 4rem;
   }
   @include breakpoint(large) {
-  padding-bottom: 4rem;
+  padding-bottom: 5rem;
   }
   p {
   padding-top: 1rem;

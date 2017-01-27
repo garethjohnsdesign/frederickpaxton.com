@@ -47,6 +47,7 @@ images:
 - image: "/uploads/north-korea-019.jpg"
   caption: 
 is-front: true
+is-date-shown: true
 is-meta-shown: true
 is-info-shown: false
 is-ongoing: false

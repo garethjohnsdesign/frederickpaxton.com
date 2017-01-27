@@ -341,7 +341,7 @@
 		},
 	"\/_uploads\/behind-the-zero-line-thumb.jpg": {
 		"ft": 16384,
-		"iS": 312223,
+		"iS": 158937,
 		"oA": 0,
 		"oAP": "\/_uploads\/behind-the-zero-line-thumb.jpg",
 		"oF": 0,
@@ -1317,7 +1317,7 @@
 		},
 	"\/_uploads\/north-korea-thumb.jpg": {
 		"ft": 16384,
-		"iS": 143811,
+		"iS": 140230,
 		"oA": 0,
 		"oAP": "\/_uploads\/north-korea-thumb.jpg",
 		"oF": 0,
@@ -1550,6 +1550,34 @@
 		"oAP": "\/assets\/css\/app-min.css",
 		"oF": 0,
 		"oS": 0
+		},
+	"\/assets\/fonts\/BasisGrotesque.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/BasisGrotesque.eot",
+		"oF": 0
+		},
+	"\/assets\/fonts\/BasisGrotesque.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/BasisGrotesque.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/fonts\/BasisGrotesque.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/BasisGrotesque.ttf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/BasisGrotesque.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/BasisGrotesque.woff",
+		"oF": 0
 		},
 	"\/assets\/fonts\/GTSectra-Book.eot": {
 		"ft": 8192,
@@ -14522,10 +14550,10 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 2,
-		"oAP": "\/stills.md",
-		"oF": 1,
-		"oFM": 9,
+		"oA": 0,
+		"oAP": "\/stills.html",
+		"oF": 0,
+		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,

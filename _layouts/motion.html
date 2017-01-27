@@ -2,16 +2,17 @@
 layout: default
 ---
 
+<section class="motion">
 <!-- Motion -->
-
-  {% assign sorted = (site.projects | sort: 'date') | reverse %}
-  {% for project in sorted %}
-    {% if project.categories contains 'motion' %}
-      <div class="row align-center">
-      <div class="small-12 medium-8 large-8 columns">
-        {% include excerpt.html %}
-      </div>
-      </div>
-    {% endif %}
-  {% endfor %}
+{% assign sorted = (site.projects | sort: 'date') | reverse %}
+{% for project in sorted %}
+  {% if project.categories contains 'motion' %}
+    <div class="row align-center">
+    <div class="small-12 medium-8 large-8 columns motion__excerpt">
+      {% include excerpt.html %}
+    </div>
+    </div>
+  {% endif %}
+{% endfor %}
 <!-- End Motion -->
+</section>
