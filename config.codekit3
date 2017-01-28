@@ -1665,6 +1665,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/assets\/icons\/symbol-defs.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/icons\/symbol-defs.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/assets\/img\/hero.jpg": {
 		"ft": 16384,
 		"iS": 248572,
@@ -2988,6 +2998,42 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/foundation-sites\/.eslintrc",
 		"oF": 0
+		},
+	"\/bower_components\/foundation-sites\/.github\/ISSUE_TEMPLATE.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/bower_components\/foundation-sites\/.github\/ISSUE_TEMPLATE.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bower_components\/foundation-sites\/.github\/PULL_REQUEST_TEMPLATE.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/bower_components\/foundation-sites\/.github\/PULL_REQUEST_TEMPLATE.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
 		},
 	"\/bower_components\/foundation-sites\/.sass-lint.yml": {
 		"ft": 8192,
@@ -13958,6 +14004,72 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/bower_components\/svgxuse\/.bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/svgxuse\/.bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/svgxuse\/bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/svgxuse\/bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/svgxuse\/license": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/svgxuse\/license",
+		"oF": 0
+		},
+	"\/bower_components\/svgxuse\/package.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/svgxuse\/package.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/svgxuse\/readme.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/bower_components\/svgxuse\/readme.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bower_components\/svgxuse\/svgxuse.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/svgxuse\/svgxuse.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/svgxuse\/svgxuse.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/svgxuse\/svgxuse.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/bower_components\/tap-listener\/.bower.json": {
 		"ft": 524288,
 		"oA": 2,
@@ -14284,7 +14396,7 @@
 	"\/bower_components\/wallop\/js\/Wallop.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/bower_components\/wallop\/js\/Wallop.js",
 		"oF": 0,
 		"sC": 1,
@@ -14825,14 +14937,20 @@
 			},
 		{
 			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "\/bower_components\/animsition\/dist\/js\/animsition.js",
+			"linkedFileAbbreviatedPath": "\/bower_components\/wallop\/js\/Wallop.js",
 			"position": 4,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "\/bower_components\/wow\/dist\/wow.js",
+			"linkedFileAbbreviatedPath": "\/bower_components\/animsition\/dist\/js\/animsition.js",
 			"position": 5,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 0,
+			"linkedFileAbbreviatedPath": "\/bower_components\/wow\/dist\/wow.js",
+			"position": 6,
 			"type": 0
 			}
 		]

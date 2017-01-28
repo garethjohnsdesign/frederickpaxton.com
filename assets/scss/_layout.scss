@@ -17,6 +17,10 @@ html, body {
     margin: 0;
     padding: 0;
 }
+
+button {
+  font-family: $body-font-family;
+}
   
 
 body {
@@ -140,7 +144,13 @@ i, cite, em, var, address, dfn {
 }
 
 .motion__excerpt {
+  padding-bottom: 1rem;
+  @include breakpoint(medium) {
   padding-bottom: 3rem;
+  }
+  @include breakpoint(large) {
+  padding-bottom: 3rem;
+  }
 }
 
 // 8. Archive
@@ -250,4 +260,37 @@ i, cite, em, var, address, dfn {
   padding-top: 3rem;
   padding-bottom: 3rem;
 	display: none;
+}
+
+.testing {
+  height: 100vh;
+}
+
+
+.testing {
+  height: calc(100vh - 120px);
+  @include breakpoint(small only) {
+  height: calc(100vh - 200px);
+  }
+  @include breakpoint(medium) {
+  }
+}
+
+.carousel__button {
+  @include button(false, $color--white, $color--white, $color--black, solid);
+//   padding: 0rem;
+  margin-bottom: 0rem;
+  &:hover {
+    @include button(false, $color--white, $color--white, $color--gray, solid);
+//   padding: 0rem;
+  margin-bottom: 0rem;
+  }
+}
+
+.Wallop-item img {
+  opacity: 1;
+  transition: $primary-transition;
+  &:hover {
+  opacity: 0.8;
+  }
 }

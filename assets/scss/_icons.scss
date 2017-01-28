@@ -17,6 +17,12 @@ Example showing how to change the color/size of the icons:
 }
 ======================================================================================== */
 
-.icon-logo {
+.icon-arrows {
+	font-size: 2rem; // works because "width" & "height" were set using em units
+}
+
+/*
+.icon-arrow-right {
 	font-size: 3rem; // works because "width" & "height" were set using em units
 }
+*/

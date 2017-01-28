@@ -22,7 +22,8 @@
     "imagesloaded": "^4.1.1",
     "masonry": "^4.1.1",
     "animsition": "^4.0.2",
-    "wallop": "^2.4.1"
+    "wallop": "^2.4.1",
+    "svgxuse": "^1.1.23"
   },
   "ignore": [
     "**/.*",

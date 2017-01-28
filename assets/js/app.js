@@ -7,7 +7,6 @@ arrowShape: 'M100,46.875H11.9688l17.4688-17.4688L25,25L0,50l25,25l4.4062-4.4062L
 });
 
 
-
 $(document).ready(function () {
  wow = new WOW(
       {
