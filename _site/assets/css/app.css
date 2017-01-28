@@ -8740,9 +8740,9 @@ i, cite, em, var, address, dfn {
 .carousel-cell img {
   max-width: 100%;
   max-height: 100%;
-  transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1);
   /* dim unselected */
   opacity: 0;
+  transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1);
   /*
   -webkit-transform: scale(0.85);
           transform: scale(0.85);
@@ -8761,6 +8761,8 @@ i, cite, em, var, address, dfn {
   -webkit-filter: none;
           filter: none;
 */ }
+  .carousel-cell.is-selected img:hover {
+    opacity: 0.9; }
 
 .project {
   padding-top: 0rem;
