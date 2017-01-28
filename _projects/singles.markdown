@@ -7,7 +7,7 @@ position: 3
 image: "/uploads/singles-thumb.jpg"
 images:
 - image: "/uploads/singles-001.jpg"
-  caption: 
+  caption:
 - image: "/uploads/singles-002.jpg"
   caption: 
 - image: "/uploads/singles-003.jpg"

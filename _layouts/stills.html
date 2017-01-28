@@ -1,19 +1,23 @@
 ---
-layout: project
+layout: default
 ---
 
-<!--
-<section class="clients__featured">
-  <div class="row expanded collapse small-up-1 medium-up-2 large-up-3">
-    {% assign sorted = (site.projects | sort: 'date') | reverse %}
-    {% for project in sorted %}
-      {% if project.categories contains 'stills' %}
-        <div class="columns">
-          {% include excerpt.html %}
-        </div>
+<section class="motion">
+<!-- Motion -->
+{% for project in site.projects %}
+  {% if project.title contains 'Singles' %}
+    {% for photo in project.images %}
+    <div class="row align-center">
+      <div class="small-12 medium-8 large-8 columns project__image">
+      <img src="{{ photo.image }}" class="wow fadeIn">
+      {% if photo.caption %}
+      <p>{{ photo.caption }}</p>
       {% endif %}
+      </div>
+    </div>
     {% endfor %}
-  </div>
+  {% endif %}
+{% endfor %}
+<!-- End Motion -->
 </section>
--->
-<!-- End Featured Clients -->
+
