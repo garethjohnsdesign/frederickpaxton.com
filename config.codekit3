@@ -153,12 +153,6 @@
 		"oAP": "\/_layouts\/post.html",
 		"oF": 0
 		},
-	"\/_layouts\/project-old.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_layouts\/project-old.html",
-		"oF": 0
-		},
 	"\/_layouts\/project.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -1912,6 +1906,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/assets\/scss\/_wallop.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/_wallop.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/assets\/scss\/app.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -2981,42 +2988,6 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/foundation-sites\/.eslintrc",
 		"oF": 0
-		},
-	"\/bower_components\/foundation-sites\/.github\/ISSUE_TEMPLATE.md": {
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"eLB": 0,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 2,
-		"oAP": "\/bower_components\/foundation-sites\/.github\/ISSUE_TEMPLATE.md",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
-	"\/bower_components\/foundation-sites\/.github\/PULL_REQUEST_TEMPLATE.md": {
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"eLB": 0,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 2,
-		"oAP": "\/bower_components\/foundation-sites\/.github\/PULL_REQUEST_TEMPLATE.md",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
 		},
 	"\/bower_components\/foundation-sites\/.sass-lint.yml": {
 		"ft": 8192,
@@ -14313,7 +14284,7 @@
 	"\/bower_components\/wallop\/js\/Wallop.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/bower_components\/wallop\/js\/Wallop.js",
 		"oF": 0,
 		"sC": 1,
@@ -14860,14 +14831,20 @@
 			},
 		{
 			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "\/bower_components\/animsition\/dist\/js\/animsition.js",
+			"linkedFileAbbreviatedPath": "\/bower_components\/wallop\/js\/Wallop.js",
 			"position": 5,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "\/bower_components\/wow\/dist\/wow.js",
+			"linkedFileAbbreviatedPath": "\/bower_components\/animsition\/dist\/js\/animsition.js",
 			"position": 6,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 0,
+			"linkedFileAbbreviatedPath": "\/bower_components\/wow\/dist\/wow.js",
+			"position": 7,
 			"type": 0
 			}
 		]
