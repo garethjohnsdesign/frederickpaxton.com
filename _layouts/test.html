@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<div class="carousel"> 
+    {% assign slide_documents = site.projects | where: "is-front", "true" %}
+    {% for slide in slide_documents %}
+    <div class="carousel-cell">
+<!--       <img src="{{slide.image}}" alt="{{slide.title}}"> -->
+      <a href="{{ slide.url }}"><img src="{{slide.image}}" alt="{{slide.title}}"></a>
+    </div>
+    {% endfor %}
+</div>
