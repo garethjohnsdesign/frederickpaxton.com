@@ -12,4 +12,3 @@ carousel:
 layout: index
 ---
 
-
