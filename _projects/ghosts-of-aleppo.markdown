@@ -6,59 +6,59 @@ categories:
 - motion
 position: 0
 image: "/uploads/ghosts-of-aleppo-thumb.jpg"
-vimeo:
+vimeo: 
 youtube: CiyyWiO-IKY
 images:
 - image: "/uploads/ghosts-of-aleppo-001.jpg"
   caption: 
 - image: "/uploads/ghosts-of-aleppo-002.jpg"
-  caption:
+  caption: 
 - image: "/uploads/ghosts-of-aleppo-003.jpg"
-  caption:
+  caption: 
 - image: "/uploads/ghosts-of-aleppo-004.jpg"
-  caption:
+  caption: 
 - image: "/uploads/ghosts-of-aleppo-005.jpg"
-  caption:
+  caption: 
 - image: "/uploads/ghosts-of-aleppo-006.jpg"
-  caption:
+  caption: 
 - image: "/uploads/ghosts-of-aleppo-007.jpg"
-  caption:
+  caption: 
 - image: "/uploads/ghosts-of-aleppo-008.jpg"
-  caption:
+  caption: 
 - image: "/uploads/ghosts-of-aleppo-009.jpg"
-  caption:
+  caption: 
 - image: "/uploads/ghosts-of-aleppo-010.jpg"
-  caption:
+  caption: 
 - image: "/uploads/ghosts-of-aleppo-011.jpg"
-  caption:
+  caption: 
 - image: "/uploads/ghosts-of-aleppo-012.jpg"
-  caption:
+  caption: 
 - image: "/uploads/ghosts-of-aleppo-013.jpg"
-  caption:
+  caption: 
 - image: "/uploads/ghosts-of-aleppo-014.jpg"
-  caption:
+  caption: 
 - image: "/uploads/ghosts-of-aleppo-015.jpg"
-  caption:
+  caption: 
 - image: "/uploads/ghosts-of-aleppo-016.jpg"
-  caption:
+  caption: 
 - image: "/uploads/ghosts-of-aleppo-017.jpg"
-  caption:
+  caption: 
 - image: "/uploads/ghosts-of-aleppo-018.jpg"
-  caption:
+  caption: 
 - image: "/uploads/ghosts-of-aleppo-019.jpg"
-  caption:
+  caption: 
 - image: "/uploads/ghosts-of-aleppo-020.jpg"
-  caption:
+  caption: 
 - image: "/uploads/ghosts-of-aleppo-021.jpg"
-  caption:
+  caption: 
 - image: "/uploads/ghosts-of-aleppo-022.jpg"
-  caption:
+  caption: 
 - image: "/uploads/ghosts-of-aleppo-023.jpg"
-  caption:
+  caption: 
 - image: "/uploads/ghosts-of-aleppo-024.jpg"
-  caption:
+  caption: 
 - image: "/uploads/ghosts-of-aleppo-025.jpg"
-  caption:
+  caption: 
 is-front: true
 is-date-shown: true
 is-meta-shown: true

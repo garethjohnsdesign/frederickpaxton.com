@@ -9,7 +9,7 @@ vimeo: 86699583
 youtube: 
 images:
 - image: 
-  caption:  
+  caption: 
 is-front: false
 is-date-shown: true
 is-meta-shown: true
