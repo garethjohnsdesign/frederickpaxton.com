@@ -4,7 +4,7 @@ position: 0
 image: "/assets/img/og-image.png"
 carousel:
 - image: "/uploads/singles-thumb.jpg"
-  link: 
+  project: Singles
 layout: index
 ---
 
