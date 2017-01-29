@@ -1,7 +1,7 @@
 ---
 title: Info
 position: 4
-number: "+7 965 189 6848"
+number: "+44 (0)7736 683278"
 location: Russia
 location-map: https://goo.gl/maps/XTbKy4goMiL2
 clients-text: Aesthetica, Address, Another, Africa, Buzzfeed, Clash, Dazed, Huck,
