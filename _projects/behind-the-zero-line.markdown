@@ -4,7 +4,7 @@ date: 2016-03-01 17:11:00 Z
 categories:
 - stills
 - motion
-position: 4
+position: 0
 image: "/uploads/behind-the-zero-line-thumb.jpg"
 vimeo: 197785201
 youtube: 

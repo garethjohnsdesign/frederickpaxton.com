@@ -4,7 +4,7 @@ date: 2014-08-01 17:04:00 Z
 categories:
 - stills
 - motion
-position: 0
+position: 1
 image: "/uploads/ghosts-of-aleppo-thumb.jpg"
 vimeo: 
 youtube: CiyyWiO-IKY

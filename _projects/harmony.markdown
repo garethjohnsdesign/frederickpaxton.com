@@ -3,7 +3,7 @@ title: Harmony
 date: 2016-12-01 17:12:00 Z
 categories:
 - motion
-position: 6
+position: 2
 image: "/uploads/harmony-thumb.jpg"
 vimeo: 
 youtube: 
