@@ -35,7 +35,15 @@ defaults:
 url: http://frederickpaxton.com
 description: Documentary & Fine Art / Filmmaker & Photographer
 permalink: pretty
-exclude: 
+exclude:
+- Gruntfile.js
+- Gemfile
+- Gemfile.lock
+- package.json
+- README*
+- node_modules
+- ".gitignore"
+- bower_components
 gems:
 - jekyll-seo-tag
 - jekyll-sitemap

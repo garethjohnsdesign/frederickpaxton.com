@@ -1,13 +1,5 @@
 $(document).foundation();
 
-$('.carousel').flickity({
-pageDots: false,
-imagesLoaded: true,
-autoPlay: 3000,
-pauseAutoPlayOnHover: false,
-arrowShape: 'M0.7,29.2L29.2,0.7c0.9-0.9,2.4-0.9,3.4,0c0.9,0.9,0.9,2.4,0,3.4L8.1,28.5h77.5c1.3,0,2.4,1.1,2.4,2.4c0,1.3-1.1,2.4-2.4,2.4H8.1l24.5,24.5c0.9,0.9,0.9,2.4,0,3.4c-0.5,0.5-1.1,0.7-1.7,0.7s-1.2-0.2-1.7-0.7L0.7,32.6C-0.2,31.7-0.2,30.2,0.7,29.2L0.7,29.2z'
-});
-
 
 $(document).ready(function () {
  wow = new WOW(
