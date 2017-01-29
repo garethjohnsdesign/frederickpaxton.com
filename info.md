@@ -11,6 +11,7 @@ press:
 - title: British Journal of Photography
   link: http://www.aestheticamagazine.com
 location: Russia
+number: "+44 (0)7736 683278"
 layout: info
 ---
 
