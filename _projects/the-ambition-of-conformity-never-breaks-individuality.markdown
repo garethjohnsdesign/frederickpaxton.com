@@ -3,7 +3,7 @@ title: The Ambition of Conformity Never Breaks Individuality
 date: 2013-12-01 17:03:00 Z
 categories:
 - motion
-position: 3
+position: 4
 image: "/uploads/art-basel-miami-thumb.jpg"
 vimeo: 68452140
 youtube: 
