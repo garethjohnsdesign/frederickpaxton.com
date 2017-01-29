@@ -4,7 +4,7 @@ date: 2013-01-01 17:12:00 Z
 categories:
 - stills
 - motion
-position: 9
+position: 8
 image: "/uploads/connection-disconnection-thumb.jpg"
 vimeo: 197781897
 youtube: 

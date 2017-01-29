@@ -3,7 +3,7 @@ title: Ukraine Kiev
 date: 2014-01-01 17:11:00 Z
 categories:
 - motion
-position: 7
+position: 2
 image: "/uploads/ukraine-kiev-thumb.jpg"
 vimeo: 86699583
 youtube: 

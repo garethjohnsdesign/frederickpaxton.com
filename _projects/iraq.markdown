@@ -4,7 +4,7 @@ date: 2014-01-01 17:04:00 Z
 categories:
 - stills
 - motion
-position: 10
+position: 9
 image: "/uploads/iraq-thumb.jpg"
 vimeo: 
 youtube: KbsesrAMjTw
