@@ -11,7 +11,6 @@ youtube:
 images:
 - image: 
   caption: 
-is-front: true
 is-date-shown: true
 is-meta-shown: true
 is-info-shown: true

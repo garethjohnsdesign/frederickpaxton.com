@@ -5,7 +5,7 @@ categories:
 - stills
 position: 3
 image: "/uploads/singles-thumb.jpg"
-vimeo: 197785201
+vimeo:
 youtube: 
 images:
 - image: "/uploads/singles-001.jpg"
@@ -51,8 +51,7 @@ images:
 - image: "/uploads/singles-021.jpg"
   caption: 
 - image: "/uploads/singles-test.jpg"
-  caption: Caption Test
-is-front: true
+  caption:
 is-meta-shown: false
 is-info-shown: true
 is-ongoing: true

@@ -10,7 +10,6 @@ youtube:
 images:
 - image: 
   caption: 
-is-front: false
 is-date-shown: true
 is-meta-shown: true
 is-info-shown: true

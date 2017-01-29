@@ -63,7 +63,6 @@ images:
   caption: 
 - image: "/uploads/iraq-027.jpg"
   caption: 
-is-front: false
 is-date-shown: true
 is-meta-shown: true
 is-info-shown: true
