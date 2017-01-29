@@ -6,15 +6,11 @@ categories:
 position: 0
 image: "/uploads/art-basel-miami-thumb.jpg"
 vimeo: 90980531
-youtube: 
-images:
-- image: 
-  caption: 
 is-front: false
-is-date-shown: true
 is-meta-shown: true
 is-info-shown: true
 is-ongoing: false
+is-date-shown: true
 layout: project
 ---
 
