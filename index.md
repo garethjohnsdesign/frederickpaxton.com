@@ -2,8 +2,8 @@
 title: Frederick Paxton
 position: 0
 image: "/assets/img/og-image.png"
-slider:
-- image: 
+carousel:
+- image: "/uploads/singles-thumb.jpg"
   link: 
 layout: index
 ---
