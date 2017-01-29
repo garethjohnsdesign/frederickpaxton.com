@@ -10,6 +10,7 @@ clients:
 press:
 - title: British Journal of Photography
   link: http://www.aestheticamagazine.com
+location: Russia
 layout: info
 ---
 
