@@ -26,7 +26,7 @@ defaults:
     youtube: 
     images:
     - image: 
-      caption:
+      caption: 
     is-meta-shown: 
     is-info-shown: 
     is-ongoing: 
