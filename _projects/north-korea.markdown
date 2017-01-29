@@ -5,6 +5,8 @@ categories:
 - stills
 position: 5
 image: "/uploads/north-korea-thumb.jpg"
+vimeo: 197785201
+youtube: 
 images:
 - image: "/uploads/north-korea-001.jpg"
   caption: 

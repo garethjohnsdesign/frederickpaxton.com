@@ -6,7 +6,7 @@ layout: default
     
   <div class="small-10 medium-8 columns align-self-middle">
     <div class="Wallop-list">
-      {% assign slide_documents = site.projects | where: "is-front", "true" %}
+      {% assign slide_documents = site.projects | where: "is-front", "true" | sort: 'position' %}
         {% for slide in slide_documents %}
         <div class="Wallop-item"><a href="{{ slide.url }}"><img src="{{slide.image}}" alt="{{slide.title}}"></a></div>
         {% endfor %}

@@ -54,9 +54,9 @@ kramdown:
   hard_wrap: false
 highlighter: rouge
 company: Frederick Paxton
-email: studio@frederickpaxton.com
+email: info@frederickpaxton.com
 google_site_verification: 
-analytics: 
+analytics: UA-91091305-1
 logo: "/assets/img/logo.svg"
 per_page: 12
 date_format: "%Y"

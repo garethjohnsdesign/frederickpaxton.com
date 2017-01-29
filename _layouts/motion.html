@@ -4,7 +4,7 @@ layout: default
 
 <section class="motion">
 <!-- Motion -->
-{% assign sorted = (site.projects | sort: 'date') | reverse %}
+{% assign sorted = (site.projects | sort: 'position') %}
 {% for project in sorted %}
   {% if project.categories contains 'motion' %}
     <div class="row align-center">

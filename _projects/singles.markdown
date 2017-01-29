@@ -5,6 +5,8 @@ categories:
 - stills
 position: 3
 image: "/uploads/singles-thumb.jpg"
+vimeo: 197785201
+youtube: 
 images:
 - image: "/uploads/singles-001.jpg"
   caption: 

@@ -7,7 +7,9 @@ position: 7
 image: "/uploads/ukraine-kiev-thumb.jpg"
 vimeo: 86699583
 youtube: 
-images: 
+images:
+- image: 
+  caption:  
 is-front: false
 is-date-shown: true
 is-meta-shown: true

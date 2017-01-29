@@ -153,6 +153,14 @@ i, cite, em, var, address, dfn {
   }
 }
 
+
+// 8. Stills
+// -------
+
+.stills {
+  padding-top: 1rem;
+}
+
 // 8. Archive
 // -------
 
@@ -281,17 +289,6 @@ i, cite, em, var, address, dfn {
   height: calc(100vh - 200px);
   }
   @include breakpoint(medium) {
-  }
-}
-
-.carousel__button {
-  @include button(false, $color--white, $color--white, $color--black, solid);
-//   padding: 0rem;
-  margin-bottom: 0rem;
-  &:hover {
-    @include button(false, $color--white, $color--white, $color--gray, solid);
-//   padding: 0rem;
-  margin-bottom: 0rem;
   }
 }
 
