@@ -37,6 +37,10 @@ img {
   height: auto;
 }
 
+.columns {
+  transition: $primary-transition;
+}
+
 ::selection {
   background: $color--black;
   color: $color--white;
@@ -292,7 +296,7 @@ i, cite, em, var, address, dfn {
   }
 }
 
-.Wallop-item img {
+.Wallop-item a img {
   opacity: 1;
   transition: $primary-transition;
   &:hover {

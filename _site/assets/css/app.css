@@ -8606,6 +8606,9 @@ img {
   max-width: 100%;
   height: auto; }
 
+.columns {
+  transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1); }
+
 ::selection {
   background: #2c2c2d;
   color: #ffffff; }
@@ -8815,8 +8818,8 @@ i, cite, em, var, address, dfn {
     .testing {
       height: calc(100vh - 200px); } }
 
-.Wallop-item img {
+.Wallop-item a img {
   opacity: 1;
   transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1); }
-  .Wallop-item img:hover {
+  .Wallop-item a img:hover {
     opacity: 0.8; }

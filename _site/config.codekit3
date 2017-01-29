@@ -6777,6 +6777,12 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/info.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/info.html",
+		"oF": 0
+		},
 	"\/info.md": {
 		"cS": 0,
 		"eF": 1,
