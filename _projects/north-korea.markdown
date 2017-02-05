@@ -36,16 +36,6 @@ images:
   caption: 
 - image: "/uploads/north-korea-014.jpg"
   caption: 
-- image: "/uploads/north-korea-015.jpg"
-  caption: 
-- image: "/uploads/north-korea-016.jpg"
-  caption: 
-- image: "/uploads/north-korea-017.jpg"
-  caption: 
-- image: "/uploads/north-korea-018.jpg"
-  caption: 
-- image: "/uploads/north-korea-019.jpg"
-  caption: 
 is-meta-shown: true
 is-info-shown: true
 is-ongoing: false

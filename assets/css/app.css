@@ -8606,9 +8606,6 @@ img {
   max-width: 100%;
   height: auto; }
 
-.columns {
-  transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1); }
-
 ::selection {
   background: #2c2c2d;
   color: #ffffff; }

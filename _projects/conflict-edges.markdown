@@ -72,6 +72,10 @@ images:
   caption: 
 - image: "/uploads/conflict-edges-032.jpg"
   caption: 
+- image: "/uploads/conflict-edges-033.jpg"
+  caption: 
+- image: "/uploads/conflict-edges-034.jpg"
+  caption: 
 is-date-shown: true
 is-meta-shown: true
 is-info-shown: true

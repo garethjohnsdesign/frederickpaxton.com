@@ -3,6 +3,7 @@ title: Harmony
 date: 2016-12-01 17:12:00 Z
 categories:
 - motion
+- stills
 position: 1
 image: "/uploads/harmony-thumb.jpg"
 vimeo: 
@@ -17,6 +18,10 @@ images:
 - image: "/uploads/harmony-004.jpg"
   caption: 
 - image: "/uploads/harmony-005.jpg"
+  caption: 
+- image: "/uploads/harmony-006.jpg"
+  caption: 
+- image: "/uploads/harmony-007.jpg"
   caption: 
 is-date-shown: 
 is-meta-shown: true

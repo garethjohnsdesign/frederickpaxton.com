@@ -39,26 +39,6 @@ images:
   caption: 
 - image: "/uploads/ghosts-of-aleppo-015.jpg"
   caption: 
-- image: "/uploads/ghosts-of-aleppo-016.jpg"
-  caption: 
-- image: "/uploads/ghosts-of-aleppo-017.jpg"
-  caption: 
-- image: "/uploads/ghosts-of-aleppo-018.jpg"
-  caption: 
-- image: "/uploads/ghosts-of-aleppo-019.jpg"
-  caption: 
-- image: "/uploads/ghosts-of-aleppo-020.jpg"
-  caption: 
-- image: "/uploads/ghosts-of-aleppo-021.jpg"
-  caption: 
-- image: "/uploads/ghosts-of-aleppo-022.jpg"
-  caption: 
-- image: "/uploads/ghosts-of-aleppo-023.jpg"
-  caption: 
-- image: "/uploads/ghosts-of-aleppo-024.jpg"
-  caption: 
-- image: "/uploads/ghosts-of-aleppo-025.jpg"
-  caption: 
 is-date-shown: true
 is-meta-shown: true
 is-info-shown: false

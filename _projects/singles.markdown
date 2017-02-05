@@ -46,14 +46,8 @@ images:
   caption: 
 - image: "/uploads/singles-019.jpg"
   caption: 
-- image: "/uploads/singles-020.jpg"
-  caption: 
-- image: "/uploads/singles-021.jpg"
-  caption: 
-- image: "/uploads/singles-test.jpg"
-  caption: 
 is-meta-shown: false
-is-info-shown: true
+is-info-shown: false
 is-ongoing: true
 is-date-shown: true
 layout: project

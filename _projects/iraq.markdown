@@ -29,40 +29,6 @@ images:
   caption: 
 - image: "/uploads/iraq-010.jpg"
   caption: 
-- image: "/uploads/iraq-011.jpg"
-  caption: 
-- image: "/uploads/iraq-012.jpg"
-  caption: 
-- image: "/uploads/iraq-013.jpg"
-  caption: 
-- image: "/uploads/iraq-014.jpg"
-  caption: 
-- image: "/uploads/iraq-015.jpg"
-  caption: 
-- image: "/uploads/iraq-016.jpg"
-  caption: 
-- image: "/uploads/iraq-017.jpg"
-  caption: 
-- image: "/uploads/iraq-018.jpg"
-  caption: 
-- image: "/uploads/iraq-019.jpg"
-  caption: 
-- image: "/uploads/iraq-020.jpg"
-  caption: 
-- image: "/uploads/iraq-021.jpg"
-  caption: 
-- image: "/uploads/iraq-022.jpg"
-  caption: 
-- image: "/uploads/iraq-023.jpg"
-  caption: 
-- image: "/uploads/iraq-024.jpg"
-  caption: 
-- image: "/uploads/iraq-025.jpg"
-  caption: 
-- image: "/uploads/iraq-026.jpg"
-  caption: 
-- image: "/uploads/iraq-027.jpg"
-  caption: 
 is-date-shown: true
 is-meta-shown: true
 is-info-shown: true
