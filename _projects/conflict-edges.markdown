@@ -5,8 +5,6 @@ categories:
 - stills
 position: 10
 image: "/uploads/conflict-edges-thumb.jpg"
-vimeo: 
-youtube: 
 images:
 - image: "/uploads/conflict-edges-001.jpg"
   caption: 
@@ -44,8 +42,6 @@ images:
   caption: 
 - image: "/uploads/conflict-edges-018.jpg"
   caption: 
-- image: "/uploads/conflict-edges-019.jpg"
-  caption: 
 - image: "/uploads/conflict-edges-020.jpg"
   caption: 
 - image: "/uploads/conflict-edges-021.jpg"
@@ -70,16 +66,16 @@ images:
   caption: 
 - image: "/uploads/conflict-edges-031.jpg"
   caption: 
-- image: "/uploads/conflict-edges-032.jpg"
-  caption: 
 - image: "/uploads/conflict-edges-033.jpg"
   caption: 
 - image: "/uploads/conflict-edges-034.jpg"
   caption: 
-is-date-shown: true
+- image: "/uploads/conflict-edges-032.jpg"
+  caption: 
 is-meta-shown: true
 is-info-shown: true
 is-ongoing: true
+is-date-shown: true
 layout: project
 ---
 
