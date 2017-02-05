@@ -18,7 +18,7 @@ images:
 - image: "/uploads/europes-edges-004.jpg"
   caption: 
 - image: "/uploads/europes-edges-005.jpg"
-  caption:  
+  caption: 
 is-date-shown: true
 is-meta-shown: true
 is-info-shown: true

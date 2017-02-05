@@ -24,7 +24,7 @@ images:
 - image: "/uploads/behind-the-zero-line-007.jpg"
   caption: 
 - image: "/uploads/behind-the-zero-line-008.jpg"
-  caption:  
+  caption: 
 is-date-shown: true
 is-meta-shown: true
 is-info-shown: true
