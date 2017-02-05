@@ -1,0 +1,28 @@
+<!-- Excerpt -->
+<div class="excerpt">
+
+    <!-- Excerpt Image -->
+    <div class="excerpt__image">
+    <a href="{{ project.url }}"><img src="{{project.image}}" alt="{{project.title}}"></a>
+    </div>
+    <!-- End Excerpt Image -->
+
+    <!-- Excerpt Text -->
+    <div class="excerpt__text">
+    <a href="{{ project.url }}" class="excerpt__text__title">{{ project.title }}</a><br>
+    
+    {% if project.is-date-shown %}
+    {% if project.is-ongoing %}
+    <a href="{{ project.url }}" class="excerpt__text__date">Ongoing</a>
+    {% else %}
+    <a href="{{ project.url }}" class="excerpt__text__date">{{ project.date | date: site.date_format }}</a>
+    {% endif %}
+    {% endif %}
+    
+    </div>
+    <!-- End Excerpt Text -->
+    
+</div>
+<!-- End Excerpt -->
+
+

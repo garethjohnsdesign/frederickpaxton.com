@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+<section class="info">
+<div class="row expanded">
+  
+<div class="small-12 medium-4 large-3 columns info__contact">
+  
+  <p>Studio —<br>30 Oval Road, Apt 45<br>London, NW1 7DE<br>
+  <a href="https://goo.gl/maps/UEniDV3BmfP2">Map</a></p>
+  
+  {% if page.location %}
+  <p>Location — <br>{{page.location}}
+  {% if page.location-map %}<br><a href="{{page.location-map}}">Map</a>{% endif %}
+  </p>
+  {% endif %}
+  
+  <p><a href="tel:{{page.number}}">{{page.number}}</a><br>
+  <a href="mailto:info@frederickpaxton.com">info@frederickpaxton.com</a></p>
+  
+  <p><a href="{{site.social.instagram}}">Instagram</a><br>
+  <a href="{{site.social.twitter}}">Twitter</a><br></p>
+  
+  <a href="http://garethjohnsdesign.com" target="_blank">Colophon</a>
+</div>
+
+<div class="small-12 medium-7 large-5 columns">
+{{ content }}
+<!--
+<p>Clients<br>
+{% for client in page.clients %}
+<a href="{{ client.link }}" target="_blank">{{ client.title }}</a>{% if forloop.last == false %},{% endif %}
+{% endfor %}</p>
+
+<p>Press<br>
+{% for press in page.press %}
+<a href="{{ press.link }}" target="_blank">{{ press.title }}</a>{% if forloop.last == false %},{% endif %}
+{% endfor %}</p>
+-->
+</div>
+</div>
+</section>
+
+
+

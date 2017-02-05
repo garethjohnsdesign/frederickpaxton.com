@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<section class="stills">
+<!-- Motion -->
+{% for project in site.projects %}
+  {% if project.title contains 'Singles' %}
+    {% for photo in project.images %}
+    <div class="row align-center">
+      <div class="small-12 medium-8 large-8 columns project__image">
+      <img src="{{ photo.image }}" class="wow fadeIn">
+      {% if photo.caption %}
+      <p>{{ photo.caption }}</p>
+      {% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  {% endif %}
+{% endfor %}
+<!-- End Motion -->
+</section>
+

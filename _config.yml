@@ -1,0 +1,70 @@
+---
+title: Frederick Paxton
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  projects:
+    title: Projects
+    output: true
+  uploads:
+    title: Uploads
+    output: false
+defaults:
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+- scope:
+    path: ''
+    type: projects
+  values:
+    image: 
+    vimeo: 
+    youtube: 
+    images:
+    - image: 
+      caption: 
+    is-meta-shown: 
+    is-info-shown: 
+    is-ongoing: 
+    layout: project
+url: http://frederickpaxton.com
+description: Documentary & Fine Art / Filmmaker & Photographer
+permalink: pretty
+exclude:
+- Gruntfile.js
+- Gemfile
+- Gemfile.lock
+- package.json
+- README*
+- node_modules
+- ".gitignore"
+- bower_components
+- config.codekit3
+- CHANGELOG.md
+- LICENSE.md
+gems:
+- jekyll-seo-tag
+- jekyll-sitemap
+- jekyll-feed
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+highlighter: rouge
+company: Frederick Paxton
+email: info@frederickpaxton.com
+google_site_verification: 8LXMMBFHsV1SUTn0soMiHvMR0iEq5hStWIvoCehuF0k
+analytics: UA-91091305-1
+logo: "/assets/img/logo.svg"
+per_page: 12
+date_format: "%Y"
+future: true
+social:
+  facebook: 
+  instagram: https://www.instagram.com/frederickpaxton/
+  twitter: https://twitter.com/freddiepaxton
+  linkedin: 

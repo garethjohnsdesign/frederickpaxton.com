@@ -1,0 +1,301 @@
+//  Table of Contents:
+//
+//   1. Global
+//   2. Typography
+//   3. 404
+//   4. Navigation
+//   5. Sections
+//   6. Excerpt
+//   7. Page
+//   8. Contact
+
+// 1. Global
+// ---------
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+  font-family: $body-font-family;
+}
+  
+
+body {
+  cursor: default;
+}
+
+svg {
+  max-width: 100%;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+::selection {
+  background: $color--black;
+  color: $color--white;
+}
+
+
+a { 
+  transition: $primary-transition;
+}
+
+.info a { 
+  transition: $primary-transition;
+  @include link-underline($color--white, $color--black, $color--black);
+}
+
+.info a:hover { 
+  @include link-underline($color--white, $color--gray, $color--black);
+}
+
+// 2. Typography
+// -------------
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+i, cite, em, var, address, dfn {
+  font-style: normal;
+}
+
+// 3. 404
+// ------
+
+.missing {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+    a {
+      color: $color--dark-gray;
+    }
+    a:hover {
+      color: $color--black;
+    }
+}
+
+// 4. Navigation
+// -------------
+
+
+.top-bar-right-mobile {
+  padding-right: 0.5rem;
+  z-index: 1004;
+}
+
+
+
+// 6. Excerpt
+// ----------
+
+.excerpt {
+  position:relative;
+  opacity:1;
+  padding-bottom: 2rem;
+  transition: $primary-transition;
+}
+
+.excerpt__image {
+  margin-bottom: 0.5rem;
+  transition: $primary-transition;
+}
+
+.excerpt__image:hover {
+  opacity: 0.7;
+}
+
+.excerpt__text {
+  padding-top: 0.5rem;
+}
+
+.excerpt__text__title {
+  color: $color--black;
+  padding-top: 1rem;
+}
+
+.excerpt__text__date {
+  color: $color--gray;
+}
+
+// 8. Info
+// -------
+
+.info {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.info__contact {
+  padding-bottom: 2rem;
+}
+
+// 8. Motion
+// -------
+
+.motion {
+  padding-top: 1rem;
+}
+
+.motion__excerpt {
+  padding-bottom: 1rem;
+  @include breakpoint(medium) {
+  padding-bottom: 3rem;
+  }
+  @include breakpoint(large) {
+  padding-bottom: 3rem;
+  }
+}
+
+
+// 8. Stills
+// -------
+
+.stills {
+  padding-top: 1rem;
+}
+
+// 8. Archive
+// -------
+
+.archive {
+  padding-top: 1rem;
+}
+
+
+// 5. Index
+// --------
+
+.carousel-cell {
+  width: 60%;
+  height: calc(100vh - 120px);
+  /* flex-box, center image in cell */
+  display: -webkit-box;
+  display: -webkit-flex;
+  display:         flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+          align-items: center;
+  @include breakpoint(small only) {
+  height: calc(100vh - 200px);
+  width: 80%;
+  }
+  @include breakpoint(medium) {
+  width: 60%;
+  }
+}
+
+.carousel-cell img {
+//   display: block;
+  max-width: 100%;
+  max-height: 100%;
+  /* dim unselected */
+  opacity: 0;
+  transition: $primary-transition;
+/*
+  -webkit-transform: scale(0.85);
+          transform: scale(0.85);
+  -webkit-filter: blur(5px);
+          filter: blur(5px);
+  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s, transform 0.3s, -webkit-filter 0.3s, filter 0.3s;
+          transition: opacity 0.3s, transform 0.3s, filter 0.3s;
+*/
+}
+
+/* brighten selected image */
+.carousel-cell.is-selected img {
+  opacity: 1;
+/*
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-filter: none;
+          filter: none;
+*/
+ &:hover {
+  opacity: 0.9;
+  }
+}
+
+// Project
+.project {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+}
+
+.project__video {
+ padding-top: 1rem;
+}
+
+
+.project__meta {
+
+}
+
+.project__meta__info {
+  a {
+  color: $color--gray;
+  }
+  
+  a:hover {
+  color: $color--black;
+  }
+}
+
+.project__meta__date {
+  color: $color--gray;
+}
+
+.project__images {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.project__image {
+  padding-bottom: 2rem;
+  transition: $primary-transition;
+  @include breakpoint(medium) {
+  padding-bottom: 4rem;
+  }
+  @include breakpoint(large) {
+  padding-bottom: 7rem;
+  }
+  p {
+  padding-top: 1rem;
+  color: $color--gray;
+  margin-bottom: 0rem;
+  }
+}
+
+.project__text {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+	display: none;
+}
+
+.testing {
+  height: 100vh;
+}
+
+
+.testing {
+  height: calc(100vh - 120px);
+  @include breakpoint(small only) {
+  height: calc(100vh - 200px);
+  }
+  @include breakpoint(medium) {
+  }
+}
+
+.Wallop-item a img {
+  opacity: 1;
+  transition: $primary-transition;
+  &:hover {
+  opacity: 0.8;
+  }
+}

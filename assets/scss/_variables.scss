@@ -1,0 +1,42 @@
+// Colors
+// ------
+
+// Highlight Colors
+$color--red: #e32117;
+
+// Neutral Colors
+$color--black: #2c2c2d;
+$color--darkest-gray: #333333;
+$color--darker-gray: #5A6575;
+$color--dark-gray: #666666;
+$color--gray: #9B9B9B;
+$color--light-gray: #d6d6d6;
+$color--lighter-gray: #f8f8f8;
+$color--lightest-gray: #EDEDEA;
+$color--white: #ffffff;
+
+
+// Typography
+// ----------
+
+$line-height--tighter: 1;
+$line-height--tight: 1.16;
+$line-height--base: 1.6;
+
+$letter-spacing--tighter: -0.027em;
+$letter-spacing--tight: -0.018em;
+$letter-spacing--looser: 0.15em;
+$letter-spacing--loose: 0.018em;
+
+$header-bottom-margin--tighter: 0;
+$header-bottom-margin--tight: 0.2rem;
+$header-bottom-margin--base: 0.5rem;
+
+
+// Miscellaneous
+// -------------
+
+// Transitions
+// -------------
+
+$primary-transition: all .35s cubic-bezier(.39, .575, .565, 1);

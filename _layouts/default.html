@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr">
+
+<!-- Head -->
+{% include head.html %}
+<!-- End Head -->
+
+<body>
+
+<div class="animsition">
+  
+<!-- Navigation -->  
+{% include navigation.html %}
+<!-- End Navigation -->
+
+<!-- Menu -->  
+{% include overlay-menu.html %}
+<!-- End Menu --> 
+
+<!-- Content -->
+{{ content }}
+<!-- End Content -->
+
+</div>
+
+</body>
+
+<!-- Scripts -->
+{% include scripts.html %}
+<!-- End Scripts -->
+
+{% if page.url == "/" %}
+<script>
+    var wallopEl = document.querySelector('.Wallop');
+    var slider = new Wallop(wallopEl);
+    var autoPlayMs = 5000;
+    var nextTimeout;
+    var loadNext = function() {
+      var nextIndex = (slider.currentItemIndex + 1) % slider.allItemsArray.length;
+      slider.goTo(nextIndex);
+    }
+    nextTimeout = setTimeout(function() { loadNext(); }, autoPlayMs);
+    slider.on('change', function() {
+      clearTimeout(nextTimeout);
+      nextTimeout = setTimeout(function() { loadNext(); }, autoPlayMs);
+    });
+</script>
+{% endif %}
+
+</html>
