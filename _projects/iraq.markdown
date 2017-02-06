@@ -5,8 +5,7 @@ categories:
 - stills
 - motion
 position: 9
-image: "/uploads/iraq-thumb.jpg"
-vimeo: 
+image: "/uploads/singles-008.jpg"
 youtube: KbsesrAMjTw
 images:
 - image: "/uploads/iraq-001.jpg"
@@ -29,10 +28,10 @@ images:
   caption: 
 - image: "/uploads/iraq-010.jpg"
   caption: 
-is-date-shown: true
 is-meta-shown: true
 is-info-shown: true
 is-ongoing: false
+is-date-shown: true
 layout: project
 ---
 
