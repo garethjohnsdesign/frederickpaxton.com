@@ -27,6 +27,12 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/_config.yml": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/_config.yml",
+		"oF": 0
+		},
 	"\/_data\/navigation.yml": {
 		"ft": 8192,
 		"oA": 2,
@@ -157,6 +163,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_layouts\/stills.html",
+		"oF": 0
+		},
+	"\/_projects\/behind-the-zero-line.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_projects\/behind-the-zero-line.markdown",
 		"oF": 0
 		},
 	"\/_projects\/conflict-edges.markdown": {
