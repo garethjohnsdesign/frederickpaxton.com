@@ -1,8 +1,7 @@
 @charset 'utf-8';
 
 @import 'mixins';
-@import 'animate';
-@import 'animsition';
+// @import 'animate';
 @import 'variables';
 @import 'fonts';
 @import 'hamburgers';
@@ -56,8 +55,8 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
-@import 'carousel';
+// @import 'carousel';
 @import 'wallop';
-@import 'icons';
+// @import 'icons';
 @import 'menu';
 @import 'layout';

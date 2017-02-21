@@ -37,6 +37,12 @@ img {
   height: auto;
 }
 
+img {
+  opacity: 0;
+//   transition: opacity .3s ease-in;
+  transition: $primary-transition;
+} 
+
 ::selection {
   background: $color--black;
   color: $color--white;
@@ -278,12 +284,12 @@ i, cite, em, var, address, dfn {
 	display: none;
 }
 
-.testing {
+.index {
   height: 100vh;
 }
 
 
-.testing {
+.index {
   height: calc(100vh - 120px);
   @include breakpoint(small only) {
   height: calc(100vh - 200px);

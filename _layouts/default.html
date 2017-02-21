@@ -6,8 +6,6 @@
 <!-- End Head -->
 
 <body>
-
-<div class="animsition">
   
 <!-- Navigation -->  
 {% include navigation.html %}
@@ -21,13 +19,15 @@
 {{ content }}
 <!-- End Content -->
 
-</div>
-
 </body>
 
 <!-- Scripts -->
 {% include scripts.html %}
 <!-- End Scripts -->
+
+{% if site.analytics %}
+{% include analytics.html %}
+{% endif %}
 
 {% if page.url == "/" %}
 <script>
