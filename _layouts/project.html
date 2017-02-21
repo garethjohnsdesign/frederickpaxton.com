@@ -69,7 +69,7 @@ layout: default
 {% for photo in page.images %}
 <div class="row align-center">
 <div class="small-12 medium-8 large-8 columns project__image">
-  <img src="{{ photo.image }}" class="wow fadeIn">
+  <img src="/uploads/placeholder.png" data-src="{{ photo.image }}" /> 
   {% if photo.caption %}
   <p>{{ photo.caption }}</p>
   {% endif %}
