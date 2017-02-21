@@ -3,7 +3,7 @@
 <div class="top-bar row expanded align-middle">
   
   <div class="small-6 medium-4 large-3 columns">
-    <a href="/" class="animsition-link">{{ site.title }}</a>
+    <a href="/">{{ site.title }}</a>
   </div>
   
   <div class="small-6 columns show-for-medium">
@@ -17,15 +17,15 @@
       {% assign sublinks = entry.sublinks %}
       {% if sublinks %}
       <li{{ current }}>
-      <a href="{{ site.baseurl }}{{ entry.url }}" class="animsition-link">{{ entry.title }}</a>
+      <a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a>
       <ul class="menu vertical">
       {% for sublink in sublinks %}
-      <li><a href="{{ site.baseurl }}{{ sublink.url }}" class="animsition-link">{{ sublink.title }}</a></li>
+      <li><a href="{{ site.baseurl }}{{ sublink.url }}">{{ sublink.title }}</a></li>
       {% endfor %}
       </ul>
       </li>
       {% else %}
-      <li{{ current }}><a href="{{ site.baseurl }}{{ entry.url }}" class="animsition-link">{{ entry.title }}</a></li>
+      <li{{ current }}><a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a></li>
       {% endif %}
       {% endfor %}
     </ul>

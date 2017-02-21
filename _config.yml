@@ -46,6 +46,7 @@ exclude:
 - config.codekit3
 - CHANGELOG.md
 - LICENSE.md
+- bower.json
 gems:
 - jekyll-seo-tag
 - jekyll-sitemap
