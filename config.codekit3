@@ -7,7 +7,7 @@
 		"uuidString": "550FEDE5-7AFF-4FD3-8DBE-A45DE2D02921"
 		}
 	],
-"creatorBuild": "25504",
+"creatorBuild": "25568",
 "files": {
 	"\/404.md": {
 		"cS": 0,
@@ -253,7 +253,7 @@
 		},
 	"\/_uploads\/behind-the-zero-line-001.jpg": {
 		"ft": 16384,
-		"iS": 224308,
+		"iS": 131643,
 		"oA": 0,
 		"oAP": "\/_uploads\/behind-the-zero-line-001.jpg",
 		"oF": 0,
@@ -261,7 +261,7 @@
 		},
 	"\/_uploads\/behind-the-zero-line-002.jpg": {
 		"ft": 16384,
-		"iS": 222334,
+		"iS": 112120,
 		"oA": 0,
 		"oAP": "\/_uploads\/behind-the-zero-line-002.jpg",
 		"oF": 0,
@@ -269,7 +269,7 @@
 		},
 	"\/_uploads\/behind-the-zero-line-003.jpg": {
 		"ft": 16384,
-		"iS": 317544,
+		"iS": 185512,
 		"oA": 0,
 		"oAP": "\/_uploads\/behind-the-zero-line-003.jpg",
 		"oF": 0,
@@ -277,7 +277,7 @@
 		},
 	"\/_uploads\/behind-the-zero-line-004.jpg": {
 		"ft": 16384,
-		"iS": 207536,
+		"iS": 148192,
 		"oA": 0,
 		"oAP": "\/_uploads\/behind-the-zero-line-004.jpg",
 		"oF": 0,
@@ -285,7 +285,7 @@
 		},
 	"\/_uploads\/behind-the-zero-line-005.jpg": {
 		"ft": 16384,
-		"iS": 83933,
+		"iS": 104558,
 		"oA": 0,
 		"oAP": "\/_uploads\/behind-the-zero-line-005.jpg",
 		"oF": 0,
@@ -293,7 +293,7 @@
 		},
 	"\/_uploads\/behind-the-zero-line-006.jpg": {
 		"ft": 16384,
-		"iS": 282835,
+		"iS": 91392,
 		"oA": 0,
 		"oAP": "\/_uploads\/behind-the-zero-line-006.jpg",
 		"oF": 0,
@@ -301,7 +301,7 @@
 		},
 	"\/_uploads\/behind-the-zero-line-007.jpg": {
 		"ft": 16384,
-		"iS": 162693,
+		"iS": 55962,
 		"oA": 0,
 		"oAP": "\/_uploads\/behind-the-zero-line-007.jpg",
 		"oF": 0,
@@ -309,7 +309,7 @@
 		},
 	"\/_uploads\/behind-the-zero-line-008.jpg": {
 		"ft": 16384,
-		"iS": 232734,
+		"iS": 170953,
 		"oA": 0,
 		"oAP": "\/_uploads\/behind-the-zero-line-008.jpg",
 		"oF": 0,
@@ -317,7 +317,7 @@
 		},
 	"\/_uploads\/behind-the-zero-line-thumb.jpg": {
 		"ft": 16384,
-		"iS": 312223,
+		"iS": 158937,
 		"oA": 0,
 		"oAP": "\/_uploads\/behind-the-zero-line-thumb.jpg",
 		"oF": 0,
@@ -581,7 +581,7 @@
 		},
 	"\/_uploads\/conflict-edges-033.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 146623,
 		"oA": 0,
 		"oAP": "\/_uploads\/conflict-edges-033.jpg",
 		"oF": 0,
@@ -589,7 +589,7 @@
 		},
 	"\/_uploads\/conflict-edges-034.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 169444,
 		"oA": 0,
 		"oAP": "\/_uploads\/conflict-edges-034.jpg",
 		"oF": 0,
@@ -605,7 +605,7 @@
 		},
 	"\/_uploads\/connection-disconnection-001.jpg": {
 		"ft": 16384,
-		"iS": 157491,
+		"iS": 105319,
 		"oA": 0,
 		"oAP": "\/_uploads\/connection-disconnection-001.jpg",
 		"oF": 0,
@@ -613,7 +613,7 @@
 		},
 	"\/_uploads\/connection-disconnection-002.jpg": {
 		"ft": 16384,
-		"iS": 223318,
+		"iS": 126604,
 		"oA": 0,
 		"oAP": "\/_uploads\/connection-disconnection-002.jpg",
 		"oF": 0,
@@ -621,7 +621,7 @@
 		},
 	"\/_uploads\/connection-disconnection-003.jpg": {
 		"ft": 16384,
-		"iS": 147735,
+		"iS": 90775,
 		"oA": 0,
 		"oAP": "\/_uploads\/connection-disconnection-003.jpg",
 		"oF": 0,
@@ -629,7 +629,7 @@
 		},
 	"\/_uploads\/connection-disconnection-004.jpg": {
 		"ft": 16384,
-		"iS": 174925,
+		"iS": 107907,
 		"oA": 0,
 		"oAP": "\/_uploads\/connection-disconnection-004.jpg",
 		"oF": 0,
@@ -637,7 +637,7 @@
 		},
 	"\/_uploads\/connection-disconnection-005.jpg": {
 		"ft": 16384,
-		"iS": 149926,
+		"iS": 91143,
 		"oA": 0,
 		"oAP": "\/_uploads\/connection-disconnection-005.jpg",
 		"oF": 0,
@@ -645,7 +645,7 @@
 		},
 	"\/_uploads\/connection-disconnection-006.jpg": {
 		"ft": 16384,
-		"iS": 143480,
+		"iS": 89847,
 		"oA": 0,
 		"oAP": "\/_uploads\/connection-disconnection-006.jpg",
 		"oF": 0,
@@ -661,7 +661,7 @@
 		},
 	"\/_uploads\/euro-crisis-001.jpg": {
 		"ft": 16384,
-		"iS": 69326,
+		"iS": 33318,
 		"oA": 0,
 		"oAP": "\/_uploads\/euro-crisis-001.jpg",
 		"oF": 0,
@@ -669,7 +669,7 @@
 		},
 	"\/_uploads\/euro-crisis-002.jpg": {
 		"ft": 16384,
-		"iS": 84874,
+		"iS": 50800,
 		"oA": 0,
 		"oAP": "\/_uploads\/euro-crisis-002.jpg",
 		"oF": 0,
@@ -677,7 +677,7 @@
 		},
 	"\/_uploads\/euro-crisis-003.jpg": {
 		"ft": 16384,
-		"iS": 128783,
+		"iS": 98745,
 		"oA": 0,
 		"oAP": "\/_uploads\/euro-crisis-003.jpg",
 		"oF": 0,
@@ -685,7 +685,7 @@
 		},
 	"\/_uploads\/euro-crisis-004.jpg": {
 		"ft": 16384,
-		"iS": 119824,
+		"iS": 85990,
 		"oA": 0,
 		"oAP": "\/_uploads\/euro-crisis-004.jpg",
 		"oF": 0,
@@ -693,7 +693,7 @@
 		},
 	"\/_uploads\/euro-crisis-005.jpg": {
 		"ft": 16384,
-		"iS": 142319,
+		"iS": 110847,
 		"oA": 0,
 		"oAP": "\/_uploads\/euro-crisis-005.jpg",
 		"oF": 0,
@@ -701,7 +701,7 @@
 		},
 	"\/_uploads\/euro-crisis-006.jpg": {
 		"ft": 16384,
-		"iS": 158595,
+		"iS": 129669,
 		"oA": 0,
 		"oAP": "\/_uploads\/euro-crisis-006.jpg",
 		"oF": 0,
@@ -709,7 +709,7 @@
 		},
 	"\/_uploads\/euro-crisis-007.jpg": {
 		"ft": 16384,
-		"iS": 113170,
+		"iS": 80942,
 		"oA": 0,
 		"oAP": "\/_uploads\/euro-crisis-007.jpg",
 		"oF": 0,
@@ -717,7 +717,7 @@
 		},
 	"\/_uploads\/euro-crisis-008.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 104322,
 		"oA": 0,
 		"oAP": "\/_uploads\/euro-crisis-008.jpg",
 		"oF": 0,
@@ -725,7 +725,7 @@
 		},
 	"\/_uploads\/euro-crisis-009.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 121269,
 		"oA": 0,
 		"oAP": "\/_uploads\/euro-crisis-009.jpg",
 		"oF": 0,
@@ -733,7 +733,7 @@
 		},
 	"\/_uploads\/euro-crisis-010.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 132954,
 		"oA": 0,
 		"oAP": "\/_uploads\/euro-crisis-010.jpg",
 		"oF": 0,
@@ -741,7 +741,7 @@
 		},
 	"\/_uploads\/euro-crisis-011.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 76378,
 		"oA": 0,
 		"oAP": "\/_uploads\/euro-crisis-011.jpg",
 		"oF": 0,
@@ -749,7 +749,7 @@
 		},
 	"\/_uploads\/euro-crisis-012.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 98674,
 		"oA": 0,
 		"oAP": "\/_uploads\/euro-crisis-012.jpg",
 		"oF": 0,
@@ -757,7 +757,7 @@
 		},
 	"\/_uploads\/euro-crisis-013.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 71443,
 		"oA": 0,
 		"oAP": "\/_uploads\/euro-crisis-013.jpg",
 		"oF": 0,
@@ -769,11 +769,11 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/euro-crisis-thumb.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/_uploads\/europes-edges-001.jpg": {
 		"ft": 16384,
-		"iS": 114078,
+		"iS": 84876,
 		"oA": 0,
 		"oAP": "\/_uploads\/europes-edges-001.jpg",
 		"oF": 0,
@@ -781,7 +781,7 @@
 		},
 	"\/_uploads\/europes-edges-002.jpg": {
 		"ft": 16384,
-		"iS": 56773,
+		"iS": 26709,
 		"oA": 0,
 		"oAP": "\/_uploads\/europes-edges-002.jpg",
 		"oF": 0,
@@ -789,7 +789,7 @@
 		},
 	"\/_uploads\/europes-edges-003.jpg": {
 		"ft": 16384,
-		"iS": 144926,
+		"iS": 118371,
 		"oA": 0,
 		"oAP": "\/_uploads\/europes-edges-003.jpg",
 		"oF": 0,
@@ -797,7 +797,7 @@
 		},
 	"\/_uploads\/europes-edges-004.jpg": {
 		"ft": 16384,
-		"iS": 136388,
+		"iS": 102863,
 		"oA": 0,
 		"oAP": "\/_uploads\/europes-edges-004.jpg",
 		"oF": 0,
@@ -805,7 +805,7 @@
 		},
 	"\/_uploads\/europes-edges-005.jpg": {
 		"ft": 16384,
-		"iS": 154437,
+		"iS": 116238,
 		"oA": 0,
 		"oAP": "\/_uploads\/europes-edges-005.jpg",
 		"oF": 0,
@@ -821,7 +821,7 @@
 		},
 	"\/_uploads\/ghosts-of-aleppo-001.jpg": {
 		"ft": 16384,
-		"iS": 171808,
+		"iS": 188208,
 		"oA": 0,
 		"oAP": "\/_uploads\/ghosts-of-aleppo-001.jpg",
 		"oF": 0,
@@ -829,7 +829,7 @@
 		},
 	"\/_uploads\/ghosts-of-aleppo-002.jpg": {
 		"ft": 16384,
-		"iS": 210013,
+		"iS": 157090,
 		"oA": 0,
 		"oAP": "\/_uploads\/ghosts-of-aleppo-002.jpg",
 		"oF": 0,
@@ -837,7 +837,7 @@
 		},
 	"\/_uploads\/ghosts-of-aleppo-003.jpg": {
 		"ft": 16384,
-		"iS": 108468,
+		"iS": 197347,
 		"oA": 0,
 		"oAP": "\/_uploads\/ghosts-of-aleppo-003.jpg",
 		"oF": 0,
@@ -845,7 +845,7 @@
 		},
 	"\/_uploads\/ghosts-of-aleppo-004.jpg": {
 		"ft": 16384,
-		"iS": 201119,
+		"iS": 159730,
 		"oA": 0,
 		"oAP": "\/_uploads\/ghosts-of-aleppo-004.jpg",
 		"oF": 0,
@@ -853,7 +853,7 @@
 		},
 	"\/_uploads\/ghosts-of-aleppo-005.jpg": {
 		"ft": 16384,
-		"iS": 356141,
+		"iS": 148054,
 		"oA": 0,
 		"oAP": "\/_uploads\/ghosts-of-aleppo-005.jpg",
 		"oF": 0,
@@ -861,7 +861,7 @@
 		},
 	"\/_uploads\/ghosts-of-aleppo-006.jpg": {
 		"ft": 16384,
-		"iS": 272637,
+		"iS": 118039,
 		"oA": 0,
 		"oAP": "\/_uploads\/ghosts-of-aleppo-006.jpg",
 		"oF": 0,
@@ -869,7 +869,7 @@
 		},
 	"\/_uploads\/ghosts-of-aleppo-007.jpg": {
 		"ft": 16384,
-		"iS": 248844,
+		"iS": 108195,
 		"oA": 0,
 		"oAP": "\/_uploads\/ghosts-of-aleppo-007.jpg",
 		"oF": 0,
@@ -877,7 +877,7 @@
 		},
 	"\/_uploads\/ghosts-of-aleppo-008.jpg": {
 		"ft": 16384,
-		"iS": 239402,
+		"iS": 220512,
 		"oA": 0,
 		"oAP": "\/_uploads\/ghosts-of-aleppo-008.jpg",
 		"oF": 0,
@@ -885,7 +885,7 @@
 		},
 	"\/_uploads\/ghosts-of-aleppo-009.jpg": {
 		"ft": 16384,
-		"iS": 327035,
+		"iS": 88494,
 		"oA": 0,
 		"oAP": "\/_uploads\/ghosts-of-aleppo-009.jpg",
 		"oF": 0,
@@ -893,7 +893,7 @@
 		},
 	"\/_uploads\/ghosts-of-aleppo-010.jpg": {
 		"ft": 16384,
-		"iS": 278079,
+		"iS": 71373,
 		"oA": 0,
 		"oAP": "\/_uploads\/ghosts-of-aleppo-010.jpg",
 		"oF": 0,
@@ -901,7 +901,7 @@
 		},
 	"\/_uploads\/ghosts-of-aleppo-011.jpg": {
 		"ft": 16384,
-		"iS": 373657,
+		"iS": 172795,
 		"oA": 0,
 		"oAP": "\/_uploads\/ghosts-of-aleppo-011.jpg",
 		"oF": 0,
@@ -909,7 +909,7 @@
 		},
 	"\/_uploads\/ghosts-of-aleppo-012.jpg": {
 		"ft": 16384,
-		"iS": 230556,
+		"iS": 224520,
 		"oA": 0,
 		"oAP": "\/_uploads\/ghosts-of-aleppo-012.jpg",
 		"oF": 0,
@@ -917,7 +917,7 @@
 		},
 	"\/_uploads\/ghosts-of-aleppo-013.jpg": {
 		"ft": 16384,
-		"iS": 211605,
+		"iS": 122711,
 		"oA": 0,
 		"oAP": "\/_uploads\/ghosts-of-aleppo-013.jpg",
 		"oF": 0,
@@ -925,7 +925,7 @@
 		},
 	"\/_uploads\/ghosts-of-aleppo-014.jpg": {
 		"ft": 16384,
-		"iS": 134282,
+		"iS": 130688,
 		"oA": 0,
 		"oAP": "\/_uploads\/ghosts-of-aleppo-014.jpg",
 		"oF": 0,
@@ -933,7 +933,7 @@
 		},
 	"\/_uploads\/ghosts-of-aleppo-015.jpg": {
 		"ft": 16384,
-		"iS": 165936,
+		"iS": 217354,
 		"oA": 0,
 		"oAP": "\/_uploads\/ghosts-of-aleppo-015.jpg",
 		"oF": 0,
@@ -989,19 +989,19 @@
 		},
 	"\/_uploads\/harmony-006.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 101388,
 		"oA": 0,
 		"oAP": "\/_uploads\/harmony-006.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/_uploads\/harmony-007.jpg": {
 		"ft": 16384,
-		"iS": 216314,
+		"iS": 316140,
 		"oA": 0,
 		"oAP": "\/_uploads\/harmony-007.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/_uploads\/harmony-thumb.jpg": {
 		"ft": 16384,
@@ -1013,7 +1013,7 @@
 		},
 	"\/_uploads\/iraq-001.jpg": {
 		"ft": 16384,
-		"iS": 279614,
+		"iS": 92565,
 		"oA": 0,
 		"oAP": "\/_uploads\/iraq-001.jpg",
 		"oF": 0,
@@ -1021,7 +1021,7 @@
 		},
 	"\/_uploads\/iraq-002.jpg": {
 		"ft": 16384,
-		"iS": 221851,
+		"iS": 120120,
 		"oA": 0,
 		"oAP": "\/_uploads\/iraq-002.jpg",
 		"oF": 0,
@@ -1029,7 +1029,7 @@
 		},
 	"\/_uploads\/iraq-003.jpg": {
 		"ft": 16384,
-		"iS": 157718,
+		"iS": 214501,
 		"oA": 0,
 		"oAP": "\/_uploads\/iraq-003.jpg",
 		"oF": 0,
@@ -1037,7 +1037,7 @@
 		},
 	"\/_uploads\/iraq-004.jpg": {
 		"ft": 16384,
-		"iS": 202035,
+		"iS": 106747,
 		"oA": 0,
 		"oAP": "\/_uploads\/iraq-004.jpg",
 		"oF": 0,
@@ -1045,7 +1045,7 @@
 		},
 	"\/_uploads\/iraq-005.jpg": {
 		"ft": 16384,
-		"iS": 190263,
+		"iS": 148063,
 		"oA": 0,
 		"oAP": "\/_uploads\/iraq-005.jpg",
 		"oF": 0,
@@ -1053,7 +1053,7 @@
 		},
 	"\/_uploads\/iraq-006.jpg": {
 		"ft": 16384,
-		"iS": 213965,
+		"iS": 172738,
 		"oA": 0,
 		"oAP": "\/_uploads\/iraq-006.jpg",
 		"oF": 0,
@@ -1061,7 +1061,7 @@
 		},
 	"\/_uploads\/iraq-007.jpg": {
 		"ft": 16384,
-		"iS": 174469,
+		"iS": 125239,
 		"oA": 0,
 		"oAP": "\/_uploads\/iraq-007.jpg",
 		"oF": 0,
@@ -1069,7 +1069,7 @@
 		},
 	"\/_uploads\/iraq-008.jpg": {
 		"ft": 16384,
-		"iS": 295815,
+		"iS": 131622,
 		"oA": 0,
 		"oAP": "\/_uploads\/iraq-008.jpg",
 		"oF": 0,
@@ -1077,7 +1077,7 @@
 		},
 	"\/_uploads\/iraq-009.jpg": {
 		"ft": 16384,
-		"iS": 263922,
+		"iS": 89667,
 		"oA": 0,
 		"oAP": "\/_uploads\/iraq-009.jpg",
 		"oF": 0,
@@ -1085,7 +1085,7 @@
 		},
 	"\/_uploads\/iraq-010.jpg": {
 		"ft": 16384,
-		"iS": 252775,
+		"iS": 202415,
 		"oA": 0,
 		"oAP": "\/_uploads\/iraq-010.jpg",
 		"oF": 0,
@@ -1101,7 +1101,7 @@
 		},
 	"\/_uploads\/north-korea-001.jpg": {
 		"ft": 16384,
-		"iS": 159568,
+		"iS": 91506,
 		"oA": 0,
 		"oAP": "\/_uploads\/north-korea-001.jpg",
 		"oF": 0,
@@ -1109,7 +1109,7 @@
 		},
 	"\/_uploads\/north-korea-002.jpg": {
 		"ft": 16384,
-		"iS": 407075,
+		"iS": 229623,
 		"oA": 0,
 		"oAP": "\/_uploads\/north-korea-002.jpg",
 		"oF": 0,
@@ -1117,7 +1117,7 @@
 		},
 	"\/_uploads\/north-korea-003.jpg": {
 		"ft": 16384,
-		"iS": 202570,
+		"iS": 120715,
 		"oA": 0,
 		"oAP": "\/_uploads\/north-korea-003.jpg",
 		"oF": 0,
@@ -1125,7 +1125,7 @@
 		},
 	"\/_uploads\/north-korea-004.jpg": {
 		"ft": 16384,
-		"iS": 216635,
+		"iS": 126222,
 		"oA": 0,
 		"oAP": "\/_uploads\/north-korea-004.jpg",
 		"oF": 0,
@@ -1133,7 +1133,7 @@
 		},
 	"\/_uploads\/north-korea-005.jpg": {
 		"ft": 16384,
-		"iS": 168125,
+		"iS": 102434,
 		"oA": 0,
 		"oAP": "\/_uploads\/north-korea-005.jpg",
 		"oF": 0,
@@ -1141,7 +1141,7 @@
 		},
 	"\/_uploads\/north-korea-006.jpg": {
 		"ft": 16384,
-		"iS": 156283,
+		"iS": 257698,
 		"oA": 0,
 		"oAP": "\/_uploads\/north-korea-006.jpg",
 		"oF": 0,
@@ -1149,7 +1149,7 @@
 		},
 	"\/_uploads\/north-korea-007.jpg": {
 		"ft": 16384,
-		"iS": 222118,
+		"iS": 202967,
 		"oA": 0,
 		"oAP": "\/_uploads\/north-korea-007.jpg",
 		"oF": 0,
@@ -1157,7 +1157,7 @@
 		},
 	"\/_uploads\/north-korea-008.jpg": {
 		"ft": 16384,
-		"iS": 332950,
+		"iS": 102362,
 		"oA": 0,
 		"oAP": "\/_uploads\/north-korea-008.jpg",
 		"oF": 0,
@@ -1165,7 +1165,7 @@
 		},
 	"\/_uploads\/north-korea-009.jpg": {
 		"ft": 16384,
-		"iS": 252802,
+		"iS": 128574,
 		"oA": 0,
 		"oAP": "\/_uploads\/north-korea-009.jpg",
 		"oF": 0,
@@ -1173,7 +1173,7 @@
 		},
 	"\/_uploads\/north-korea-010.jpg": {
 		"ft": 16384,
-		"iS": 212883,
+		"iS": 132882,
 		"oA": 0,
 		"oAP": "\/_uploads\/north-korea-010.jpg",
 		"oF": 0,
@@ -1181,7 +1181,7 @@
 		},
 	"\/_uploads\/north-korea-011.jpg": {
 		"ft": 16384,
-		"iS": 123515,
+		"iS": 198333,
 		"oA": 0,
 		"oAP": "\/_uploads\/north-korea-011.jpg",
 		"oF": 0,
@@ -1189,7 +1189,7 @@
 		},
 	"\/_uploads\/north-korea-012.jpg": {
 		"ft": 16384,
-		"iS": 120694,
+		"iS": 159667,
 		"oA": 0,
 		"oAP": "\/_uploads\/north-korea-012.jpg",
 		"oF": 0,
@@ -1197,7 +1197,7 @@
 		},
 	"\/_uploads\/north-korea-013.jpg": {
 		"ft": 16384,
-		"iS": 219051,
+		"iS": 118841,
 		"oA": 0,
 		"oAP": "\/_uploads\/north-korea-013.jpg",
 		"oF": 0,
@@ -1205,7 +1205,7 @@
 		},
 	"\/_uploads\/north-korea-014.jpg": {
 		"ft": 16384,
-		"iS": 167975,
+		"iS": 82164,
 		"oA": 0,
 		"oAP": "\/_uploads\/north-korea-014.jpg",
 		"oF": 0,
@@ -1213,7 +1213,7 @@
 		},
 	"\/_uploads\/north-korea-thumb.jpg": {
 		"ft": 16384,
-		"iS": 143811,
+		"iS": 140230,
 		"oA": 0,
 		"oAP": "\/_uploads\/north-korea-thumb.jpg",
 		"oF": 0,
@@ -1221,7 +1221,7 @@
 		},
 	"\/_uploads\/placeholder.png": {
 		"ft": 32768,
-		"iS": 1870,
+		"iS": 24751,
 		"oA": 0,
 		"oAP": "\/_uploads\/placeholder.png",
 		"oF": 0,
@@ -1229,7 +1229,7 @@
 		},
 	"\/_uploads\/singles-001.jpg": {
 		"ft": 16384,
-		"iS": 153804,
+		"iS": 86125,
 		"oA": 0,
 		"oAP": "\/_uploads\/singles-001.jpg",
 		"oF": 0,
@@ -1237,7 +1237,7 @@
 		},
 	"\/_uploads\/singles-002.jpg": {
 		"ft": 16384,
-		"iS": 181571,
+		"iS": 88163,
 		"oA": 0,
 		"oAP": "\/_uploads\/singles-002.jpg",
 		"oF": 0,
@@ -1245,7 +1245,7 @@
 		},
 	"\/_uploads\/singles-003.jpg": {
 		"ft": 16384,
-		"iS": 120460,
+		"iS": 61028,
 		"oA": 0,
 		"oAP": "\/_uploads\/singles-003.jpg",
 		"oF": 0,
@@ -1253,7 +1253,7 @@
 		},
 	"\/_uploads\/singles-004.jpg": {
 		"ft": 16384,
-		"iS": 192078,
+		"iS": 120621,
 		"oA": 0,
 		"oAP": "\/_uploads\/singles-004.jpg",
 		"oF": 0,
@@ -1261,7 +1261,7 @@
 		},
 	"\/_uploads\/singles-005.jpg": {
 		"ft": 16384,
-		"iS": 216401,
+		"iS": 108416,
 		"oA": 0,
 		"oAP": "\/_uploads\/singles-005.jpg",
 		"oF": 0,
@@ -1269,7 +1269,7 @@
 		},
 	"\/_uploads\/singles-006.jpg": {
 		"ft": 16384,
-		"iS": 325858,
+		"iS": 192801,
 		"oA": 0,
 		"oAP": "\/_uploads\/singles-006.jpg",
 		"oF": 0,
@@ -1277,7 +1277,7 @@
 		},
 	"\/_uploads\/singles-007.jpg": {
 		"ft": 16384,
-		"iS": 396359,
+		"iS": 233854,
 		"oA": 0,
 		"oAP": "\/_uploads\/singles-007.jpg",
 		"oF": 0,
@@ -1285,7 +1285,7 @@
 		},
 	"\/_uploads\/singles-008.jpg": {
 		"ft": 16384,
-		"iS": 149263,
+		"iS": 88298,
 		"oA": 0,
 		"oAP": "\/_uploads\/singles-008.jpg",
 		"oF": 0,
@@ -1293,7 +1293,7 @@
 		},
 	"\/_uploads\/singles-009.jpg": {
 		"ft": 16384,
-		"iS": 308690,
+		"iS": 161134,
 		"oA": 0,
 		"oAP": "\/_uploads\/singles-009.jpg",
 		"oF": 0,
@@ -1301,7 +1301,7 @@
 		},
 	"\/_uploads\/singles-010.jpg": {
 		"ft": 16384,
-		"iS": 263376,
+		"iS": 148703,
 		"oA": 0,
 		"oAP": "\/_uploads\/singles-010.jpg",
 		"oF": 0,
@@ -1309,7 +1309,7 @@
 		},
 	"\/_uploads\/singles-011.jpg": {
 		"ft": 16384,
-		"iS": 269076,
+		"iS": 165405,
 		"oA": 0,
 		"oAP": "\/_uploads\/singles-011.jpg",
 		"oF": 0,
@@ -1317,7 +1317,7 @@
 		},
 	"\/_uploads\/singles-012.jpg": {
 		"ft": 16384,
-		"iS": 251255,
+		"iS": 137522,
 		"oA": 0,
 		"oAP": "\/_uploads\/singles-012.jpg",
 		"oF": 0,
@@ -1325,7 +1325,7 @@
 		},
 	"\/_uploads\/singles-013.jpg": {
 		"ft": 16384,
-		"iS": 334574,
+		"iS": 204510,
 		"oA": 0,
 		"oAP": "\/_uploads\/singles-013.jpg",
 		"oF": 0,
@@ -1333,7 +1333,7 @@
 		},
 	"\/_uploads\/singles-014.jpg": {
 		"ft": 16384,
-		"iS": 170309,
+		"iS": 91360,
 		"oA": 0,
 		"oAP": "\/_uploads\/singles-014.jpg",
 		"oF": 0,
@@ -1341,7 +1341,7 @@
 		},
 	"\/_uploads\/singles-015.jpg": {
 		"ft": 16384,
-		"iS": 173621,
+		"iS": 85106,
 		"oA": 0,
 		"oAP": "\/_uploads\/singles-015.jpg",
 		"oF": 0,
@@ -1349,7 +1349,7 @@
 		},
 	"\/_uploads\/singles-016.jpg": {
 		"ft": 16384,
-		"iS": 209629,
+		"iS": 158322,
 		"oA": 0,
 		"oAP": "\/_uploads\/singles-016.jpg",
 		"oF": 0,
@@ -1357,7 +1357,7 @@
 		},
 	"\/_uploads\/singles-017.jpg": {
 		"ft": 16384,
-		"iS": 223047,
+		"iS": 130790,
 		"oA": 0,
 		"oAP": "\/_uploads\/singles-017.jpg",
 		"oF": 0,
@@ -1365,7 +1365,7 @@
 		},
 	"\/_uploads\/singles-018.jpg": {
 		"ft": 16384,
-		"iS": 149712,
+		"iS": 128790,
 		"oA": 0,
 		"oAP": "\/_uploads\/singles-018.jpg",
 		"oF": 0,
@@ -1373,7 +1373,7 @@
 		},
 	"\/_uploads\/singles-019.jpg": {
 		"ft": 16384,
-		"iS": 235552,
+		"iS": 81311,
 		"oA": 0,
 		"oAP": "\/_uploads\/singles-019.jpg",
 		"oF": 0,
@@ -1777,7 +1777,7 @@
 		"uL": 1
 		},
 	"\/assets\/scss\/app.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -1786,7 +1786,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/css\/app.css",
 		"oF": 0,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/bower.json": {
@@ -4168,7 +4168,7 @@
 	"\/bower_components\/jquery-unveil\/jquery.unveil.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/bower_components\/jquery-unveil\/jquery.unveil.js",
 		"oF": 0,
 		"sC": 1,
@@ -6303,10 +6303,10 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 2,
-		"oAP": "\/info.md",
-		"oF": 1,
-		"oFM": 9,
+		"oA": 0,
+		"oAP": "\/info.html",
+		"oF": 0,
+		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
@@ -6426,12 +6426,6 @@
 			"followForSyntaxChecking": 0,
 			"linkedFileAbbreviatedPath": "\/bower_components\/wallop\/js\/Wallop.js",
 			"position": 3,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "\/bower_components\/jquery-unveil\/jquery.unveil.js",
-			"position": 4,
 			"type": 0
 			}
 		]
@@ -7312,6 +7306,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-multi-assign": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-multi-spaces": {
 			"active": 0,
 			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
@@ -7640,6 +7638,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"prefer-promise-reject-errors": {
+			"active": 0,
+			"optionString": "{'allowEmptyReject': false}"
+			},
 		"prefer-rest-params": {
 			"active": 0,
 			"optionString": ""
@@ -7733,6 +7735,10 @@
 			"optionString": ""
 			},
 		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"template-tag-spacing": {
 			"active": 0,
 			"optionString": "'never'"
 			},
