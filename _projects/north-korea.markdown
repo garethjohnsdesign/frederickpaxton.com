@@ -5,7 +5,7 @@ categories:
 - stills
 position: 3
 image: "/uploads/north-korea-thumb.jpg"
-vimeo:
+vimeo: 
 youtube: 
 images:
 - image: "/uploads/north-korea-001.jpg"
@@ -42,3 +42,4 @@ is-ongoing: false
 is-date-shown: true
 layout: project
 ---
+
