@@ -68,4 +68,9 @@ social:
   facebook: 
   instagram: https://www.instagram.com/frederickpaxton/
   twitter: https://twitter.com/freddiepaxton
-  linkedin: 
+compress_html:
+  comments:
+  - "<!-- "
+  - " -->"
+  blanklines: true
+  profile: false

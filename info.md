@@ -2,7 +2,7 @@
 title: Info
 position: 4
 number: "+44 (0)7736 683278"
-location: LONDON
+location: London
 location-map: 
 clients-text: Aesthetica, Address, Another, Africa, Buzzfeed, Clash, Dazed, Huck,
   Hunger, i-D, Its Nice That, Konbini, Riposte, The Guardian, The Independent, Twin,

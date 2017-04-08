@@ -7,7 +7,7 @@
 		"uuidString": "550FEDE5-7AFF-4FD3-8DBE-A45DE2D02921"
 		}
 	],
-"creatorBuild": "25568",
+"creatorBuild": "25813",
 "files": {
 	"\/404.md": {
 		"cS": 0,
@@ -109,6 +109,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_layouts\/archive.html",
+		"oF": 0
+		},
+	"\/_layouts\/compress.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_layouts\/compress.html",
 		"oF": 0
 		},
 	"\/_layouts\/default.html": {
@@ -249,79 +255,99 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/art-basel-miami-thumb.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/behind-the-zero-line-001.jpg": {
 		"ft": 16384,
-		"iS": 131643,
+		"iS": 224308,
 		"oA": 0,
 		"oAP": "\/_uploads\/behind-the-zero-line-001.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/behind-the-zero-line-002.jpg": {
 		"ft": 16384,
-		"iS": 112120,
+		"iS": 222334,
 		"oA": 0,
 		"oAP": "\/_uploads\/behind-the-zero-line-002.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/behind-the-zero-line-003.jpg": {
 		"ft": 16384,
-		"iS": 185512,
+		"iS": 317544,
 		"oA": 0,
 		"oAP": "\/_uploads\/behind-the-zero-line-003.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/behind-the-zero-line-004.jpg": {
 		"ft": 16384,
-		"iS": 148192,
+		"iS": 207536,
 		"oA": 0,
 		"oAP": "\/_uploads\/behind-the-zero-line-004.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/behind-the-zero-line-005.jpg": {
 		"ft": 16384,
-		"iS": 104558,
+		"iS": 83933,
 		"oA": 0,
 		"oAP": "\/_uploads\/behind-the-zero-line-005.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/behind-the-zero-line-006.jpg": {
 		"ft": 16384,
-		"iS": 91392,
+		"iS": 282835,
 		"oA": 0,
 		"oAP": "\/_uploads\/behind-the-zero-line-006.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/behind-the-zero-line-007.jpg": {
 		"ft": 16384,
-		"iS": 55962,
+		"iS": 162693,
 		"oA": 0,
 		"oAP": "\/_uploads\/behind-the-zero-line-007.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/behind-the-zero-line-008.jpg": {
 		"ft": 16384,
-		"iS": 170953,
+		"iS": 232734,
 		"oA": 0,
 		"oAP": "\/_uploads\/behind-the-zero-line-008.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/behind-the-zero-line-thumb.jpg": {
 		"ft": 16384,
-		"iS": 158937,
+		"iS": 312223,
 		"oA": 0,
 		"oAP": "\/_uploads\/behind-the-zero-line-thumb.jpg",
 		"oF": 0,
-		"opt": 1
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
 	"\/_uploads\/conflict-edges-001.jpg": {
 		"ft": 16384,
@@ -329,7 +355,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/conflict-edges-001.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/conflict-edges-002.jpg": {
 		"ft": 16384,
@@ -337,7 +365,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/conflict-edges-002.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/conflict-edges-003.jpg": {
 		"ft": 16384,
@@ -345,7 +375,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/conflict-edges-003.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/conflict-edges-004.jpg": {
 		"ft": 16384,
@@ -353,7 +385,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/conflict-edges-004.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/conflict-edges-005.jpg": {
 		"ft": 16384,
@@ -361,7 +395,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/conflict-edges-005.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/conflict-edges-006.jpg": {
 		"ft": 16384,
@@ -369,7 +405,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/conflict-edges-006.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/conflict-edges-007.jpg": {
 		"ft": 16384,
@@ -377,7 +415,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/conflict-edges-007.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/conflict-edges-008.jpg": {
 		"ft": 16384,
@@ -385,7 +425,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/conflict-edges-008.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/conflict-edges-009.jpg": {
 		"ft": 16384,
@@ -393,7 +435,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/conflict-edges-009.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/conflict-edges-010.jpg": {
 		"ft": 16384,
@@ -401,7 +445,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/conflict-edges-010.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/conflict-edges-011.jpg": {
 		"ft": 16384,
@@ -409,7 +455,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/conflict-edges-011.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/conflict-edges-012.jpg": {
 		"ft": 16384,
@@ -417,7 +465,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/conflict-edges-012.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/conflict-edges-013.jpg": {
 		"ft": 16384,
@@ -425,7 +475,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/conflict-edges-013.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/conflict-edges-014.jpg": {
 		"ft": 16384,
@@ -433,7 +485,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/conflict-edges-014.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/conflict-edges-015.jpg": {
 		"ft": 16384,
@@ -441,7 +495,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/conflict-edges-015.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/conflict-edges-016.jpg": {
 		"ft": 16384,
@@ -449,7 +505,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/conflict-edges-016.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/conflict-edges-017.jpg": {
 		"ft": 16384,
@@ -457,7 +515,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/conflict-edges-017.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/conflict-edges-018.jpg": {
 		"ft": 16384,
@@ -465,7 +525,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/conflict-edges-018.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/conflict-edges-019.jpg": {
 		"ft": 16384,
@@ -473,7 +535,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/conflict-edges-019.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/conflict-edges-020.jpg": {
 		"ft": 16384,
@@ -481,7 +545,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/conflict-edges-020.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/conflict-edges-021.jpg": {
 		"ft": 16384,
@@ -489,7 +555,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/conflict-edges-021.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/conflict-edges-022.jpg": {
 		"ft": 16384,
@@ -497,7 +565,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/conflict-edges-022.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/conflict-edges-023.jpg": {
 		"ft": 16384,
@@ -505,7 +575,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/conflict-edges-023.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/conflict-edges-024.jpg": {
 		"ft": 16384,
@@ -513,7 +585,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/conflict-edges-024.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/conflict-edges-025.jpg": {
 		"ft": 16384,
@@ -521,7 +595,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/conflict-edges-025.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/conflict-edges-026.jpg": {
 		"ft": 16384,
@@ -529,7 +605,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/conflict-edges-026.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/conflict-edges-027.jpg": {
 		"ft": 16384,
@@ -537,7 +615,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/conflict-edges-027.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/conflict-edges-028.jpg": {
 		"ft": 16384,
@@ -545,7 +625,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/conflict-edges-028.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/conflict-edges-029.jpg": {
 		"ft": 16384,
@@ -553,7 +635,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/conflict-edges-029.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/conflict-edges-030.jpg": {
 		"ft": 16384,
@@ -561,7 +645,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/conflict-edges-030.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/conflict-edges-031.jpg": {
 		"ft": 16384,
@@ -569,7 +655,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/conflict-edges-031.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/conflict-edges-032.jpg": {
 		"ft": 16384,
@@ -577,7 +665,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/conflict-edges-032.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/conflict-edges-033.jpg": {
 		"ft": 16384,
@@ -585,7 +675,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/conflict-edges-033.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/conflict-edges-034.jpg": {
 		"ft": 16384,
@@ -593,7 +685,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/conflict-edges-034.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/conflict-edges-thumb.jpg": {
 		"ft": 16384,
@@ -601,55 +695,69 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/conflict-edges-thumb.jpg",
 		"oF": 0,
-		"opt": 1
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
 	"\/_uploads\/connection-disconnection-001.jpg": {
 		"ft": 16384,
-		"iS": 105319,
+		"iS": 157491,
 		"oA": 0,
 		"oAP": "\/_uploads\/connection-disconnection-001.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/connection-disconnection-002.jpg": {
 		"ft": 16384,
-		"iS": 126604,
+		"iS": 223318,
 		"oA": 0,
 		"oAP": "\/_uploads\/connection-disconnection-002.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/connection-disconnection-003.jpg": {
 		"ft": 16384,
-		"iS": 90775,
+		"iS": 147735,
 		"oA": 0,
 		"oAP": "\/_uploads\/connection-disconnection-003.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/connection-disconnection-004.jpg": {
 		"ft": 16384,
-		"iS": 107907,
+		"iS": 174925,
 		"oA": 0,
 		"oAP": "\/_uploads\/connection-disconnection-004.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/connection-disconnection-005.jpg": {
 		"ft": 16384,
-		"iS": 91143,
+		"iS": 149926,
 		"oA": 0,
 		"oAP": "\/_uploads\/connection-disconnection-005.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/connection-disconnection-006.jpg": {
 		"ft": 16384,
-		"iS": 89847,
+		"iS": 143480,
 		"oA": 0,
 		"oAP": "\/_uploads\/connection-disconnection-006.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/connection-disconnection-thumb.jpg": {
 		"ft": 16384,
@@ -657,63 +765,79 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/connection-disconnection-thumb.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/euro-crisis-001.jpg": {
 		"ft": 16384,
-		"iS": 33318,
+		"iS": 69326,
 		"oA": 0,
 		"oAP": "\/_uploads\/euro-crisis-001.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/euro-crisis-002.jpg": {
 		"ft": 16384,
-		"iS": 50800,
+		"iS": 84874,
 		"oA": 0,
 		"oAP": "\/_uploads\/euro-crisis-002.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/euro-crisis-003.jpg": {
 		"ft": 16384,
-		"iS": 98745,
+		"iS": 128783,
 		"oA": 0,
 		"oAP": "\/_uploads\/euro-crisis-003.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/euro-crisis-004.jpg": {
 		"ft": 16384,
-		"iS": 85990,
+		"iS": 119824,
 		"oA": 0,
 		"oAP": "\/_uploads\/euro-crisis-004.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/euro-crisis-005.jpg": {
 		"ft": 16384,
-		"iS": 110847,
+		"iS": 142319,
 		"oA": 0,
 		"oAP": "\/_uploads\/euro-crisis-005.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/euro-crisis-006.jpg": {
 		"ft": 16384,
-		"iS": 129669,
+		"iS": 158595,
 		"oA": 0,
 		"oAP": "\/_uploads\/euro-crisis-006.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/euro-crisis-007.jpg": {
 		"ft": 16384,
-		"iS": 80942,
+		"iS": 113170,
 		"oA": 0,
 		"oAP": "\/_uploads\/euro-crisis-007.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/euro-crisis-008.jpg": {
 		"ft": 16384,
@@ -721,7 +845,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/euro-crisis-008.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/euro-crisis-009.jpg": {
 		"ft": 16384,
@@ -729,7 +855,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/euro-crisis-009.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/euro-crisis-010.jpg": {
 		"ft": 16384,
@@ -737,7 +865,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/euro-crisis-010.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/euro-crisis-011.jpg": {
 		"ft": 16384,
@@ -745,7 +875,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/euro-crisis-011.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/euro-crisis-012.jpg": {
 		"ft": 16384,
@@ -753,7 +885,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/euro-crisis-012.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/euro-crisis-013.jpg": {
 		"ft": 16384,
@@ -761,7 +895,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/euro-crisis-013.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/euro-crisis-thumb.jpg": {
 		"ft": 16384,
@@ -769,47 +905,59 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/euro-crisis-thumb.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/europes-edges-001.jpg": {
 		"ft": 16384,
-		"iS": 84876,
+		"iS": 114078,
 		"oA": 0,
 		"oAP": "\/_uploads\/europes-edges-001.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/europes-edges-002.jpg": {
 		"ft": 16384,
-		"iS": 26709,
+		"iS": 56773,
 		"oA": 0,
 		"oAP": "\/_uploads\/europes-edges-002.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/europes-edges-003.jpg": {
 		"ft": 16384,
-		"iS": 118371,
+		"iS": 144926,
 		"oA": 0,
 		"oAP": "\/_uploads\/europes-edges-003.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/europes-edges-004.jpg": {
 		"ft": 16384,
-		"iS": 102863,
+		"iS": 136388,
 		"oA": 0,
 		"oAP": "\/_uploads\/europes-edges-004.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/europes-edges-005.jpg": {
 		"ft": 16384,
-		"iS": 116238,
+		"iS": 154437,
 		"oA": 0,
 		"oAP": "\/_uploads\/europes-edges-005.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/europes-edges-ice-core-sampling.jpg": {
 		"ft": 16384,
@@ -817,127 +965,159 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/europes-edges-ice-core-sampling.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/ghosts-of-aleppo-001.jpg": {
 		"ft": 16384,
-		"iS": 188208,
+		"iS": 171808,
 		"oA": 0,
 		"oAP": "\/_uploads\/ghosts-of-aleppo-001.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/ghosts-of-aleppo-002.jpg": {
 		"ft": 16384,
-		"iS": 157090,
+		"iS": 210013,
 		"oA": 0,
 		"oAP": "\/_uploads\/ghosts-of-aleppo-002.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/ghosts-of-aleppo-003.jpg": {
 		"ft": 16384,
-		"iS": 197347,
+		"iS": 108468,
 		"oA": 0,
 		"oAP": "\/_uploads\/ghosts-of-aleppo-003.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/ghosts-of-aleppo-004.jpg": {
 		"ft": 16384,
-		"iS": 159730,
+		"iS": 201119,
 		"oA": 0,
 		"oAP": "\/_uploads\/ghosts-of-aleppo-004.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/ghosts-of-aleppo-005.jpg": {
 		"ft": 16384,
-		"iS": 148054,
+		"iS": 356141,
 		"oA": 0,
 		"oAP": "\/_uploads\/ghosts-of-aleppo-005.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/ghosts-of-aleppo-006.jpg": {
 		"ft": 16384,
-		"iS": 118039,
+		"iS": 272637,
 		"oA": 0,
 		"oAP": "\/_uploads\/ghosts-of-aleppo-006.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/ghosts-of-aleppo-007.jpg": {
 		"ft": 16384,
-		"iS": 108195,
+		"iS": 248844,
 		"oA": 0,
 		"oAP": "\/_uploads\/ghosts-of-aleppo-007.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/ghosts-of-aleppo-008.jpg": {
 		"ft": 16384,
-		"iS": 220512,
+		"iS": 239402,
 		"oA": 0,
 		"oAP": "\/_uploads\/ghosts-of-aleppo-008.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/ghosts-of-aleppo-009.jpg": {
 		"ft": 16384,
-		"iS": 88494,
+		"iS": 327035,
 		"oA": 0,
 		"oAP": "\/_uploads\/ghosts-of-aleppo-009.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/ghosts-of-aleppo-010.jpg": {
 		"ft": 16384,
-		"iS": 71373,
+		"iS": 278079,
 		"oA": 0,
 		"oAP": "\/_uploads\/ghosts-of-aleppo-010.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/ghosts-of-aleppo-011.jpg": {
 		"ft": 16384,
-		"iS": 172795,
+		"iS": 373657,
 		"oA": 0,
 		"oAP": "\/_uploads\/ghosts-of-aleppo-011.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/ghosts-of-aleppo-012.jpg": {
 		"ft": 16384,
-		"iS": 224520,
+		"iS": 230556,
 		"oA": 0,
 		"oAP": "\/_uploads\/ghosts-of-aleppo-012.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/ghosts-of-aleppo-013.jpg": {
 		"ft": 16384,
-		"iS": 122711,
+		"iS": 211605,
 		"oA": 0,
 		"oAP": "\/_uploads\/ghosts-of-aleppo-013.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/ghosts-of-aleppo-014.jpg": {
 		"ft": 16384,
-		"iS": 130688,
+		"iS": 134282,
 		"oA": 0,
 		"oAP": "\/_uploads\/ghosts-of-aleppo-014.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/ghosts-of-aleppo-015.jpg": {
 		"ft": 16384,
-		"iS": 217354,
+		"iS": 165936,
 		"oA": 0,
 		"oAP": "\/_uploads\/ghosts-of-aleppo-015.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/ghosts-of-aleppo-thumb.jpg": {
 		"ft": 16384,
@@ -945,7 +1125,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/ghosts-of-aleppo-thumb.jpg",
 		"oF": 0,
-		"opt": 1
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
 	"\/_uploads\/harmony-001.jpg": {
 		"ft": 16384,
@@ -953,7 +1135,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/harmony-001.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/harmony-002.jpg": {
 		"ft": 16384,
@@ -961,7 +1145,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/harmony-002.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/harmony-003.jpg": {
 		"ft": 16384,
@@ -969,7 +1155,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/harmony-003.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/harmony-004.jpg": {
 		"ft": 16384,
@@ -977,7 +1165,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/harmony-004.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/harmony-005.jpg": {
 		"ft": 16384,
@@ -985,7 +1175,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/harmony-005.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/harmony-006.jpg": {
 		"ft": 16384,
@@ -993,15 +1185,19 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/harmony-006.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/harmony-007.jpg": {
 		"ft": 16384,
-		"iS": 316140,
+		"iS": 216314,
 		"oA": 0,
 		"oAP": "\/_uploads\/harmony-007.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/harmony-thumb.jpg": {
 		"ft": 16384,
@@ -1009,87 +1205,109 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/harmony-thumb.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/iraq-001.jpg": {
 		"ft": 16384,
-		"iS": 92565,
+		"iS": 279614,
 		"oA": 0,
 		"oAP": "\/_uploads\/iraq-001.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/iraq-002.jpg": {
 		"ft": 16384,
-		"iS": 120120,
+		"iS": 221851,
 		"oA": 0,
 		"oAP": "\/_uploads\/iraq-002.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/iraq-003.jpg": {
 		"ft": 16384,
-		"iS": 214501,
+		"iS": 157718,
 		"oA": 0,
 		"oAP": "\/_uploads\/iraq-003.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/iraq-004.jpg": {
 		"ft": 16384,
-		"iS": 106747,
+		"iS": 202035,
 		"oA": 0,
 		"oAP": "\/_uploads\/iraq-004.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/iraq-005.jpg": {
 		"ft": 16384,
-		"iS": 148063,
+		"iS": 190263,
 		"oA": 0,
 		"oAP": "\/_uploads\/iraq-005.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/iraq-006.jpg": {
 		"ft": 16384,
-		"iS": 172738,
+		"iS": 213965,
 		"oA": 0,
 		"oAP": "\/_uploads\/iraq-006.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/iraq-007.jpg": {
 		"ft": 16384,
-		"iS": 125239,
+		"iS": 174469,
 		"oA": 0,
 		"oAP": "\/_uploads\/iraq-007.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/iraq-008.jpg": {
 		"ft": 16384,
-		"iS": 131622,
+		"iS": 295815,
 		"oA": 0,
 		"oAP": "\/_uploads\/iraq-008.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/iraq-009.jpg": {
 		"ft": 16384,
-		"iS": 89667,
+		"iS": 263922,
 		"oA": 0,
 		"oAP": "\/_uploads\/iraq-009.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/iraq-010.jpg": {
 		"ft": 16384,
-		"iS": 202415,
+		"iS": 252775,
 		"oA": 0,
 		"oAP": "\/_uploads\/iraq-010.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/iraq-thumb.jpg": {
 		"ft": 16384,
@@ -1097,287 +1315,360 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/iraq-thumb.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/north-korea-001.jpg": {
 		"ft": 16384,
-		"iS": 91506,
+		"iS": 159568,
 		"oA": 0,
 		"oAP": "\/_uploads\/north-korea-001.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/north-korea-002.jpg": {
 		"ft": 16384,
-		"iS": 229623,
+		"iS": 407075,
 		"oA": 0,
 		"oAP": "\/_uploads\/north-korea-002.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/north-korea-003.jpg": {
 		"ft": 16384,
-		"iS": 120715,
+		"iS": 202570,
 		"oA": 0,
 		"oAP": "\/_uploads\/north-korea-003.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/north-korea-004.jpg": {
 		"ft": 16384,
-		"iS": 126222,
+		"iS": 216635,
 		"oA": 0,
 		"oAP": "\/_uploads\/north-korea-004.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/north-korea-005.jpg": {
 		"ft": 16384,
-		"iS": 102434,
+		"iS": 168125,
 		"oA": 0,
 		"oAP": "\/_uploads\/north-korea-005.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/north-korea-006.jpg": {
 		"ft": 16384,
-		"iS": 257698,
+		"iS": 156283,
 		"oA": 0,
 		"oAP": "\/_uploads\/north-korea-006.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/north-korea-007.jpg": {
 		"ft": 16384,
-		"iS": 202967,
+		"iS": 222118,
 		"oA": 0,
 		"oAP": "\/_uploads\/north-korea-007.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/north-korea-008.jpg": {
 		"ft": 16384,
-		"iS": 102362,
+		"iS": 332950,
 		"oA": 0,
 		"oAP": "\/_uploads\/north-korea-008.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/north-korea-009.jpg": {
 		"ft": 16384,
-		"iS": 128574,
+		"iS": 252802,
 		"oA": 0,
 		"oAP": "\/_uploads\/north-korea-009.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/north-korea-010.jpg": {
 		"ft": 16384,
-		"iS": 132882,
+		"iS": 212883,
 		"oA": 0,
 		"oAP": "\/_uploads\/north-korea-010.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/north-korea-011.jpg": {
 		"ft": 16384,
-		"iS": 198333,
+		"iS": 123515,
 		"oA": 0,
 		"oAP": "\/_uploads\/north-korea-011.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/north-korea-012.jpg": {
 		"ft": 16384,
-		"iS": 159667,
+		"iS": 120694,
 		"oA": 0,
 		"oAP": "\/_uploads\/north-korea-012.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/north-korea-013.jpg": {
 		"ft": 16384,
-		"iS": 118841,
+		"iS": 219051,
 		"oA": 0,
 		"oAP": "\/_uploads\/north-korea-013.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/north-korea-014.jpg": {
 		"ft": 16384,
-		"iS": 82164,
+		"iS": 167975,
 		"oA": 0,
 		"oAP": "\/_uploads\/north-korea-014.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/north-korea-thumb.jpg": {
 		"ft": 16384,
-		"iS": 140230,
+		"iS": 143811,
 		"oA": 0,
 		"oAP": "\/_uploads\/north-korea-thumb.jpg",
 		"oF": 0,
-		"opt": 1
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
 	"\/_uploads\/placeholder.png": {
 		"ft": 32768,
-		"iS": 24751,
+		"iS": 1870,
 		"oA": 0,
 		"oAP": "\/_uploads\/placeholder.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_uploads\/singles-001.jpg": {
 		"ft": 16384,
-		"iS": 86125,
+		"iS": 153804,
 		"oA": 0,
 		"oAP": "\/_uploads\/singles-001.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/singles-002.jpg": {
 		"ft": 16384,
-		"iS": 88163,
+		"iS": 181571,
 		"oA": 0,
 		"oAP": "\/_uploads\/singles-002.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/singles-003.jpg": {
 		"ft": 16384,
-		"iS": 61028,
+		"iS": 120460,
 		"oA": 0,
 		"oAP": "\/_uploads\/singles-003.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/singles-004.jpg": {
 		"ft": 16384,
-		"iS": 120621,
+		"iS": 192078,
 		"oA": 0,
 		"oAP": "\/_uploads\/singles-004.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/singles-005.jpg": {
 		"ft": 16384,
-		"iS": 108416,
+		"iS": 216401,
 		"oA": 0,
 		"oAP": "\/_uploads\/singles-005.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/singles-006.jpg": {
 		"ft": 16384,
-		"iS": 192801,
+		"iS": 325858,
 		"oA": 0,
 		"oAP": "\/_uploads\/singles-006.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/singles-007.jpg": {
 		"ft": 16384,
-		"iS": 233854,
+		"iS": 396359,
 		"oA": 0,
 		"oAP": "\/_uploads\/singles-007.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/singles-008.jpg": {
 		"ft": 16384,
-		"iS": 88298,
+		"iS": 149263,
 		"oA": 0,
 		"oAP": "\/_uploads\/singles-008.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/singles-009.jpg": {
 		"ft": 16384,
-		"iS": 161134,
+		"iS": 308690,
 		"oA": 0,
 		"oAP": "\/_uploads\/singles-009.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/singles-010.jpg": {
 		"ft": 16384,
-		"iS": 148703,
+		"iS": 263376,
 		"oA": 0,
 		"oAP": "\/_uploads\/singles-010.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/singles-011.jpg": {
 		"ft": 16384,
-		"iS": 165405,
+		"iS": 269076,
 		"oA": 0,
 		"oAP": "\/_uploads\/singles-011.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/singles-012.jpg": {
 		"ft": 16384,
-		"iS": 137522,
+		"iS": 251255,
 		"oA": 0,
 		"oAP": "\/_uploads\/singles-012.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/singles-013.jpg": {
 		"ft": 16384,
-		"iS": 204510,
+		"iS": 334574,
 		"oA": 0,
 		"oAP": "\/_uploads\/singles-013.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/singles-014.jpg": {
 		"ft": 16384,
-		"iS": 91360,
+		"iS": 170309,
 		"oA": 0,
 		"oAP": "\/_uploads\/singles-014.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/singles-015.jpg": {
 		"ft": 16384,
-		"iS": 85106,
+		"iS": 173621,
 		"oA": 0,
 		"oAP": "\/_uploads\/singles-015.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/singles-016.jpg": {
 		"ft": 16384,
-		"iS": 158322,
+		"iS": 209629,
 		"oA": 0,
 		"oAP": "\/_uploads\/singles-016.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/singles-017.jpg": {
 		"ft": 16384,
-		"iS": 130790,
+		"iS": 223047,
 		"oA": 0,
 		"oAP": "\/_uploads\/singles-017.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/singles-018.jpg": {
 		"ft": 16384,
-		"iS": 128790,
+		"iS": 149712,
 		"oA": 0,
 		"oAP": "\/_uploads\/singles-018.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/singles-019.jpg": {
 		"ft": 16384,
-		"iS": 81311,
+		"iS": 235552,
 		"oA": 0,
 		"oAP": "\/_uploads\/singles-019.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/singles-test.jpg": {
 		"ft": 16384,
@@ -1385,7 +1676,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/singles-test.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/singles-thumb.jpg": {
 		"ft": 16384,
@@ -1393,7 +1686,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/singles-thumb.jpg",
 		"oF": 0,
-		"opt": 1
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
 	"\/_uploads\/ukraine-kiev-thumb.jpg": {
 		"ft": 16384,
@@ -1401,7 +1696,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/ukraine-kiev-thumb.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/archive.md": {
 		"cS": 0,
@@ -1437,7 +1734,10 @@
 		"oA": 0,
 		"oAP": "\/assets\/favicons\/android-chrome-192x192.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/favicons\/android-chrome-256x256.png": {
 		"ft": 32768,
@@ -1445,7 +1745,10 @@
 		"oA": 0,
 		"oAP": "\/assets\/favicons\/android-chrome-256x256.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/favicons\/apple-touch-icon.png": {
 		"ft": 32768,
@@ -1453,7 +1756,10 @@
 		"oA": 0,
 		"oAP": "\/assets\/favicons\/apple-touch-icon.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/favicons\/browserconfig.xml": {
 		"ft": 8192,
@@ -1467,7 +1773,10 @@
 		"oA": 0,
 		"oAP": "\/assets\/favicons\/favicon-16x16.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/favicons\/favicon-32x32.png": {
 		"ft": 32768,
@@ -1475,7 +1784,10 @@
 		"oA": 0,
 		"oAP": "\/assets\/favicons\/favicon-32x32.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/favicons\/favicon.ico": {
 		"ft": 8192,
@@ -1497,7 +1809,10 @@
 		"oA": 0,
 		"oAP": "\/assets\/favicons\/mstile-150x150.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/favicons\/safari-pinned-tab.svg": {
 		"ft": 2097152,
@@ -1569,7 +1884,10 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/og-image.png",
 		"oF": 0,
-		"opt": 1
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/js\/app.js": {
 		"ft": 64,
@@ -3980,7 +4298,9 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery-unveil\/img\/anti-bullying-tom-froese-wallpaper-1280x800.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/bower_components\/jquery-unveil\/img\/anti-bullying-tom-froese-wallpaper-800x500.jpg": {
 		"ft": 16384,
@@ -3988,7 +4308,9 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery-unveil\/img\/anti-bullying-tom-froese-wallpaper-800x500.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/bower_components\/jquery-unveil\/img\/brock-davis-wallpaper-1280x800.jpg": {
 		"ft": 16384,
@@ -3996,7 +4318,9 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery-unveil\/img\/brock-davis-wallpaper-1280x800.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/bower_components\/jquery-unveil\/img\/brock-davis-wallpaper-800x500.jpg": {
 		"ft": 16384,
@@ -4004,7 +4328,9 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery-unveil\/img\/brock-davis-wallpaper-800x500.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/bower_components\/jquery-unveil\/img\/dark-igloo-wallpaper-1-1280x800.jpg": {
 		"ft": 16384,
@@ -4012,7 +4338,9 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery-unveil\/img\/dark-igloo-wallpaper-1-1280x800.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/bower_components\/jquery-unveil\/img\/dark-igloo-wallpaper-1-800x500.jpg": {
 		"ft": 16384,
@@ -4020,7 +4348,9 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery-unveil\/img\/dark-igloo-wallpaper-1-800x500.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/bower_components\/jquery-unveil\/img\/dark-igloo-wallpaper-1280x800.jpg": {
 		"ft": 16384,
@@ -4028,7 +4358,9 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery-unveil\/img\/dark-igloo-wallpaper-1280x800.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/bower_components\/jquery-unveil\/img\/dark-igloo-wallpaper-800x500.jpg": {
 		"ft": 16384,
@@ -4036,7 +4368,9 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery-unveil\/img\/dark-igloo-wallpaper-800x500.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/bower_components\/jquery-unveil\/img\/haik-avanian-wallpaper-1280x800.jpg": {
 		"ft": 16384,
@@ -4044,7 +4378,9 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery-unveil\/img\/haik-avanian-wallpaper-1280x800.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/bower_components\/jquery-unveil\/img\/haik-avanian-wallpaper-800x500.jpg": {
 		"ft": 16384,
@@ -4052,7 +4388,9 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery-unveil\/img\/haik-avanian-wallpaper-800x500.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/bower_components\/jquery-unveil\/img\/iceland-smjor-wallpaper-1280x800.jpg": {
 		"ft": 16384,
@@ -4060,7 +4398,9 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery-unveil\/img\/iceland-smjor-wallpaper-1280x800.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/bower_components\/jquery-unveil\/img\/iceland-smojr-wallpaper-800x500.jpg": {
 		"ft": 16384,
@@ -4068,7 +4408,9 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery-unveil\/img\/iceland-smojr-wallpaper-800x500.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/bower_components\/jquery-unveil\/img\/james-olstein-wallpaper-1280x800.jpg": {
 		"ft": 16384,
@@ -4076,7 +4418,9 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery-unveil\/img\/james-olstein-wallpaper-1280x800.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/bower_components\/jquery-unveil\/img\/james-olstein-wallpaper-800x500.jpg": {
 		"ft": 16384,
@@ -4084,7 +4428,9 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery-unveil\/img\/james-olstein-wallpaper-800x500.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/bower_components\/jquery-unveil\/img\/johanna-basford-wallpaper-800x500.jpg": {
 		"ft": 16384,
@@ -4092,7 +4438,9 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery-unveil\/img\/johanna-basford-wallpaper-800x500.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/bower_components\/jquery-unveil\/img\/Jude_Landry_Wallpaper_1280x800.jpg": {
 		"ft": 16384,
@@ -4100,7 +4448,9 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery-unveil\/img\/Jude_Landry_Wallpaper_1280x800.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/bower_components\/jquery-unveil\/img\/Jude_Landry_Wallpaper_800x500.jpg": {
 		"ft": 16384,
@@ -4108,7 +4458,9 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery-unveil\/img\/Jude_Landry_Wallpaper_800x500.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/bower_components\/jquery-unveil\/img\/julieta-felix-wallpaper-1280x800.jpg": {
 		"ft": 16384,
@@ -4116,7 +4468,9 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery-unveil\/img\/julieta-felix-wallpaper-1280x800.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/bower_components\/jquery-unveil\/img\/julieta-felix-wallpaper-800x500.jpg": {
 		"ft": 16384,
@@ -4124,7 +4478,9 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery-unveil\/img\/julieta-felix-wallpaper-800x500.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/bower_components\/jquery-unveil\/img\/loader.gif": {
 		"ft": 4194304,
@@ -4140,7 +4496,9 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery-unveil\/img\/Timothy-J-Reynolds-wallpaper-1280x800.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/bower_components\/jquery-unveil\/img\/Timothy-J-Reynolds-wallpaper-800x500.jpg": {
 		"ft": 16384,
@@ -4148,7 +4506,9 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery-unveil\/img\/Timothy-J-Reynolds-wallpaper-800x500.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/bower_components\/jquery-unveil\/index.html": {
 		"ft": 8192,
@@ -6013,7 +6373,9 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/wallop\/examples\/imgs\/1.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/bower_components\/wallop\/examples\/imgs\/2.jpg": {
 		"ft": 16384,
@@ -6021,7 +6383,9 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/wallop\/examples\/imgs\/2.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/bower_components\/wallop\/examples\/imgs\/3.jpg": {
 		"ft": 16384,
@@ -6029,7 +6393,9 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/wallop\/examples\/imgs\/3.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/bower_components\/wallop\/examples\/imgs\/4.jpg": {
 		"ft": 16384,
@@ -6037,7 +6403,9 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/wallop\/examples\/imgs\/4.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/bower_components\/wallop\/examples\/imgs\/5.jpg": {
 		"ft": 16384,
@@ -6045,7 +6413,9 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/wallop\/examples\/imgs\/5.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/bower_components\/wallop\/examples\/index.html": {
 		"ft": 8192,
@@ -6303,10 +6673,10 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/info.html",
-		"oF": 0,
-		"oFM": 0,
+		"oA": 2,
+		"oAP": "\/info.md",
+		"oF": 1,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
@@ -7106,6 +7476,10 @@
 			"active": 1,
 			"optionString": ""
 			},
+		"no-compare-neg-zero": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-cond-assign": {
 			"active": 1,
 			"optionString": "'except-parens'"
@@ -7390,6 +7764,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-prototype-builtins": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-redeclare": {
 			"active": 1,
 			"optionString": "{'builtinGlobals': false}"
@@ -7585,6 +7963,10 @@
 		"no-with": {
 			"active": 0,
 			"optionString": ""
+			},
+		"nonblock-statement-body-position": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"object-curly-newline": {
 			"active": 0,
@@ -8185,7 +8567,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"quality": 100
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
@@ -8208,14 +8591,6 @@
 		"autoOutputPathStyle": 0,
 		"orderOutput": 0,
 		"outputStyle": 1
-		},
-	"languageDefaultsJSX": {
-		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "",
-		"autoOutputPathReplace1": "jsx",
-		"autoOutputPathReplace2": "js",
-		"autoOutputPathStyle": 0
 		},
 	"languageDefaultsKIT": {
 		"autoOutputAction": 0,
@@ -8278,7 +8653,9 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"optimizerType": 1,
+		"quality": 100
 		},
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,

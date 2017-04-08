@@ -37,10 +37,12 @@ img {
   height: auto;
 }
 
+/*
 img {
   opacity: 0;
   transition: $primary-transition;
 } 
+*/
 
 ::selection {
   background: $color--black;

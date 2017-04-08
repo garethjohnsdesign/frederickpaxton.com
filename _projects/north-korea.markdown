@@ -5,7 +5,7 @@ categories:
 - stills
 position: 3
 image: "/uploads/north-korea-thumb.jpg"
-vimeo: 197785201
+vimeo:
 youtube: 
 images:
 - image: "/uploads/north-korea-001.jpg"
@@ -37,10 +37,8 @@ images:
 - image: "/uploads/north-korea-014.jpg"
   caption: 
 is-meta-shown: true
-is-info-shown: true
+is-info-shown: false
 is-ongoing: false
 is-date-shown: true
 layout: project
 ---
-
-[Link](https://5877d03cd816e24e0acad13a.preview.siteleaf.com)
