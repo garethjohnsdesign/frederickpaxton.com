@@ -29,7 +29,7 @@ images:
 - image: "/uploads/iraq-010.jpg"
   caption: 
 is-meta-shown: true
-is-info-shown: true
+is-info-shown: false
 is-ongoing: false
 is-date-shown: true
 layout: project

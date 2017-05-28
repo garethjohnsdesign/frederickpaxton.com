@@ -24,12 +24,6 @@ images:
   caption: 
 - image: "/uploads/behind-the-zero-line-008.jpg"
   caption: 
-- image: "/uploads/behind-the-zero-line-009.jpg"
-  caption: 
-- image: "/uploads/behind-the-zero-line-010.jpg"
-  caption: 
-- image: "/uploads/behind-the-zero-line-011.jpg"
-  caption: 
 is-meta-shown: true
 is-info-shown: true
 is-ongoing: false

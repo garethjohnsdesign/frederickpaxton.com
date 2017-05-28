@@ -73,7 +73,7 @@ images:
 - image: "/uploads/conflict-edges-032.jpg"
   caption: 
 is-meta-shown: true
-is-info-shown: true
+is-info-shown: false
 is-ongoing: true
 is-date-shown: true
 layout: project

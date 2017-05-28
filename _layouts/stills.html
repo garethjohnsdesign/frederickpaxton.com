@@ -3,13 +3,12 @@ layout: default
 ---
 
 <section class="stills">
-<!-- Motion -->
 {% for project in site.projects %}
   {% if project.title contains 'Singles' %}
     {% for photo in project.images %}
     <div class="row align-center">
       <div class="small-12 medium-8 large-8 columns project__image">
-      <img src="/uploads/placeholder.png" data-src="{{ photo.image }}">
+      <img src="{{ photo.image }}">
       {% if photo.caption %}
       <p>{{ photo.caption }}</p>
       {% endif %}
@@ -18,6 +17,5 @@ layout: default
     {% endfor %}
   {% endif %}
 {% endfor %}
-<!-- End Motion -->
 </section>
 
