@@ -12,4 +12,4 @@ carousel:
 layout: index
 ---
 
-Test
+Test.
