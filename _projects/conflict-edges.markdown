@@ -1,5 +1,5 @@
 ---
-title: Conflict Edges
+title: The Future Lasts Forever
 date: 2010-01-01 17:03:00 Z
 categories:
 - stills
