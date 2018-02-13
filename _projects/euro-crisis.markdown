@@ -3,7 +3,7 @@ title: Euro Crisis
 date: 2010-01-01 17:03:00 Z
 categories:
 - stills
-position: 10
+position: 11
 image: "/uploads/euro-crisis-thumb.jpg"
 vimeo: 
 youtube: 

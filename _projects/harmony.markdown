@@ -4,7 +4,7 @@ date: 2017-12-01 17:12:00 Z
 categories:
 - motion
 - stills
-position: 1
+position: 0
 image: "/uploads/harmony-thumb.jpg"
 vimeo: 251079684
 images:
