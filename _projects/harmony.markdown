@@ -25,7 +25,7 @@ images:
 is-meta-shown: true
 is-info-shown: true
 is-ongoing: false
-is-date-shown: 
+is-date-shown: true
 layout: project
 ---
 
