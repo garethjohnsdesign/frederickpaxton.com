@@ -4,7 +4,7 @@ date: 2017-12-01 17:12:00 Z
 categories:
 - motion
 - stills
-position: 1
+position: 0
 image: "/uploads/harmony-thumb.jpg"
 vimeo: 251079684
 images:
@@ -34,3 +34,4 @@ The Harmony series explores social and gender dynamics of Russian youth through 
 The two respectively embody Russia’s nationalistic interpretation of hyper masculine and feminine ideals and are examined against the badly polluted and industrially brutal city of Chelyabinsk. Here, sport gathers broader meaning — reflecting the traits and obsessions of society as a whole.
 
 Both too hold a rare promise of prestige and opportunity whilst being the subject of a fierce national pride. Leotards, makeup and grace contrast with strength, power and brutal competition as young minds and bodies are moulded and life lessons learned in the pursuit of near-unattainable archetypes. 
+
