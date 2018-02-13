@@ -6,7 +6,8 @@ categories:
 - stills
 position: 1
 image: "/uploads/harmony-thumb.jpg"
-vimeo: https://vimeo.com/251079684
+vimeo: <iframe src="https://player.vimeo.com/video/251079684" width="640" height="360"
+  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 images:
 - image: "/uploads/harmony-001.jpg"
   caption: 
