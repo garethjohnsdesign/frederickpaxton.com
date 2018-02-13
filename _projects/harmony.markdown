@@ -6,8 +6,7 @@ categories:
 - stills
 position: 1
 image: "/uploads/harmony-thumb.jpg"
-vimeo: 
-youtube: 
+vimeo: https://player.vimeo.com/external/251079684.hd.mp4?s=7838f8796a621fadcc53b78dc594d278d00cd6f3&profile_id=175
 images:
 - image: "/uploads/harmony-001.jpg"
   caption: 
@@ -23,10 +22,10 @@ images:
   caption: 
 - image: "/uploads/harmony-007.jpg"
   caption: 
-is-date-shown: 
 is-meta-shown: true
 is-info-shown: true
 is-ongoing: false
+is-date-shown: 
 layout: project
 ---
 
