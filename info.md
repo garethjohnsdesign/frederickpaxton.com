@@ -16,6 +16,6 @@ press:
 layout: info
 ---
 
-Frederick Paxton is an Emmy-nominated filmmaker and photographer currently based in London. After graduating with honours from New York’s School of Visual Arts, he quickly established himself and captured a broad body of work. 
+Frederick Paxton is an Emmy-nominated filmmaker, photographer and artist currently based in London. After graduating with honours from New York’s School of Visual Arts, he quickly established himself and captured a broad body of work. 
 
 Whether in conflict zones like Iraq, Syria, Ukraine and the Central African Republic or North Korea, Russia and Europe’s periphery, there is a consistent arc of Paxton’s work: capturing the intersections and boundaries that help reveal so much about humanity. 
