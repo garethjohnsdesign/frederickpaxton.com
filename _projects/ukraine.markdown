@@ -1,19 +1,15 @@
 ---
-title: Ukraine Kiev
+title: KIEV 120
 date: 2014-01-01 17:11:00 Z
 categories:
 - motion
 position: 2
 image: "/uploads/ukraine-kiev-thumb.jpg"
 vimeo: 86699583
-youtube: 
-images:
-- image: 
-  caption: 
-is-date-shown: true
 is-meta-shown: true
 is-info-shown: true
 is-ongoing: false
+is-date-shown: true
 layout: project
 ---
 
