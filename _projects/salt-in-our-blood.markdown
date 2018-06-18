@@ -5,9 +5,8 @@ categories:
 - motion
 - stills
 position: 1
+image: "/uploads/Screen%20Shot%202018-06-18%20at%2010.56.09.png"
 youtube: 5Bm58bLWsB0
-images:
-- image: "/uploads/B0005492-1.jpg"
 is-meta-shown: true
 is-info-shown: true
 ---
