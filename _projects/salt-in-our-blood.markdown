@@ -3,7 +3,10 @@ title: Salt In Our Blood
 date: 2018-06-08 08:39:00 Z
 categories:
 - motion
+- stills
 youtube: 5Bm58bLWsB0
+images:
+- image: "/uploads/B0005492-1.jpg"
 is-meta-shown: true
 is-info-shown: true
 ---
