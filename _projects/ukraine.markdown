@@ -3,7 +3,7 @@ title: KIEV 120
 date: 2014-01-01 17:11:00 Z
 categories:
 - motion
-position: 2
+position: 3
 image: "/uploads/ukraine-kiev-thumb.jpg"
 vimeo: 86699583
 is-meta-shown: true

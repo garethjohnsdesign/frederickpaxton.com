@@ -4,7 +4,7 @@ date: 2013-05-01 17:09:00 Z
 categories:
 - stills
 - motion
-position: 7
+position: 8
 image: "/uploads/europes-edges-ice-core-sampling.jpg"
 vimeo: 68452140
 youtube: 
