@@ -3,7 +3,7 @@ title: The Future Lasts Forever
 date: 2010-01-01 17:03:00 Z
 categories:
 - stills
-position: 10
+position: 11
 image: "/uploads/conflict-edges-thumb.jpg"
 images:
 - image: "/uploads/conflict-edges-001.jpg"

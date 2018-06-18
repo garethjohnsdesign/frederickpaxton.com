@@ -3,7 +3,7 @@ title: Singles
 date: 2010-01-01 17:10:00 Z
 categories:
 - stills
-position: 8
+position: 9
 image: "/uploads/singles-thumb.jpg"
 vimeo: 
 youtube: 
