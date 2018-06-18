@@ -9,6 +9,7 @@ image: "/uploads/B0005492-1-4a227b.jpg"
 youtube: 5Bm58bLWsB0
 is-meta-shown: true
 is-info-shown: true
+is-date-shown: true
 ---
 
 NOWNESS
