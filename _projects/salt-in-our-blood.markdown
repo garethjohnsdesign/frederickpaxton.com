@@ -5,7 +5,7 @@ categories:
 - motion
 - stills
 position: 1
-image: "/uploads/B0005492-2.jpg"
+image: "/uploads/B0005492-4.jpg"
 youtube: 5Bm58bLWsB0
 is-meta-shown: true
 is-info-shown: true
