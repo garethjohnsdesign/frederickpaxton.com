@@ -7,6 +7,8 @@ carousel:
   project: Singles
 - image: "/uploads/Screen%20Shot%202018-06-20%20at%2009.11.55-2ec440.jpg"
   project: Salt In Our Blood
+- image: "/uploads/harmony-001-755da0.jpg"
+  project: Harmony
 - image: "/uploads/ghosts-of-aleppo-thumb.jpg"
   project: Ghosts of Aleppo
 - image: "/uploads/behind-the-zero-line-thumb.jpg"
