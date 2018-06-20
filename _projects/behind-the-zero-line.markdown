@@ -38,3 +38,5 @@ Thousands of civilians and combatants have been killed or wounded in more than t
 Filmmaker Frederick Paxton obtained unique access to Zaitsevo, a small, divided village trapped in the grey zone between the separatist (DNR) and Government front lines that in many ways represents a microcosm of the problems facing the country. 
 
 This studied war documentary shows the traumatic, repetitive, and physically gruelling reality of daily life for residents and soldiers trapped “behind the zero line”. It offers the viewer an alternative of the conflict, led not by statistics and numbers but the human and social impact of the physical, mental and social divides of war. 
+
+*Behind the Zero Line was nominated for the British documentary awards.*
