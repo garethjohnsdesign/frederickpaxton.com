@@ -1,12 +1,12 @@
 ---
 title: Ghosts of Aleppo
 date: 2014-08-01 17:04:00 Z
+published: false
 categories:
 - stills
 - motion
 position: 5
 image: "/uploads/ghosts-of-aleppo-thumb.jpg"
-vimeo: 
 youtube: CiyyWiO-IKY
 images:
 - image: "/uploads/ghosts-of-aleppo-001.jpg"
@@ -39,10 +39,10 @@ images:
   caption: 
 - image: "/uploads/ghosts-of-aleppo-015.jpg"
   caption: 
-is-date-shown: true
 is-meta-shown: true
 is-info-shown: false
 is-ongoing: false
+is-date-shown: true
 layout: project
 ---
 
