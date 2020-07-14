@@ -1,7 +1,6 @@
 ---
 title: Painted Lines
 date: 2020-07-07 12:34:00 Z
-published: true
 categories:
 - stills
 - motion
