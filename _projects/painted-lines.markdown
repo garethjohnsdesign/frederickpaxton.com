@@ -1,47 +1,59 @@
 ---
 title: Painted Lines
 date: 2020-07-07 12:34:00 Z
-published: false
+published: true
 categories:
 - stills
 - motion
-image: "/uploads/19FREDERICKPAXTON_BJP_KRG_1_P1010424-619787.jpg"
+image: "/uploads/painted-lines-19.jpg"
 vimeo: 434339211
 images:
-- image: "/uploads/01FREDERICKPAXTON_BJP_KRG_1_P1002895.jpg"
+- image: "/uploads/painted-lines-01.jpg"
   caption: 
-- image: "/uploads/02FREDERICKPAXTON_BJP_KRG_1_P1001191.jpg"
+- image: "/uploads/painted-lines-02.jpg"
   caption: 
-- image: "/uploads/03FREDERICKPAXTON_BJP_KRG_1_P1003319.jpg"
+- image: "/uploads/painted-lines-03.jpg"
   caption: 
-- image: "/uploads/04FREDERICKPAXTON_BJP_KRG_1_P1006657.jpg"
+- image: "/uploads/painted-lines-04.jpg"
   caption: 
-- image: "/uploads/05FREDERICKPAXTON_BJP_KRG_1_P1003529.jpg"
+- image: "/uploads/painted-lines-05.jpg"
   caption: 
-- image: "/uploads/06FREDERICKPAXTON_BJP_KRG_1_P1004375.jpg"
+- image: "/uploads/painted-lines-06.jpg"
   caption: 
-- image: "/uploads/07FREDERICKPAXTON_BJP_KRG_1_P1004636.jpg"
+- image: "/uploads/painted-lines-07.jpg"
   caption: 
-- image: "/uploads/08FREDERICKPAXTON_BJP_KRG_1_P1008832.jpg"
+- image: "/uploads/painted-lines-08.jpg"
   caption: 
-- image: "/uploads/09FREDERICKPAXTON_BJP_KRG_1_P1004820.jpg"
+- image: "/uploads/painted-lines-09.jpg"
   caption: 
-- image: "/uploads/10FREDERICKPAXTON_BJP_KRG_1_P1006719.jpg"
+- image: "/uploads/painted-lines-10.jpg"
   caption: 
-- image: "/uploads/11FREDERICKPAXTON_BJP_KRG_1_P1006855.jpg"
+- image: "/uploads/painted-lines-11.jpg"
   caption: 
-- image: "/uploads/12FREDERICKPAXTON_BJP_KRG_1_P1007738.jpg"
+- image: "/uploads/painted-lines-12.jpg"
   caption: 
-- image: "/uploads/12FREDERICKPAXTON_BJP_KRG_1_P1007738.jpg"
+- image: "/uploads/painted-lines-13.jpg"
+  caption: 
+- image: "/uploads/painted-lines-14.jpg"
+  caption: 
+- image: "/uploads/painted-lines-15.jpg"
+  caption: 
+- image: "/uploads/painted-lines-16.jpg"
+  caption: 
+- image: "/uploads/painted-lines-17.jpg"
+  caption: 
+- image: "/uploads/painted-lines-18.jpg"
+  caption: 
+- image: "/uploads/painted-lines-19.jpg"
+  caption: 
+- image: "/uploads/painted-lines-20.jpg"
+  caption: 
+- image: "/uploads/painted-lines-21.jpg"
   caption: 
 is-meta-shown: true
 is-info-shown: true
 is-ongoing: false
 ---
 
-
-
-
-
-[](https://www.bjp-online.com/2020/06/community-and-connection-in-sport-from-the-asian-champions-league-to-local-5asides-in-refugee-camps/)
-[](https://lumixstoriesforchange.com/stories/painted-lines/)
+[BJP](https://www.bjp-online.com/2020/06/community-and-connection-in-sport-from-the-asian-champions-league-to-local-5asides-in-refugee-camps/)
+[Lumix](https://lumixstoriesforchange.com/stories/painted-lines/)
