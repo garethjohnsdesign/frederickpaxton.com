@@ -5,7 +5,7 @@ categories:
 - motion
 - stills
 position: 1
-image: "/uploads/Screen%20Shot%202018-06-20%20at%2009.11.55.jpg"
+image: "/uploads/salt-in-our-blood.jpg"
 youtube: 5Bm58bLWsB0
 is-meta-shown: true
 is-info-shown: true
