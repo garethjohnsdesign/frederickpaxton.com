@@ -1,0 +1,36 @@
+<!-- Mobile Navigation -->
+<div class="grid-x grid-padding-y align-center navigation hide-for-large" id="swup-header" style="z-index: 14">
+  <div class="shrink cell">
+    <a class="" type="button" aria-label="Navigation" data-toggle="overlayNavigation">
+    {{ currentSite.name }}
+    </a>
+  </div>
+</div>
+<!-- End Mobile Navigation -->
+
+<!-- Desktop Navigation -->
+<div class="grid-x show-for-large align-justify align-middle navigation" id="swup-header" style="z-index: 14">
+
+  <div class="small-4 cell align-middle">
+    <ul class="menu">
+    {% set myCategoryQuery = craft.categories()
+    .group('typeOfProject') %}
+    
+    {# Fetch the categories #}
+    {% set categories = myCategoryQuery.all() %}
+    
+    {% nav category in categories %}
+    <li>
+    <a href="{{ category.url }}">{{ category.title }}</a>
+    </li>
+    {% endnav %}
+    <li><a href="/information" class="">Information</a></li>
+    </ul>
+
+  </div>
+
+  <div class="small-4 cell text-right">
+    <a href="/" class="">{{ currentSite.name }}</a>
+  </div>
+</div>
+<!-- End Desktop Navigation -->

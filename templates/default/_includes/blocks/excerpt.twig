@@ -1,0 +1,12 @@
+<a href="{{ project.url }}">
+  {% set image = project.image.one() %}
+  <div class="light-gray-background-color excerpt">
+  {% if image | length %}
+  <div class="image--16-9" data-interchange="{% if image | length %}{% include "_includes/images/full/16-9/interchange-img-small-12-medium-6" %}{% endif %}">
+  </div>
+  {% endif %}
+  </div>
+{#   <div class="text-center margin-top-1 lazy">{{ project.title }} <span class="dark-gray padding-left">{{ project.client }}</span></div> #}
+  <div class="margin-top-1">{{ project.title }}</div>
+{#   <div class="margin-top-0 lazy text-center dark-gray serif-italic small">{{ project.director}}</div> #}
+</a>

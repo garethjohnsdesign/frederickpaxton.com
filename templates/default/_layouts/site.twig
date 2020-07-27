@@ -1,0 +1,46 @@
+{% extends "default/_layouts/base" %}
+
+{% block body %}
+
+<div class="off-canvas position-right" id="offCanvas" data-off-canvas data-transition="overlap" data-auto-focus="false">
+  <div class="grid-y align-center" style="height: 100%">
+  	<div class="shrink cell">	
+  		<ul class="menu vertical align-center align-middle">
+  		  Test
+  		</ul>
+  	</div>
+  </div>
+</div>
+
+<div class="off-canvas-content viewport" data-off-canvas-content>
+  <!-- Navigation -->
+  <nav class="" id="swup-navigation">
+  {% block navigation %}
+  {% endblock %}
+  </nav>
+  <!-- End Navigation -->
+  
+  <!-- Content -->
+  <main class="grid-x align-center-middle swup-transition-fade" id="swup-body">
+  <div class="small-12 cell">	
+  {% block main %}
+  {% endblock %}
+  </div>
+  </main>
+  <!-- End Content -->
+  
+  <!-- Footer -->
+  <footer class="swup-transition-fade" id="swup-footer">
+  {% block footer %}
+  {% endblock %}
+  </footer>
+  <!-- End Footer-->
+</div>
+
+<!-- Navigation -->
+<div class="swup-transition-fade" id="swup-overlay">
+{% include "_includes/reveal/navigation" %}
+</div>
+<!-- End Navigation -->
+
+{% endblock %}
