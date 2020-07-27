@@ -1,5 +1,5 @@
 <!-- Mobile Navigation -->
-<div class="grid-x grid-padding-y align-center navigation hide-for-large" id="swup-header" style="z-index: 14">
+<div class="grid-x grid-padding-x grid-padding-y align-center hide-for-medium" id="swup-header" style="z-index: 14">
   <div class="shrink cell">
     <a class="" type="button" aria-label="Navigation" data-toggle="overlayNavigation">
     {{ currentSite.name }}
@@ -9,9 +9,9 @@
 <!-- End Mobile Navigation -->
 
 <!-- Desktop Navigation -->
-<div class="grid-x show-for-large align-justify align-middle navigation" id="swup-header" style="z-index: 14">
+<div class="grid-x grid-padding-x grid-padding-y padding-bottom-0 show-for-medium align-justify align-middle" id="swup-header" style="z-index: 14">
 
-  <div class="small-4 cell align-middle">
+  <div class="shrink cell align-middle padding-bottom-0">
     <ul class="menu">
     {% set myCategoryQuery = craft.categories()
     .group('typeOfProject') %}
@@ -29,7 +29,7 @@
 
   </div>
 
-  <div class="small-4 cell text-right">
+  <div class="auto cell text-right padding-bottom-0">
     <a href="/" class="">{{ currentSite.name }}</a>
   </div>
 </div>

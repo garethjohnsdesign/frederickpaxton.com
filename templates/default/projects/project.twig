@@ -36,6 +36,19 @@
 
 {% block main %}
 
+<div class="grid-x grid-padding-x align-center">
+  <div class="small-12 medium-12 cell">
+    <ul class="menu">
+    <li class="menu-text">
+      {{entry.title}}, {{ entry.postDate|date('Y') }}
+    </li>
+    <li>
+      <a href="/information" class="">About</a>
+    </li>
+    </ul>
+  </div>
+</div>
+
 <!-- Content -->
 <div class="grid-x grid-padding-x grid-padding-y align-center">
 
@@ -52,14 +65,6 @@
 
 <!-- Center -->
 <div class="small-12 medium-10 large-10 xlarge-8 cell">
-
-<!-- Title-->
-<div class="grid-x grid-padding-x grid-padding-y align-center">
-  <div class="small-12 medium-12 cell">
-  {{entry.title}}, {{ entry.postDate|date('Y') }}
-  </div>
-</div>
-<!-- End Title -->
 
 
 {% if entry.vimeo %}
