@@ -17,13 +17,18 @@
 {% endblock %}
 
 {% block main %}
+<!-- Contact -->
 <div class="grid-container">
-  <div class="grid-x grid-padding-x grid-padding-y align-center">
-    <div class="small-12 medium-8 large-6 cell text-center">
-      {{entry.copy}}
-    </div>
+  <div class="grid-x grid-padding-x grid-padding-y small-up-1 medium-up-2">
+    {% for detail in entry.detail.all() %}
+      <div class="cell detail">
+        <p class="dark-gray">{{ detail.header }}</p>
+        {{ detail.copy }}
+      </div>
+    {% endfor %}
   </div>
 </div>
+<!-- End Contact  -->
 
 
 {% endblock %}

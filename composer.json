@@ -19,7 +19,7 @@
     "rss": "https://craftcms.com/changelog.rss"
   },
   "require": {
-    "craftcms/cms": "3.4.29.1",
+    "craftcms/cms": "3.4.30",
     "vlucas/phpdotenv": "^2.4.0",
     "craftcms/google-cloud": "1.4.0",
     "craftcms/redactor": "2.6.1",
@@ -28,7 +28,7 @@
     "ether/seo": "3.6.6",
     "venveo/craft-bulkedit": "2.0.5",
     "craftcms/feed-me": "4.2.3",
-    "verbb/field-manager": "2.1.7"
+    "verbb/field-manager": "2.1.8"
   },
   "autoload": {
     "psr-4": {

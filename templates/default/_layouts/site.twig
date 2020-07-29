@@ -6,7 +6,7 @@
   <div class="grid-y align-center" style="height: 100%">
   	<div class="shrink cell">	
   		<ul class="menu vertical align-center align-middle">
-  		  Test
+
   		</ul>
   	</div>
   </div>
@@ -19,13 +19,13 @@
   {% endblock %}
   </nav>
   <!-- End Navigation -->
-  
+
   <!-- Content -->
-  <main class="grid-x align-center-middle swup-transition-fade" id="swup-body">
-  <div class="small-12 cell">	
-  {% block main %}
-  {% endblock %}
-  </div>
+  <main class="grid-x grid-padding-x {% if bodyClass == "project" %}align-top{% else %}align-center-middle{% endif %} swup-transition-fade" id="swup-body">
+    <div class="small-12 cell">	
+    {% block main %}
+    {% endblock %}
+    </div>
   </main>
   <!-- End Content -->
   

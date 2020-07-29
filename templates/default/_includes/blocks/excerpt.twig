@@ -6,7 +6,5 @@
   </div>
   {% endif %}
   </div>
-{#   <div class="text-center margin-top-1 lazy">{{ project.title }} <span class="dark-gray padding-left">{{ project.client }}</span></div> #}
-  <div class="margin-top-1">{{ project.title }}</div>
-{#   <div class="margin-top-0 lazy text-center dark-gray serif-italic small">{{ project.director}}</div> #}
+  <div class="margin-top-1">{{project.title}}, {% if project.isOngoing %}Ongoing{% else %}{{ project.postDate|date('Y') }}{% endif %}</div>
 </a>

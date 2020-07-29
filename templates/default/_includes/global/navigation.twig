@@ -1,31 +1,40 @@
+{% import "_macros/isactive" as isactive %}
+
 <!-- Mobile Navigation -->
-<div class="grid-x grid-padding-x grid-padding-y align-center hide-for-medium" id="swup-header" style="z-index: 14">
+{#
+<div class="grid-x grid-padding-x grid-padding-y hide-for-medium" id="swup-header" style="z-index: 14">
   <div class="shrink cell">
     <a class="" type="button" aria-label="Navigation" data-toggle="overlayNavigation">
     {{ currentSite.name }}
     </a>
   </div>
 </div>
+#}
 <!-- End Mobile Navigation -->
 
 <!-- Desktop Navigation -->
-<div class="grid-x grid-padding-x grid-padding-y padding-bottom-0 show-for-medium align-justify align-middle" id="swup-header" style="z-index: 14">
+<div class="grid-x grid-padding-x grid-padding-y padding-bottom-0 align-justify align-middle" id="swup-header" style="z-index: 14">
 
   <div class="shrink cell align-middle padding-bottom-0">
+    <ul class="menu simple">
+      <li {{ isactive.isActive('works') }}><a href="/works">Works</a></li>
+      <li {{ isactive.isActive('information') }}><a href="/information">Information</a></li>
+
+
+{#
     <ul class="menu">
-    {% set myCategoryQuery = craft.categories()
-    .group('typeOfProject') %}
+    {% set categoryQuery = craft.categories().group('typeOfProject') %}
     
-    {# Fetch the categories #}
-    {% set categories = myCategoryQuery.all() %}
+    {% set categories = categoryQuery.all() %}
     
     {% nav category in categories %}
-    <li>
+    <li{{ isactive.isActive(category.slug) }}>
     <a href="{{ category.url }}">{{ category.title }}</a>
     </li>
     {% endnav %}
-    <li><a href="/information" class="">Information</a></li>
+    <li {{ isactive.isActive('information') }}><a href="/information">Information</a></li>
     </ul>
+#}
 
   </div>
 

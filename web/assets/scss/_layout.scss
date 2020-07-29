@@ -214,8 +214,7 @@ html.is-animating .swup-transition-color {
 // -------------
 
 .underline {
-  padding-bottom: 1px;
-  border-bottom: 1px solid;
+  text-decoration: underline;
 }
 
 i, cite, em, var, address, dfn {
@@ -223,9 +222,9 @@ i, cite, em, var, address, dfn {
 }
 
 p a {
-  color: $black;
+  color: $primary-color;
   &:hover {
-    color: get-color(primary);   
+    color: $secondary-color;   
   }
 }
 
@@ -629,4 +628,9 @@ z-index: -1;
 
 .button--correct {
   padding-top: 11px;
+}
+
+.detail ul {
+  margin-left: 0rem;
+  list-style-type: none;
 }

@@ -97,6 +97,14 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"/config/redactor/Detail.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/config/redactor/Detail-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"/config/redactor/Simple.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -1436,6 +1444,14 @@
 		"oAP": "/templates/default/_layouts/site.twig",
 		"oF": 0
 		},
+	"/templates/default/_macros/isactive.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/default/_macros/isactive.twig",
+		"oF": 0
+		},
 	"/templates/default/all/index.twig": {
 		"cB": 0,
 		"ft": 8192,
@@ -1492,12 +1508,20 @@
 		"oAP": "/templates/default/page/page.twig",
 		"oF": 0
 		},
-	"/templates/default/projects/project.twig": {
+	"/templates/default/works/index.twig": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/templates/default/projects/project.twig",
+		"oAP": "/templates/default/works/index.twig",
+		"oF": 0
+		},
+	"/templates/default/works/work.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/default/works/work.twig",
 		"oF": 0
 		},
 	"/vendor": {

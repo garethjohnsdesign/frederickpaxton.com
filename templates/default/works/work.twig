@@ -17,7 +17,7 @@
 
 {# Set parameters for prev/next elements list #}
 {% set params = craft.entries
-.section('projects')
+.section('works')
 .relatedTo(entry.typeOfProject)
 .orderBy('postDate desc') %}
 
@@ -38,19 +38,21 @@
 
 <div class="grid-x grid-padding-x align-center">
   <div class="small-12 medium-12 cell">
-    <ul class="menu">
-    <li class="menu-text">
-      {{entry.title}}, {{ entry.postDate|date('Y') }}
-    </li>
+    <ul class="menu simple padding-top-1">
     <li>
-      <a href="/information" class="">About</a>
+      {{entry.title}}, {% if entry.isOngoing %}Ongoing{% else %}{{ entry.postDate|date('Y') }}{% endif %}
     </li>
+    {% if entry.copy|length %}
+    <li>
+    <a class="" data-open="reveal{{entry.id}}">About</a>
+    </li>
+    {% endif %}
     </ul>
   </div>
 </div>
 
 <!-- Content -->
-<div class="grid-x grid-padding-x grid-padding-y align-center">
+<div class="grid-x grid-padding-x grid-padding-y align-center padding-bottom-2">
 
 <!-- Previous -->
 <div class="auto cell show-for-large project__pagination">
@@ -68,20 +70,24 @@
 
 
 {% if entry.vimeo %}
+<div class="grid-container">
 <div class="grid-x grid-padding-x grid-padding-y align-center">
   <div class="small-12 cell text-center">
     <div id="player" data-plyr-provider="vimeo" data-plyr-embed-id="{{ entry.vimeo }}"></div>
   </div>
 </div>
+</div>
 {% endif %}
 
-<!-- Copy-->
+{% if entry.youtube %}
+<div class="grid-container">
 <div class="grid-x grid-padding-x grid-padding-y align-center">
-  <div class="small-12 medium-12 cell">
-  {{entry.copy}}
+  <div class="small-12 cell text-center">
+    <div id="player" data-plyr-provider="youtube" data-plyr-embed-id="{{ entry.youtube }}"></div>
   </div>
 </div>
-<!-- End Copy -->
+</div>
+{% endif %}
 
 <!-- Images -->
 <div class="grid-container">
@@ -147,4 +153,31 @@
 
 </div>   
 <!-- End Content -->
+
+
+<!-- About -->
+{% if entry.copy|length %}
+<div class="full reveal" id="reveal{{entry.id}}" data-reveal data-close-on-click="true" data-animation-in="fade-in" data-animation-out="fade-out">
+
+  <div class="grid-x align-center-middle" style="min-height: 100%">
+    <div class="small-12 cell padding-vertical-3">
+
+      <div class="grid-x grid-padding-x grid-padding-y grid-margin-y align-center">
+        <div class="small-11 medium-8 cell">
+        {{entry.copy}}
+        <a class="dark-gray" data-close aria-label="Close modal" type="button">Close</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+{% endif %}
+<!-- End About -->
+{% endblock %}
+
+
+{% block footer %}
+{% include "_includes/global/footer" %}
 {% endblock %}

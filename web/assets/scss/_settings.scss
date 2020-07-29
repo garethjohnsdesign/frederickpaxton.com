@@ -69,10 +69,10 @@
 // ---------
 
 $global-font-size: 100%;
-// $global-width: rem-calc(1200);
-$global-width: rem-calc(1600);
+$global-width: rem-calc(1200);
 $global-lineheight: 1.5;
-$light-gray: #e6e6e6;
+// $light-gray: #e6e6e6;
+$light-gray: #f2f2f2;
 $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
 $black: #111111;
@@ -89,7 +89,7 @@ $foundation-palette: (
 */
 $foundation-palette: (
   primary: $black,
-  secondary: #f9d1bd,
+  secondary: $dark-gray,
   success: #3adb76,
   warning: #ffae00,
   alert: #cc4b37,
@@ -227,7 +227,7 @@ $paragraph-text-rendering: optimizeLegibility;
 $enable-code-inline: true;
 $anchor-color: $primary-color;
 // $anchor-color-hover: scale-color($anchor-color, $lightness: -14%);
-$anchor-color-hover: $primary-color;
+$anchor-color-hover: $secondary-color;
 $anchor-text-decoration: none;
 $anchor-text-decoration-hover: none;
 $hr-width: $global-width;
@@ -556,9 +556,11 @@ $menu-margin: 0;
 $menu-nested-margin: $global-menu-nested-margin;
 $menu-items-padding: $global-menu-padding;
 $menu-simple-margin: 1rem;
-$menu-item-color-active: $white;
+// $menu-item-color-active: $white;
+$menu-item-color-active: $dark-gray;
 $menu-item-color-alt-active: $black;
-$menu-item-background-active: get-color(primary);
+// $menu-item-background-active: get-color(primary);
+$menu-item-background-active: transparent;
 $menu-icon-spacing: 0.25rem;
 $menu-state-back-compat: true;
 $menu-centered-back-compat: true;
