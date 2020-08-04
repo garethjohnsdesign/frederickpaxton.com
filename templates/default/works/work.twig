@@ -15,16 +15,6 @@
 {% set seoImage = craft.imager.transformImage(asset, { width: 1200, height: 630, dpr: 1, position: asset.getFocalPoint() }) %}
 {% endif %}
 
-{# Set parameters for prev/next elements list #}
-{% set params = craft.entries
-.section('works')
-.relatedTo(entry.typeOfProject)
-.orderBy('postDate desc') %}
-
-{# Get the prev/next elements #}
-{% set prevEntry = entry.getPrev(params) %}
-{% set nextEntry = entry.getNext(params) %}
-
 
 {% extends "_layouts/site" %}
 
@@ -54,16 +44,6 @@
 <!-- Content -->
 <div class="grid-x grid-padding-x grid-padding-y align-center padding-bottom-2">
 
-<!-- Previous -->
-<div class="auto cell show-for-large project__pagination">
-  {% if prevEntry %}
-  <a href="{{ prevEntry.url }}">
-    <div class="grid-y align-center" style="height: 100%;" data-tippy-content="{{ prevEntry.title }}">
-    </div>
-  </a>
-  {% endif %}
-</div>
-<!-- End Previous -->
 
 <!-- Center -->
 <div class="small-12 medium-10 large-10 xlarge-8 cell">
@@ -139,17 +119,6 @@
       
 </div>
 <!-- End Center -->
-
-<!-- Next -->
-<div class="auto cell show-for-large project__pagination">
-  {% if nextEntry %}
-  <a href="{{ nextEntry.url }}">
-    <div class="grid-y align-center" style="height: 100%;" data-tippy-content="{{ nextEntry.title }}">
-    </div>
-  </a>
-  {% endif %}
-</div>
-<!-- End Next -->
 
 </div>   
 <!-- End Content -->
