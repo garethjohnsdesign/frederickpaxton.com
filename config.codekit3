@@ -189,17 +189,6 @@
 		"oAP": "/build/node_modules",
 		"oF": 0
 		},
-	"/node_modules/@popperjs/core/lib/createPopper.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/@popperjs/core/lib/min/createPopper-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"/node_modules/@popperjs/core/lib/dom-utils/contains.js": {
 		"bF": 0,
 		"ft": 64,
@@ -229,17 +218,6 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/node_modules/@popperjs/core/lib/dom-utils/min/getClippingRect-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/node_modules/@popperjs/core/lib/dom-utils/getCompositeRect.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/@popperjs/core/lib/dom-utils/min/getCompositeRect-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -284,17 +262,6 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/node_modules/@popperjs/core/lib/dom-utils/min/getHTMLElementScroll-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/node_modules/@popperjs/core/lib/dom-utils/getLayoutRect.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/@popperjs/core/lib/dom-utils/min/getLayoutRect-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -464,116 +431,6 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"/node_modules/@popperjs/core/lib/modifiers/applyStyles.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/@popperjs/core/lib/modifiers/min/applyStyles-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/node_modules/@popperjs/core/lib/modifiers/arrow.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/@popperjs/core/lib/modifiers/min/arrow-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/node_modules/@popperjs/core/lib/modifiers/computeStyles.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/@popperjs/core/lib/modifiers/min/computeStyles-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/node_modules/@popperjs/core/lib/modifiers/eventListeners.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/@popperjs/core/lib/modifiers/min/eventListeners-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/node_modules/@popperjs/core/lib/modifiers/flip.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/@popperjs/core/lib/modifiers/min/flip-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/node_modules/@popperjs/core/lib/modifiers/hide.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/@popperjs/core/lib/modifiers/min/hide-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/node_modules/@popperjs/core/lib/modifiers/offset.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/@popperjs/core/lib/modifiers/min/offset-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/node_modules/@popperjs/core/lib/modifiers/popperOffsets.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/@popperjs/core/lib/modifiers/min/popperOffsets-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/node_modules/@popperjs/core/lib/modifiers/preventOverflow.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/@popperjs/core/lib/modifiers/min/preventOverflow-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/node_modules/@popperjs/core/lib/utils/computeAutoPlacement.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/@popperjs/core/lib/utils/min/computeAutoPlacement-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"/node_modules/@popperjs/core/lib/utils/computeOffsets.js": {
 		"bF": 0,
 		"ft": 64,
@@ -581,17 +438,6 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/node_modules/@popperjs/core/lib/utils/min/computeOffsets-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/node_modules/@popperjs/core/lib/utils/debounce.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/@popperjs/core/lib/utils/min/debounce-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -629,17 +475,6 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"/node_modules/@popperjs/core/lib/utils/getAltAxis.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/@popperjs/core/lib/utils/min/getAltAxis-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"/node_modules/@popperjs/core/lib/utils/getBasePlacement.js": {
 		"bF": 0,
 		"ft": 64,
@@ -673,28 +508,6 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"/node_modules/@popperjs/core/lib/utils/getOppositePlacement.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/@popperjs/core/lib/utils/min/getOppositePlacement-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/node_modules/@popperjs/core/lib/utils/getOppositeVariationPlacement.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/@popperjs/core/lib/utils/min/getOppositeVariationPlacement-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"/node_modules/@popperjs/core/lib/utils/getVariation.js": {
 		"bF": 0,
 		"ft": 64,
@@ -702,17 +515,6 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/node_modules/@popperjs/core/lib/utils/min/getVariation-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/node_modules/@popperjs/core/lib/utils/mergeByName.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/@popperjs/core/lib/utils/min/mergeByName-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -728,17 +530,6 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"/node_modules/@popperjs/core/lib/utils/orderModifiers.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/@popperjs/core/lib/utils/min/orderModifiers-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"/node_modules/@popperjs/core/lib/utils/rectToClientRect.js": {
 		"bF": 0,
 		"ft": 64,
@@ -746,39 +537,6 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/node_modules/@popperjs/core/lib/utils/min/rectToClientRect-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/node_modules/@popperjs/core/lib/utils/uniqueBy.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/@popperjs/core/lib/utils/min/uniqueBy-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/node_modules/@popperjs/core/lib/utils/validateModifiers.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/@popperjs/core/lib/utils/min/validateModifiers-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/node_modules/@popperjs/core/lib/utils/within.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/@popperjs/core/lib/utils/min/within-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -1869,39 +1627,6 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"/node_modules/swiper/esm/components/a11y/a11y.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/swiper/esm/components/a11y/min/a11y-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/node_modules/swiper/esm/components/autoplay/autoplay.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/swiper/esm/components/autoplay/min/autoplay-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/node_modules/swiper/esm/components/controller/controller.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/swiper/esm/components/controller/min/controller-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"/node_modules/swiper/esm/components/core/breakpoints/getBreakpoint.js": {
 		"bF": 0,
 		"ft": 64,
@@ -1975,17 +1700,6 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/node_modules/swiper/esm/components/core/classes/min/removeClasses-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/node_modules/swiper/esm/components/core/core-class.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/swiper/esm/components/core/min/core-class-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -2584,17 +2298,6 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"/node_modules/swiper/esm/components/effect-coverflow/effect-coverflow.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/swiper/esm/components/effect-coverflow/min/effect-coverflow-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"/node_modules/swiper/esm/components/effect-cube/effect-cube.js": {
 		"bF": 0,
 		"ft": 64,
@@ -2602,17 +2305,6 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/node_modules/swiper/esm/components/effect-cube/min/effect-cube-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/node_modules/swiper/esm/components/effect-fade/effect-fade.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/swiper/esm/components/effect-fade/min/effect-fade-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -2628,39 +2320,6 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"/node_modules/swiper/esm/components/hash-navigation/hash-navigation.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/swiper/esm/components/hash-navigation/min/hash-navigation-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/node_modules/swiper/esm/components/history/history.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/swiper/esm/components/history/min/history-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/node_modules/swiper/esm/components/keyboard/keyboard.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/swiper/esm/components/keyboard/min/keyboard-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"/node_modules/swiper/esm/components/lazy/lazy.js": {
 		"bF": 0,
 		"ft": 64,
@@ -2672,72 +2331,6 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"/node_modules/swiper/esm/components/mousewheel/mousewheel.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/swiper/esm/components/mousewheel/min/mousewheel-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/node_modules/swiper/esm/components/navigation/navigation.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/swiper/esm/components/navigation/min/navigation-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/node_modules/swiper/esm/components/pagination/pagination.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/swiper/esm/components/pagination/min/pagination-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/node_modules/swiper/esm/components/parallax/parallax.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/swiper/esm/components/parallax/min/parallax-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/node_modules/swiper/esm/components/scrollbar/scrollbar.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/swiper/esm/components/scrollbar/min/scrollbar-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/node_modules/swiper/esm/components/thumbs/thumbs.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/swiper/esm/components/thumbs/min/thumbs-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"/node_modules/swiper/esm/components/virtual/virtual.js": {
 		"bF": 0,
 		"ft": 64,
@@ -2745,17 +2338,6 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/node_modules/swiper/esm/components/virtual/min/virtual-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/node_modules/swiper/esm/components/zoom/zoom.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/swiper/esm/components/zoom/min/zoom-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0

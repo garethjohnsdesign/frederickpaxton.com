@@ -1,0 +1,57 @@
+fieldLayouts:
+  50a9dc97-c214-46f1-a6eb-6059f982357c:
+    tabs:
+      -
+        elements:
+          -
+            instructions: null
+            label: Title
+            type: craft\fieldlayoutelements\EntryTitleField
+          -
+            fieldUid: ca491d21-5383-4ba4-a87b-8c3ef8874f23
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: df6c94dc-dfa9-48d5-9588-b358b9d4c1bc
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: 04ab3c60-f325-48ea-bf96-347befb870e0
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: cc7a7777-17c5-45ef-829d-9b277cb85134
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: d7b767e3-b7c2-4a02-a2c2-556c9c92ff1b
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: e5d75705-0cbd-44c0-8042-3353a77a28ab
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: b4c9ab1f-2382-42ed-a624-d4a42f1389a7
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+        name: Projects
+        sortOrder: 1
+      -
+        elements:
+          -
+            fieldUid: dfb201c1-5d86-40c2-8ef8-8a447a607828
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: fe83906d-6f96-4f77-9151-41326628a78d
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+        name: SEO
+        sortOrder: 2
+handle: projects
+hasTitleField: true
+name: Projects
+section: 32174234-e8c3-40d4-9725-77ff2bd2366a
+sortOrder: 1
+titleFormat: ''
