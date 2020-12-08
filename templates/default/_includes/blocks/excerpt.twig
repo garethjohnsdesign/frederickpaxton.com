@@ -1,0 +1,10 @@
+<a href="{{ project.url }}">
+  {% set image = project.image.one() %}
+  <div class="light-gray-background-color excerpt">
+  {% if image | length %}
+  <div class="image--16-9" data-interchange="{% if image | length %}{% include "_includes/images/full/16-9/interchange-img-small-12-medium-6" %}{% endif %}">
+  </div>
+  {% endif %}
+  </div>
+  <div class="margin-top-1">{{project.title}}, {% if project.isOngoing %}Ongoing{% else %}{{ project.postDate|date('Y') }}{% endif %}</div>
+</a>

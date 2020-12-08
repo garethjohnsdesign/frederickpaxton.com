@@ -1,0 +1,64 @@
+<a href="{{ project.url }}">
+  {% set image = project.image.one() %}
+  <div class="excerpt">
+  {% if image | length %}
+  <div class="image--16-9" data-interchange="{% if image | length %}{% include "_includes/images/full/16-9/interchange-img-small-12-medium-6" %}{% endif %}">
+    <div class="grid-y content align-top" style="height: 100%">
+      <div class="shrink cell padding-1 white text-center small">
+
+        <div class="primary small button-group hollow margin-bottom-0">
+        {% set typeOfFilm = project.typeOfFilm.all() %}
+        {% set typeOfTelevision = project.typeOfTelevision.all() %}
+        {% set typeOfInProduction = project.typeOfInProduction.all() %}
+        {% if typeOfFilm|length %}
+          {% for rel in typeOfFilm %}
+              <div class="light button text-uppercase sans-regular letter-spacing--loose margin-bottom-0 button--correct">{{ rel.title }}</div>
+          {% endfor %}
+        {% endif %}
+       {% if typeOfTelevision|length %}
+          {% for rel in typeOfTelevision %}
+              <div class="light button text-uppercase sans-regular letter-spacing--loose margin-bottom-0 button--correct">{{ rel.title }}</div>
+          {% endfor %}
+        {% endif %}
+       {% if typeOfInProduction|length %}
+          {% for rel in typeOfInProduction %}
+              <div class="light button text-uppercase sans-regular letter-spacing--loose margin-bottom-0 button--correct">{{ rel.title }}</div>
+          {% endfor %}
+        {% endif %}
+      </div>
+
+      </div>
+    </div>
+  </div>
+  {% else %}
+  <div class="image--16-9">
+    <div class="grid-y content align-center-middle" style="height: 100%">
+      <div class="shrink cell padding-1 text-center">
+        {% set typeOfFilm = project.typeOfFilm.all() %}
+        {% set typeOfTelevision = project.typeOfTelevision.all() %}
+        {% set typeOfInProduction = project.typeOfInProduction.all() %}
+        {% if typeOfFilm|length %}
+          {% for rel in typeOfFilm %}
+              {{ rel.title }}
+          {% endfor %}
+        {% endif %}
+       {% if typeOfTelevision|length %}
+          {% for rel in typeOfTelevision %}
+              {{ rel.title }}
+          {% endfor %}
+        {% endif %}
+       {% if typeOfInProduction|length %}
+          {% for rel in typeOfInProduction %}
+              <h3 class="margin-bottom-0">{{ rel.title }}</h3>
+          {% endfor %}
+        {% endif %}
+
+      </div>
+    </div>
+  </div>
+  {% endif %}
+  </div>
+{#   <div class="text-center margin-top-1 lazy">{{ project.title }} <span class="dark-gray padding-left">{{ project.client }}</span></div> #}
+  <div class="margin-top-1 lazy text-center">{{ project.title }}</div>
+{#   <div class="margin-top-0 lazy text-center dark-gray serif-italic small">{{ project.director}}</div> #}
+</a>

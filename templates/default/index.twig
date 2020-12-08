@@ -1,0 +1,50 @@
+{% set bodyClass = 'home' %}
+
+{% if entry.seoTitle | length %}
+{% set seoTitle = entry.seoTitle %}
+{% else %}
+{% set seoTitle = entry.title %}
+{% endif %}
+
+{% if entry.seoDescription | length %}
+{% set seoDescription = entry.seoDescription %}
+{% endif %}
+
+{% set projects = entry.projects.orderBy('RAND()').all() %}
+
+{% extends "default/_layouts/site" %}
+
+{% block navigation %}
+{% include "_includes/global/navigation" %}
+{% endblock %}
+
+{% block main %}
+<div class="grid-container">
+  <div class="grid-x grid-padding-x grid-padding-y align-center">
+    <div class="small-12 medium-10 large-10 x-large-8 cell text-center">
+    {# Hero #}
+    <div class="swiper-container" data-aos="fade-in" data-aos-delay="100">
+      <div class="swiper-wrapper">
+        {% for project in projects %}
+        {% set image = project.image.one() %}
+        <div class="swiper-slide black-background-color">
+            <div class="image--6-4" data-interchange="{% include "_includes/images/full/6-4/interchange-img-small-12-medium-12" %}" data-aos="fade-in">
+            </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    {# End Hero #}
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block footer %}
+<!-- Terms and Privacy -->
+<div class="grid-x grid-padding-x grid-padding-y">
+  <div class="shrink cell">
+  </div>
+</div>
+<!-- End Terms and Privacy -->
+{% endblock %}

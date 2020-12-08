@@ -1,14 +1,22 @@
 {
-"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https://codekitapp.com/",
+"AAInfo": "This is a CodeKit 3 project config file. EDITING THIS FILE IS A POOR LIFE DECISION. Doing so may cause CodeKit to crash and/or corrupt your project. Several critical values in this file are 64-bit integers, which JavaScript JSON parsers do not support because JavaScript cannot handle 64-bit integers. These values will be corrupted if the file is parsed with JavaScript. This file is not backwards-compatible with CodeKit 1 or 2. For details, see https://codekitapp.com/",
 "buildSteps": [
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "550FEDE5-7AFF-4FD3-8DBE-A45DE2D02921"
+		"uuidString": "EDB44E38-DB9B-408C-B9C2-C572FB45B1A6"
 		}
 	],
-"creatorBuild": "32186",
+"creatorBuild": "33081",
 "files": {
+	"/.env": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/.env",
+		"oF": 0
+		},
 	"/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
@@ -17,2674 +25,148 @@
 		"oAP": "/.gitignore",
 		"oF": 0
 		},
-	"/404.md": {
-		"cB": 0,
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/404.html",
-		"oF": 1,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
-	"/_config.yml": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/_config.yml",
-		"oF": 0
-		},
-	"/_data/navigation.yml": {
+	"/.nova/Artwork": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/_data/navigation.yml",
+		"oAP": "/.nova/Artwork",
 		"oF": 0
 		},
-	"/_includes/analytics.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_includes/analytics.html",
-		"oF": 0
-		},
-	"/_includes/excerpt.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_includes/excerpt.html",
-		"oF": 0
-		},
-	"/_includes/footer.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_includes/footer.html",
-		"oF": 0
-		},
-	"/_includes/head.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_includes/head.html",
-		"oF": 0
-		},
-	"/_includes/icons.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_includes/icons.html",
-		"oF": 0
-		},
-	"/_includes/navigation.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_includes/navigation.html",
-		"oF": 0
-		},
-	"/_includes/overlay-menu.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_includes/overlay-menu.html",
-		"oF": 0
-		},
-	"/_includes/pagination.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_includes/pagination.html",
-		"oF": 0
-		},
-	"/_includes/scripts.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_includes/scripts.html",
-		"oF": 0
-		},
-	"/_includes/sharing.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_includes/sharing.html",
-		"oF": 0
-		},
-	"/_includes/socials.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_includes/socials.html",
-		"oF": 0
-		},
-	"/_layouts/archive.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_layouts/archive.html",
-		"oF": 0
-		},
-	"/_layouts/compress.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_layouts/compress.html",
-		"oF": 0
-		},
-	"/_layouts/default.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_layouts/default.html",
-		"oF": 0
-		},
-	"/_layouts/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_layouts/index.html",
-		"oF": 0
-		},
-	"/_layouts/info.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_layouts/info.html",
-		"oF": 0
-		},
-	"/_layouts/missing.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_layouts/missing.html",
-		"oF": 0
-		},
-	"/_layouts/motion.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_layouts/motion.html",
-		"oF": 0
-		},
-	"/_layouts/page.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_layouts/page.html",
-		"oF": 0
-		},
-	"/_layouts/post.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_layouts/post.html",
-		"oF": 0
-		},
-	"/_layouts/project.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_layouts/project.html",
-		"oF": 0
-		},
-	"/_layouts/stills.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_layouts/stills.html",
-		"oF": 0
-		},
-	"/_projects/behind-the-zero-line.markdown": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_projects/behind-the-zero-line.markdown",
-		"oF": 0
-		},
-	"/_projects/conflict-edges.markdown": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_projects/conflict-edges.markdown",
-		"oF": 0
-		},
-	"/_projects/connection-disconnection.markdown": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_projects/connection-disconnection.markdown",
-		"oF": 0
-		},
-	"/_projects/euro-crisis.markdown": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_projects/euro-crisis.markdown",
-		"oF": 0
-		},
-	"/_projects/europes-edges-ice-core-sampling.markdown": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_projects/europes-edges-ice-core-sampling.markdown",
-		"oF": 0
-		},
-	"/_projects/ghosts-of-aleppo.markdown": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_projects/ghosts-of-aleppo.markdown",
-		"oF": 0
-		},
-	"/_projects/harmony.markdown": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_projects/harmony.markdown",
-		"oF": 0
-		},
-	"/_projects/iraq.markdown": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_projects/iraq.markdown",
-		"oF": 0
-		},
-	"/_projects/north-korea.markdown": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_projects/north-korea.markdown",
-		"oF": 0
-		},
-	"/_projects/painted-lines.markdown": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_projects/painted-lines.markdown",
-		"oF": 0
-		},
-	"/_projects/salt-in-our-blood.markdown": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_projects/salt-in-our-blood.markdown",
-		"oF": 0
-		},
-	"/_projects/singles.markdown": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_projects/singles.markdown",
-		"oF": 0
-		},
-	"/_projects/the-ambition-of-conformity-never-breaks-individuality.markdown": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_projects/the-ambition-of-conformity-never-breaks-individuality.markdown",
-		"oF": 0
-		},
-	"/_projects/ukraine.markdown": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_projects/ukraine.markdown",
-		"oF": 0
-		},
-	"/_site": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "/build/_site",
-		"oF": 0
-		},
-	"/_uploads/art-basel-miami-thumb.jpg": {
-		"ft": 16384,
-		"iS": 137418,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/art-basel-miami-thumb.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/B0005492-4.jpg": {
-		"ft": 16384,
-		"iS": 110182,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/B0005492-4.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/behind-the-zero-line-001.jpg": {
-		"ft": 16384,
-		"iS": 224308,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/behind-the-zero-line-001.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/behind-the-zero-line-002.jpg": {
-		"ft": 16384,
-		"iS": 222334,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/behind-the-zero-line-002.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/behind-the-zero-line-003.jpg": {
-		"ft": 16384,
-		"iS": 317544,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/behind-the-zero-line-003.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/behind-the-zero-line-004.jpg": {
-		"ft": 16384,
-		"iS": 207536,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/behind-the-zero-line-004.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/behind-the-zero-line-005.jpg": {
-		"ft": 16384,
-		"iS": 83933,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/behind-the-zero-line-005.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/behind-the-zero-line-006.jpg": {
-		"ft": 16384,
-		"iS": 282835,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/behind-the-zero-line-006.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/behind-the-zero-line-007.jpg": {
-		"ft": 16384,
-		"iS": 162693,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/behind-the-zero-line-007.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/behind-the-zero-line-008.jpg": {
-		"ft": 16384,
-		"iS": 232734,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/behind-the-zero-line-008.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/behind-the-zero-line-thumb.jpg": {
-		"ft": 16384,
-		"iS": 312223,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/behind-the-zero-line-thumb.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"/_uploads/conflict-edges-001.jpg": {
-		"ft": 16384,
-		"iS": 116580,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/conflict-edges-001.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/conflict-edges-002.jpg": {
-		"ft": 16384,
-		"iS": 159037,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/conflict-edges-002.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/conflict-edges-003.jpg": {
-		"ft": 16384,
-		"iS": 125917,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/conflict-edges-003.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/conflict-edges-004.jpg": {
-		"ft": 16384,
-		"iS": 134424,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/conflict-edges-004.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/conflict-edges-005.jpg": {
-		"ft": 16384,
-		"iS": 141368,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/conflict-edges-005.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/conflict-edges-006.jpg": {
-		"ft": 16384,
-		"iS": 165832,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/conflict-edges-006.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/conflict-edges-007.jpg": {
-		"ft": 16384,
-		"iS": 112046,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/conflict-edges-007.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/conflict-edges-008.jpg": {
-		"ft": 16384,
-		"iS": 161782,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/conflict-edges-008.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/conflict-edges-009.jpg": {
-		"ft": 16384,
-		"iS": 158938,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/conflict-edges-009.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/conflict-edges-010.jpg": {
-		"ft": 16384,
-		"iS": 99644,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/conflict-edges-010.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/conflict-edges-011.jpg": {
-		"ft": 16384,
-		"iS": 52325,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/conflict-edges-011.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/conflict-edges-012.jpg": {
-		"ft": 16384,
-		"iS": 148621,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/conflict-edges-012.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/conflict-edges-013.jpg": {
-		"ft": 16384,
-		"iS": 149797,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/conflict-edges-013.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/conflict-edges-014.jpg": {
-		"ft": 16384,
-		"iS": 163221,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/conflict-edges-014.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/conflict-edges-015.jpg": {
-		"ft": 16384,
-		"iS": 162793,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/conflict-edges-015.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/conflict-edges-016.jpg": {
-		"ft": 16384,
-		"iS": 177808,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/conflict-edges-016.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/conflict-edges-017.jpg": {
-		"ft": 16384,
-		"iS": 116592,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/conflict-edges-017.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/conflict-edges-018.jpg": {
-		"ft": 16384,
-		"iS": 142203,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/conflict-edges-018.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/conflict-edges-019.jpg": {
-		"ft": 16384,
-		"iS": 114830,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/conflict-edges-019.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/conflict-edges-020.jpg": {
-		"ft": 16384,
-		"iS": 94279,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/conflict-edges-020.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/conflict-edges-021.jpg": {
-		"ft": 16384,
-		"iS": 150241,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/conflict-edges-021.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/conflict-edges-022.jpg": {
-		"ft": 16384,
-		"iS": 165307,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/conflict-edges-022.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/conflict-edges-023.jpg": {
-		"ft": 16384,
-		"iS": 95906,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/conflict-edges-023.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/conflict-edges-024.jpg": {
-		"ft": 16384,
-		"iS": 117214,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/conflict-edges-024.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/conflict-edges-025.jpg": {
-		"ft": 16384,
-		"iS": 148656,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/conflict-edges-025.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/conflict-edges-026.jpg": {
-		"ft": 16384,
-		"iS": 76227,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/conflict-edges-026.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/conflict-edges-027.jpg": {
-		"ft": 16384,
-		"iS": 118439,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/conflict-edges-027.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/conflict-edges-028.jpg": {
-		"ft": 16384,
-		"iS": 100369,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/conflict-edges-028.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/conflict-edges-029.jpg": {
-		"ft": 16384,
-		"iS": 109882,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/conflict-edges-029.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/conflict-edges-030.jpg": {
-		"ft": 16384,
-		"iS": 141176,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/conflict-edges-030.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/conflict-edges-031.jpg": {
-		"ft": 16384,
-		"iS": 131082,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/conflict-edges-031.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/conflict-edges-032.jpg": {
-		"ft": 16384,
-		"iS": 117270,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/conflict-edges-032.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/conflict-edges-033.jpg": {
-		"ft": 16384,
-		"iS": 146623,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/conflict-edges-033.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/conflict-edges-034.jpg": {
-		"ft": 16384,
-		"iS": 169444,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/conflict-edges-034.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/conflict-edges-thumb.jpg": {
-		"ft": 16384,
-		"iS": 178929,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/conflict-edges-thumb.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"/_uploads/connection-disconnection-001.jpg": {
-		"ft": 16384,
-		"iS": 157491,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/connection-disconnection-001.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/connection-disconnection-002.jpg": {
-		"ft": 16384,
-		"iS": 223318,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/connection-disconnection-002.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/connection-disconnection-003.jpg": {
-		"ft": 16384,
-		"iS": 147735,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/connection-disconnection-003.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/connection-disconnection-004.jpg": {
-		"ft": 16384,
-		"iS": 174925,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/connection-disconnection-004.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/connection-disconnection-005.jpg": {
-		"ft": 16384,
-		"iS": 149926,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/connection-disconnection-005.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/connection-disconnection-006.jpg": {
-		"ft": 16384,
-		"iS": 143480,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/connection-disconnection-006.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/connection-disconnection-thumb.jpg": {
-		"ft": 16384,
-		"iS": 104485,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/connection-disconnection-thumb.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/euro-crisis-001.jpg": {
-		"ft": 16384,
-		"iS": 69326,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/euro-crisis-001.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/euro-crisis-002.jpg": {
-		"ft": 16384,
-		"iS": 84874,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/euro-crisis-002.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/euro-crisis-003.jpg": {
-		"ft": 16384,
-		"iS": 128783,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/euro-crisis-003.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/euro-crisis-004.jpg": {
-		"ft": 16384,
-		"iS": 119824,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/euro-crisis-004.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/euro-crisis-005.jpg": {
-		"ft": 16384,
-		"iS": 142319,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/euro-crisis-005.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/euro-crisis-006.jpg": {
-		"ft": 16384,
-		"iS": 158595,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/euro-crisis-006.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/euro-crisis-007.jpg": {
-		"ft": 16384,
-		"iS": 113170,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/euro-crisis-007.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/euro-crisis-008.jpg": {
-		"ft": 16384,
-		"iS": 104322,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/euro-crisis-008.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/euro-crisis-009.jpg": {
-		"ft": 16384,
-		"iS": 121269,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/euro-crisis-009.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/euro-crisis-010.jpg": {
-		"ft": 16384,
-		"iS": 132954,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/euro-crisis-010.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/euro-crisis-011.jpg": {
-		"ft": 16384,
-		"iS": 76378,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/euro-crisis-011.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/euro-crisis-012.jpg": {
-		"ft": 16384,
-		"iS": 98674,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/euro-crisis-012.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/euro-crisis-013.jpg": {
-		"ft": 16384,
-		"iS": 71443,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/euro-crisis-013.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/euro-crisis-thumb.jpg": {
-		"ft": 16384,
-		"iS": 109021,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/euro-crisis-thumb.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/europes-edges-001.jpg": {
-		"ft": 16384,
-		"iS": 114078,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/europes-edges-001.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/europes-edges-002.jpg": {
-		"ft": 16384,
-		"iS": 56773,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/europes-edges-002.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/europes-edges-003.jpg": {
-		"ft": 16384,
-		"iS": 144926,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/europes-edges-003.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/europes-edges-004.jpg": {
-		"ft": 16384,
-		"iS": 136388,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/europes-edges-004.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/europes-edges-005.jpg": {
-		"ft": 16384,
-		"iS": 154437,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/europes-edges-005.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/europes-edges-ice-core-sampling.jpg": {
-		"ft": 16384,
-		"iS": 26109,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/europes-edges-ice-core-sampling.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/ghosts-of-aleppo-001.jpg": {
-		"ft": 16384,
-		"iS": 171808,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/ghosts-of-aleppo-001.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/ghosts-of-aleppo-002.jpg": {
-		"ft": 16384,
-		"iS": 210013,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/ghosts-of-aleppo-002.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/ghosts-of-aleppo-003.jpg": {
-		"ft": 16384,
-		"iS": 108468,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/ghosts-of-aleppo-003.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/ghosts-of-aleppo-004.jpg": {
-		"ft": 16384,
-		"iS": 201119,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/ghosts-of-aleppo-004.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/ghosts-of-aleppo-005.jpg": {
-		"ft": 16384,
-		"iS": 356141,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/ghosts-of-aleppo-005.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/ghosts-of-aleppo-006.jpg": {
-		"ft": 16384,
-		"iS": 272637,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/ghosts-of-aleppo-006.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/ghosts-of-aleppo-007.jpg": {
-		"ft": 16384,
-		"iS": 248844,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/ghosts-of-aleppo-007.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/ghosts-of-aleppo-008.jpg": {
-		"ft": 16384,
-		"iS": 239402,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/ghosts-of-aleppo-008.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/ghosts-of-aleppo-009.jpg": {
-		"ft": 16384,
-		"iS": 327035,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/ghosts-of-aleppo-009.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/ghosts-of-aleppo-010.jpg": {
-		"ft": 16384,
-		"iS": 278079,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/ghosts-of-aleppo-010.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/ghosts-of-aleppo-011.jpg": {
-		"ft": 16384,
-		"iS": 373657,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/ghosts-of-aleppo-011.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/ghosts-of-aleppo-012.jpg": {
-		"ft": 16384,
-		"iS": 230556,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/ghosts-of-aleppo-012.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/ghosts-of-aleppo-013.jpg": {
-		"ft": 16384,
-		"iS": 211605,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/ghosts-of-aleppo-013.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/ghosts-of-aleppo-014.jpg": {
-		"ft": 16384,
-		"iS": 134282,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/ghosts-of-aleppo-014.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/ghosts-of-aleppo-015.jpg": {
-		"ft": 16384,
-		"iS": 165936,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/ghosts-of-aleppo-015.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/ghosts-of-aleppo-thumb.jpg": {
-		"ft": 16384,
-		"iS": 266120,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/ghosts-of-aleppo-thumb.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"/_uploads/harmony-001-2498b2.jpg": {
-		"ft": 16384,
-		"iS": 169882,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/harmony-001-2498b2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/harmony-001-755da0.jpg": {
-		"ft": 16384,
-		"iS": 169882,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/harmony-001-755da0.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/harmony-001.jpg": {
-		"ft": 16384,
-		"iS": 129931,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/harmony-001.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/harmony-002.jpg": {
-		"ft": 16384,
-		"iS": 123202,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/harmony-002.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/harmony-003.jpg": {
-		"ft": 16384,
-		"iS": 88940,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/harmony-003.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/harmony-004.jpg": {
-		"ft": 16384,
-		"iS": 104033,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/harmony-004.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/harmony-005.jpg": {
-		"ft": 16384,
-		"iS": 172751,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/harmony-005.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/harmony-006.jpg": {
-		"ft": 16384,
-		"iS": 101388,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/harmony-006.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/harmony-007.jpg": {
-		"ft": 16384,
-		"iS": 216314,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/harmony-007.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/harmony-thumb.jpg": {
-		"ft": 16384,
-		"iS": 149453,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/harmony-thumb.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/iraq-001.jpg": {
-		"ft": 16384,
-		"iS": 279614,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/iraq-001.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/iraq-002.jpg": {
-		"ft": 16384,
-		"iS": 221851,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/iraq-002.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/iraq-003.jpg": {
-		"ft": 16384,
-		"iS": 157718,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/iraq-003.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/iraq-004.jpg": {
-		"ft": 16384,
-		"iS": 202035,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/iraq-004.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/iraq-005.jpg": {
-		"ft": 16384,
-		"iS": 190263,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/iraq-005.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/iraq-006.jpg": {
-		"ft": 16384,
-		"iS": 213965,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/iraq-006.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/iraq-007.jpg": {
-		"ft": 16384,
-		"iS": 174469,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/iraq-007.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/iraq-008.jpg": {
-		"ft": 16384,
-		"iS": 295815,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/iraq-008.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/iraq-009.jpg": {
-		"ft": 16384,
-		"iS": 263922,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/iraq-009.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/iraq-010.jpg": {
-		"ft": 16384,
-		"iS": 252775,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/iraq-010.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/iraq-thumb.jpg": {
-		"ft": 16384,
-		"iS": 150523,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/iraq-thumb.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/north-korea-001.jpg": {
-		"ft": 16384,
-		"iS": 159568,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/north-korea-001.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/north-korea-002.jpg": {
-		"ft": 16384,
-		"iS": 407075,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/north-korea-002.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/north-korea-003.jpg": {
-		"ft": 16384,
-		"iS": 202570,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/north-korea-003.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/north-korea-004.jpg": {
-		"ft": 16384,
-		"iS": 216635,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/north-korea-004.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/north-korea-005.jpg": {
-		"ft": 16384,
-		"iS": 168125,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/north-korea-005.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/north-korea-006.jpg": {
-		"ft": 16384,
-		"iS": 156283,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/north-korea-006.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/north-korea-007.jpg": {
-		"ft": 16384,
-		"iS": 222118,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/north-korea-007.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/north-korea-008.jpg": {
-		"ft": 16384,
-		"iS": 332950,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/north-korea-008.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/north-korea-009.jpg": {
-		"ft": 16384,
-		"iS": 252802,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/north-korea-009.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/north-korea-010.jpg": {
-		"ft": 16384,
-		"iS": 212883,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/north-korea-010.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/north-korea-011.jpg": {
-		"ft": 16384,
-		"iS": 123515,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/north-korea-011.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/north-korea-012.jpg": {
-		"ft": 16384,
-		"iS": 120694,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/north-korea-012.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/north-korea-013.jpg": {
-		"ft": 16384,
-		"iS": 219051,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/north-korea-013.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/north-korea-014.jpg": {
-		"ft": 16384,
-		"iS": 167975,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/north-korea-014.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/north-korea-thumb.jpg": {
-		"ft": 16384,
-		"iS": 143811,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/north-korea-thumb.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"/_uploads/painted-lines-01.jpg": {
-		"ft": 16384,
-		"iS": 643703,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/painted-lines-01.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/painted-lines-02.jpg": {
-		"ft": 16384,
-		"iS": 583598,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/painted-lines-02.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/painted-lines-03.jpg": {
-		"ft": 16384,
-		"iS": 319274,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/painted-lines-03.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/painted-lines-04.jpg": {
-		"ft": 16384,
-		"iS": 334875,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/painted-lines-04.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/painted-lines-05.jpg": {
-		"ft": 16384,
-		"iS": 504180,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/painted-lines-05.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/painted-lines-06.jpg": {
-		"ft": 16384,
-		"iS": 273196,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/painted-lines-06.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/painted-lines-07.jpg": {
-		"ft": 16384,
-		"iS": 385506,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/painted-lines-07.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/painted-lines-08.jpg": {
-		"ft": 16384,
-		"iS": 337413,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/painted-lines-08.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/painted-lines-09.jpg": {
-		"ft": 16384,
-		"iS": 319755,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/painted-lines-09.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/painted-lines-10.jpg": {
-		"ft": 16384,
-		"iS": 254581,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/painted-lines-10.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/painted-lines-11.jpg": {
-		"ft": 16384,
-		"iS": 110865,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/painted-lines-11.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/painted-lines-12.jpg": {
-		"ft": 16384,
-		"iS": 176141,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/painted-lines-12.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/painted-lines-13.jpg": {
-		"ft": 16384,
-		"iS": 258857,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/painted-lines-13.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/painted-lines-14.jpg": {
-		"ft": 16384,
-		"iS": 447582,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/painted-lines-14.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/painted-lines-15.jpg": {
-		"ft": 16384,
-		"iS": 570789,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/painted-lines-15.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/painted-lines-16.jpg": {
-		"ft": 16384,
-		"iS": 396884,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/painted-lines-16.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/painted-lines-17.jpg": {
-		"ft": 16384,
-		"iS": 295896,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/painted-lines-17.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/painted-lines-18.jpg": {
-		"ft": 16384,
-		"iS": 207207,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/painted-lines-18.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/painted-lines-19.jpg": {
-		"ft": 16384,
-		"iS": 547916,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/painted-lines-19.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/painted-lines-20.jpg": {
-		"ft": 16384,
-		"iS": 161837,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/painted-lines-20.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/painted-lines-21.jpg": {
-		"ft": 16384,
-		"iS": 416043,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/painted-lines-21.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/placeholder.png": {
-		"ft": 32768,
-		"iS": 1870,
-		"oA": 0,
-		"oAP": "/_uploads/placeholder.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/_uploads/salt-in-our-blood.jpg": {
-		"ft": 16384,
-		"iS": 522695,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/salt-in-our-blood.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/singles-001.jpg": {
-		"ft": 16384,
-		"iS": 153804,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/singles-001.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/singles-002.jpg": {
-		"ft": 16384,
-		"iS": 181571,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/singles-002.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/singles-003.jpg": {
-		"ft": 16384,
-		"iS": 120460,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/singles-003.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/singles-004.jpg": {
-		"ft": 16384,
-		"iS": 192078,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/singles-004.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/singles-005.jpg": {
-		"ft": 16384,
-		"iS": 216401,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/singles-005.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/singles-006.jpg": {
-		"ft": 16384,
-		"iS": 325858,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/singles-006.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/singles-007.jpg": {
-		"ft": 16384,
-		"iS": 396359,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/singles-007.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/singles-008.jpg": {
-		"ft": 16384,
-		"iS": 149263,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/singles-008.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/singles-009.jpg": {
-		"ft": 16384,
-		"iS": 308690,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/singles-009.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/singles-010.jpg": {
-		"ft": 16384,
-		"iS": 263376,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/singles-010.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/singles-011.jpg": {
-		"ft": 16384,
-		"iS": 269076,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/singles-011.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/singles-012.jpg": {
-		"ft": 16384,
-		"iS": 251255,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/singles-012.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/singles-013.jpg": {
-		"ft": 16384,
-		"iS": 334574,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/singles-013.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/singles-014.jpg": {
-		"ft": 16384,
-		"iS": 170309,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/singles-014.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/singles-015.jpg": {
-		"ft": 16384,
-		"iS": 173621,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/singles-015.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/singles-016.jpg": {
-		"ft": 16384,
-		"iS": 209629,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/singles-016.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/singles-017.jpg": {
-		"ft": 16384,
-		"iS": 223047,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/singles-017.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/singles-018.jpg": {
-		"ft": 16384,
-		"iS": 149712,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/singles-018.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/singles-019.jpg": {
-		"ft": 16384,
-		"iS": 235552,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/singles-019.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/singles-test.jpg": {
-		"ft": 16384,
-		"iS": 198976,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/singles-test.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/singles-thumb.jpg": {
-		"ft": 16384,
-		"iS": 84688,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/singles-thumb.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"/_uploads/ukraine-kiev-thumb.jpg": {
-		"ft": 16384,
-		"iS": 107586,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/ukraine-kiev-thumb.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/archive.md": {
-		"cB": 0,
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/archive.md",
-		"oF": 1,
-		"oFM": 9,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
-	"/assets/css/app.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "/assets/css/app-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"/assets/favicons/android-chrome-192x192.png": {
-		"ft": 32768,
-		"iS": 321,
-		"oA": 0,
-		"oAP": "/assets/favicons/android-chrome-192x192.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/favicons/android-chrome-256x256.png": {
-		"ft": 32768,
-		"iS": 1084,
-		"oA": 0,
-		"oAP": "/assets/favicons/android-chrome-256x256.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/favicons/apple-touch-icon.png": {
-		"ft": 32768,
-		"iS": 304,
-		"oA": 0,
-		"oAP": "/assets/favicons/apple-touch-icon.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/favicons/browserconfig.xml": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/assets/favicons/browserconfig.xml",
-		"oF": 0
-		},
-	"/assets/favicons/favicon-16x16.png": {
-		"ft": 32768,
-		"iS": 592,
-		"oA": 0,
-		"oAP": "/assets/favicons/favicon-16x16.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/favicons/favicon-32x32.png": {
-		"ft": 32768,
-		"iS": 599,
-		"oA": 0,
-		"oAP": "/assets/favicons/favicon-32x32.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/favicons/favicon.ico": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/assets/favicons/favicon.ico",
-		"oF": 0
-		},
-	"/assets/favicons/manifest.json": {
+	"/.nova/Configuration.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "/assets/favicons/manifest-min.json",
+		"oAP": "/.nova/Configuration-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"/assets/favicons/mstile-150x150.png": {
-		"ft": 32768,
-		"iS": 598,
-		"oA": 0,
-		"oAP": "/assets/favicons/mstile-150x150.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/favicons/safari-pinned-tab.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/assets/favicons/safari-pinned-tab.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/assets/fonts/GTSectra-Book.eot": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/assets/fonts/GTSectra-Book.eot",
-		"oF": 0
-		},
-	"/assets/fonts/GTSectra-Book.otf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/assets/fonts/GTSectra-Book.otf",
-		"oF": 0
-		},
-	"/assets/fonts/GTSectra-Book.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/assets/fonts/GTSectra-Book.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/assets/fonts/GTSectra-Book.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/assets/fonts/GTSectra-Book.ttf",
-		"oF": 0
-		},
-	"/assets/fonts/GTSectra-Book.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/assets/fonts/GTSectra-Book.woff",
-		"oF": 0
-		},
-	"/assets/icons/symbol-defs.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/assets/icons/symbol-defs.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/assets/img/logo.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/assets/img/logo.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/assets/img/og-image.png": {
-		"ft": 32768,
-		"iS": 14790,
-		"oA": 0,
-		"oAP": "/assets/img/og-image.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/js/app.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/assets/js/min/app-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/assets/js/min/app-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/assets/js/min/min/app-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/assets/js/min/svgxuse-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/assets/js/min/min/svgxuse-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/assets/js/svgxuse.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/assets/js/min/svgxuse-min.js",
-		"oF": 1,
-		"sC": 1,
-		"tS": 0
-		},
-	"/assets/scss/_animate.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/assets/css/_animate.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 1
-		},
-	"/assets/scss/_animsition.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/assets/css/_animsition.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 1
-		},
-	"/assets/scss/_carousel.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/assets/css/_carousel.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 1
-		},
-	"/assets/scss/_fonts.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/assets/css/_fonts.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 1
-		},
-	"/assets/scss/_hamburgers.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/assets/css/_hamburgers.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 1
-		},
-	"/assets/scss/_hover.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/assets/css/_hover.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 1
-		},
-	"/assets/scss/_icons.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/assets/css/_icons.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 1
-		},
-	"/assets/scss/_layout.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/assets/css/_layout.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 1
-		},
-	"/assets/scss/_menu.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/assets/css/_menu.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 1
-		},
-	"/assets/scss/_mixins.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/assets/css/_mixins.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 1
-		},
-	"/assets/scss/_settings.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/assets/css/_settings.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 1
-		},
-	"/assets/scss/_variables.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/assets/css/_variables.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 1
-		},
-	"/assets/scss/_wallop.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/assets/css/_wallop.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 1
-		},
-	"/assets/scss/app.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/assets/css/app.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 1
-		},
-	"/bower.json": {
+	"/.nova/Publishing/Frederick Paxton.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "/bower-min.json",
+		"oAP": "/.nova/Publishing/Frederick Paxton-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"/CHANGELOG.md": {
-		"cB": 0,
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/CHANGELOG.html",
+	"/composer.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/composer-min.json",
 		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
+		"oO": 0,
+		"oS": 1
 		},
-	"/Gemfile": {
+	"/composer.lock": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/Gemfile",
+		"oAP": "/composer.lock",
 		"oF": 0
 		},
-	"/Gemfile.lock": {
+	"/config/app.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/Gemfile.lock",
+		"oAP": "/config/app.php",
+		"oF": 0
+		},
+	"/config/db.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/config/db.php",
+		"oF": 0
+		},
+	"/config/general.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/config/general.php",
+		"oF": 0
+		},
+	"/config/imager.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/config/imager.php",
+		"oF": 0
+		},
+	"/config/license.key": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/config/license.key",
+		"oF": 0
+		},
+	"/config/minify.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/config/minify.php",
+		"oF": 0
+		},
+	"/config/redactor/Custom.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/config/redactor/Custom-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/config/redactor/Detail.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/config/redactor/Detail-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/config/redactor/Simple.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/config/redactor/Simple-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/config/redactor/Standard.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/config/redactor/Standard-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/config/routes.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/config/routes.php",
+		"oF": 0
+		},
+	"/craft": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/craft",
+		"oF": 0
+		},
+	"/craft.bat": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/craft.bat",
 		"oF": 0
 		},
 	"/humans.txt": {
@@ -2695,81 +177,2277 @@
 		"oAP": "/humans.txt",
 		"oF": 0
 		},
-	"/index.md": {
-		"cB": 0,
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/index.md",
-		"oF": 1,
-		"oFM": 9,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
+	"/modules": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "/build/modules",
+		"oF": 0
 		},
-	"/info.md": {
-		"cB": 0,
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"hM": 0,
+	"/node_modules": {
+		"ft": 65536,
 		"oA": 2,
-		"oAP": "/info.md",
-		"oF": 1,
-		"oFM": 9,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
+		"oAP": "/build/node_modules",
+		"oF": 0
 		},
-	"/LICENSE.md": {
+	"/node_modules/@popperjs/core/lib/dom-utils/contains.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/@popperjs/core/lib/dom-utils/min/contains-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/@popperjs/core/lib/dom-utils/getBoundingClientRect.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/@popperjs/core/lib/dom-utils/min/getBoundingClientRect-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/@popperjs/core/lib/dom-utils/getClippingRect.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/@popperjs/core/lib/dom-utils/min/getClippingRect-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/@popperjs/core/lib/dom-utils/getComputedStyle.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/@popperjs/core/lib/dom-utils/min/getComputedStyle-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/@popperjs/core/lib/dom-utils/getDocumentElement.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/@popperjs/core/lib/dom-utils/min/getDocumentElement-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/@popperjs/core/lib/dom-utils/getDocumentRect.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/@popperjs/core/lib/dom-utils/min/getDocumentRect-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/@popperjs/core/lib/dom-utils/getHTMLElementScroll.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/@popperjs/core/lib/dom-utils/min/getHTMLElementScroll-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/@popperjs/core/lib/dom-utils/getNodeName.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/@popperjs/core/lib/dom-utils/min/getNodeName-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/@popperjs/core/lib/dom-utils/getNodeScroll.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/@popperjs/core/lib/dom-utils/min/getNodeScroll-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/@popperjs/core/lib/dom-utils/getOffsetParent.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/@popperjs/core/lib/dom-utils/min/getOffsetParent-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/@popperjs/core/lib/dom-utils/getParentNode.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/@popperjs/core/lib/dom-utils/min/getParentNode-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/@popperjs/core/lib/dom-utils/getScrollParent.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/@popperjs/core/lib/dom-utils/min/getScrollParent-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/@popperjs/core/lib/dom-utils/getViewportRect.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/@popperjs/core/lib/dom-utils/min/getViewportRect-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/@popperjs/core/lib/dom-utils/getWindow.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/@popperjs/core/lib/dom-utils/min/getWindow-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/@popperjs/core/lib/dom-utils/getWindowScroll.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/@popperjs/core/lib/dom-utils/min/getWindowScroll-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/@popperjs/core/lib/dom-utils/getWindowScrollBarX.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/@popperjs/core/lib/dom-utils/min/getWindowScrollBarX-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/@popperjs/core/lib/dom-utils/instanceOf.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/@popperjs/core/lib/dom-utils/min/instanceOf-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/@popperjs/core/lib/dom-utils/isScrollParent.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/@popperjs/core/lib/dom-utils/min/isScrollParent-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/@popperjs/core/lib/dom-utils/isTableElement.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/@popperjs/core/lib/dom-utils/min/isTableElement-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/@popperjs/core/lib/dom-utils/listScrollParents.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/@popperjs/core/lib/dom-utils/min/listScrollParents-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/@popperjs/core/lib/enums.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/@popperjs/core/lib/min/enums-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/@popperjs/core/lib/index.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/@popperjs/core/lib/min/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/@popperjs/core/lib/utils/computeOffsets.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/@popperjs/core/lib/utils/min/computeOffsets-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/@popperjs/core/lib/utils/detectOverflow.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/@popperjs/core/lib/utils/min/detectOverflow-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/@popperjs/core/lib/utils/expandToHashMap.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/@popperjs/core/lib/utils/min/expandToHashMap-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/@popperjs/core/lib/utils/format.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/@popperjs/core/lib/utils/min/format-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/@popperjs/core/lib/utils/getBasePlacement.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/@popperjs/core/lib/utils/min/getBasePlacement-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/@popperjs/core/lib/utils/getFreshSideObject.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/@popperjs/core/lib/utils/min/getFreshSideObject-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/@popperjs/core/lib/utils/getMainAxisFromPlacement.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/@popperjs/core/lib/utils/min/getMainAxisFromPlacement-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/@popperjs/core/lib/utils/getVariation.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/@popperjs/core/lib/utils/min/getVariation-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/@popperjs/core/lib/utils/mergePaddingObject.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/@popperjs/core/lib/utils/min/mergePaddingObject-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/@popperjs/core/lib/utils/rectToClientRect.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/@popperjs/core/lib/utils/min/rectToClientRect-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/@swup/body-class-plugin/lib/index.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/@swup/body-class-plugin/lib/min/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/@swup/ga-plugin/lib/index.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/@swup/ga-plugin/lib/min/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/@swup/preload-plugin/lib/index.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/@swup/preload-plugin/lib/min/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/@swup/scroll-plugin/lib/index.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/@swup/scroll-plugin/lib/min/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/aos/dist/aos.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/aos/dist/min/aos-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/dom7/dom7.esm.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/dom7/min/dom7.esm-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/foundation-sites/dist/js/foundation.esm.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/foundation-sites/dist/js/min/foundation.esm-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/jquery/dist/jquery.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/jquery/dist/min/jquery-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/plyr/dist/plyr.min.mjs": {
 		"cB": 0,
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
+		"ft": 8192,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/LICENSE.html",
-		"oF": 1,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
+		"oAP": "/node_modules/plyr/dist/plyr.min.mjs",
+		"oF": 0
 		},
-	"/motion.md": {
-		"cB": 0,
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/motion.md",
-		"oF": 1,
-		"oFM": 9,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
+	"/node_modules/ssr-window/ssr-window.esm.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/ssr-window/min/ssr-window.esm-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/a11y/a11y.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/a11y/min/a11y-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/autoplay/autoplay.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/autoplay/min/autoplay-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/controller/controller.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/controller/min/controller-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/core/breakpoints/getBreakpoint.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/core/breakpoints/min/getBreakpoint-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/core/breakpoints/index.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/core/breakpoints/min/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/core/breakpoints/setBreakpoint.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/core/breakpoints/min/setBreakpoint-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/core/check-overflow/index.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/core/check-overflow/min/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/core/classes/addClasses.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/core/classes/min/addClasses-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/core/classes/index.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/core/classes/min/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/core/classes/removeClasses.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/core/classes/min/removeClasses-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/core/core-class.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/core/min/core-class-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/core/defaults.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/core/min/defaults-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/core/events-emitter.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/core/min/events-emitter-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/core/events/index.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/core/events/min/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/core/events/onClick.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/core/events/min/onClick-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/core/events/onResize.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/core/events/min/onResize-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/core/events/onScroll.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/core/events/min/onScroll-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/core/events/onTouchEnd.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/core/events/min/onTouchEnd-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/core/events/onTouchMove.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/core/events/min/onTouchMove-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/core/events/onTouchStart.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/core/events/min/onTouchStart-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/core/grab-cursor/index.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/core/grab-cursor/min/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/core/grab-cursor/setGrabCursor.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/core/grab-cursor/min/setGrabCursor-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/core/grab-cursor/unsetGrabCursor.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/core/grab-cursor/min/unsetGrabCursor-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/core/images/index.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/core/images/min/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/core/images/loadImage.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/core/images/min/loadImage-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/core/images/preloadImages.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/core/images/min/preloadImages-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/core/loop/index.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/core/loop/min/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/core/loop/loopCreate.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/core/loop/min/loopCreate-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/core/loop/loopDestroy.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/core/loop/min/loopDestroy-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/core/loop/loopFix.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/core/loop/min/loopFix-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/core/manipulation/addSlide.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/core/manipulation/min/addSlide-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/core/manipulation/appendSlide.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/core/manipulation/min/appendSlide-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/core/manipulation/index.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/core/manipulation/min/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/core/manipulation/prependSlide.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/core/manipulation/min/prependSlide-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/core/manipulation/removeAllSlides.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/core/manipulation/min/removeAllSlides-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/core/manipulation/removeSlide.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/core/manipulation/min/removeSlide-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/core/modular.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/core/min/modular-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/core/slide/index.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/core/slide/min/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/core/slide/slideNext.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/core/slide/min/slideNext-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/core/slide/slidePrev.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/core/slide/min/slidePrev-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/core/slide/slideReset.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/core/slide/min/slideReset-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/core/slide/slideTo.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/core/slide/min/slideTo-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/core/slide/slideToClickedSlide.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/core/slide/min/slideToClickedSlide-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/core/slide/slideToClosest.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/core/slide/min/slideToClosest-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/core/slide/slideToLoop.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/core/slide/min/slideToLoop-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/core/transition/index.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/core/transition/min/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/core/transition/setTransition.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/core/transition/min/setTransition-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/core/transition/transitionEnd.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/core/transition/min/transitionEnd-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/core/transition/transitionStart.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/core/transition/min/transitionStart-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/core/translate/getTranslate.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/core/translate/min/getTranslate-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/core/translate/index.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/core/translate/min/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/core/translate/maxTranslate.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/core/translate/min/maxTranslate-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/core/translate/minTranslate.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/core/translate/min/minTranslate-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/core/translate/setTranslate.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/core/translate/min/setTranslate-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/core/translate/translateTo.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/core/translate/min/translateTo-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/core/update/index.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/core/update/min/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/core/update/updateActiveIndex.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/core/update/min/updateActiveIndex-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/core/update/updateAutoHeight.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/core/update/min/updateAutoHeight-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/core/update/updateClickedSlide.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/core/update/min/updateClickedSlide-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/core/update/updateProgress.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/core/update/min/updateProgress-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/core/update/updateSize.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/core/update/min/updateSize-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/core/update/updateSlides.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/core/update/min/updateSlides-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/core/update/updateSlidesClasses.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/core/update/min/updateSlidesClasses-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/core/update/updateSlidesOffset.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/core/update/min/updateSlidesOffset-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/core/update/updateSlidesProgress.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/core/update/min/updateSlidesProgress-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/effect-coverflow/effect-coverflow.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/effect-coverflow/min/effect-coverflow-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/effect-cube/effect-cube.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/effect-cube/min/effect-cube-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/effect-fade/effect-fade.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/effect-fade/min/effect-fade-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/effect-flip/effect-flip.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/effect-flip/min/effect-flip-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/hash-navigation/hash-navigation.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/hash-navigation/min/hash-navigation-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/history/history.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/history/min/history-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/keyboard/keyboard.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/keyboard/min/keyboard-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/lazy/lazy.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/lazy/min/lazy-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/mousewheel/mousewheel.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/mousewheel/min/mousewheel-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/navigation/navigation.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/navigation/min/navigation-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/pagination/pagination.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/pagination/min/pagination-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/parallax/parallax.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/parallax/min/parallax-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/scrollbar/scrollbar.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/scrollbar/min/scrollbar-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/thumbs/thumbs.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/thumbs/min/thumbs-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/virtual/virtual.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/virtual/min/virtual-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/components/zoom/zoom.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/components/zoom/min/zoom-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/modules/observer/observer.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/modules/observer/min/observer-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/modules/resize/resize.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/modules/resize/min/resize-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/utils/dom.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/utils/min/dom-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/utils/get-browser.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/utils/min/get-browser-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/utils/get-device.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/utils/min/get-device-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/utils/get-support.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/utils/min/get-support-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../esm/utils/utils.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../esm/utils/min/utils-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/bundle/../swiper-bundle.esm.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/bundle/../min/swiper-bundle.esm-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/components/core/breakpoints/getBreakpoint.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/components/core/breakpoints/min/getBreakpoint-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/components/core/breakpoints/index.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/components/core/breakpoints/min/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/components/core/breakpoints/setBreakpoint.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/components/core/breakpoints/min/setBreakpoint-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/components/core/check-overflow/index.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/components/core/check-overflow/min/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/components/core/classes/addClasses.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/components/core/classes/min/addClasses-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/components/core/classes/index.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/components/core/classes/min/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/components/core/classes/removeClasses.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/components/core/classes/min/removeClasses-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/components/core/defaults.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/components/core/min/defaults-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/components/core/events-emitter.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/components/core/min/events-emitter-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/components/core/events/index.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/components/core/events/min/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/components/core/events/onClick.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/components/core/events/min/onClick-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/components/core/events/onResize.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/components/core/events/min/onResize-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/components/core/events/onScroll.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/components/core/events/min/onScroll-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/components/core/events/onTouchEnd.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/components/core/events/min/onTouchEnd-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/components/core/events/onTouchMove.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/components/core/events/min/onTouchMove-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/components/core/events/onTouchStart.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/components/core/events/min/onTouchStart-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/components/core/grab-cursor/index.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/components/core/grab-cursor/min/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/components/core/grab-cursor/setGrabCursor.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/components/core/grab-cursor/min/setGrabCursor-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/components/core/grab-cursor/unsetGrabCursor.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/components/core/grab-cursor/min/unsetGrabCursor-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/components/core/images/index.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/components/core/images/min/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/components/core/images/loadImage.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/components/core/images/min/loadImage-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/components/core/images/preloadImages.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/components/core/images/min/preloadImages-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/components/core/loop/index.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/components/core/loop/min/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/components/core/loop/loopCreate.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/components/core/loop/min/loopCreate-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/components/core/loop/loopDestroy.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/components/core/loop/min/loopDestroy-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/components/core/loop/loopFix.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/components/core/loop/min/loopFix-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/components/core/manipulation/addSlide.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/components/core/manipulation/min/addSlide-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/components/core/manipulation/appendSlide.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/components/core/manipulation/min/appendSlide-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/components/core/manipulation/index.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/components/core/manipulation/min/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/components/core/manipulation/prependSlide.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/components/core/manipulation/min/prependSlide-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/components/core/manipulation/removeAllSlides.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/components/core/manipulation/min/removeAllSlides-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/components/core/manipulation/removeSlide.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/components/core/manipulation/min/removeSlide-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/components/core/modular.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/components/core/min/modular-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/components/core/slide/index.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/components/core/slide/min/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/components/core/slide/slideNext.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/components/core/slide/min/slideNext-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/components/core/slide/slidePrev.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/components/core/slide/min/slidePrev-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/components/core/slide/slideReset.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/components/core/slide/min/slideReset-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/components/core/slide/slideTo.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/components/core/slide/min/slideTo-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/components/core/slide/slideToClickedSlide.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/components/core/slide/min/slideToClickedSlide-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/components/core/slide/slideToClosest.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/components/core/slide/min/slideToClosest-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/components/core/slide/slideToLoop.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/components/core/slide/min/slideToLoop-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/components/core/transition/index.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/components/core/transition/min/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/components/core/transition/setTransition.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/components/core/transition/min/setTransition-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/components/core/transition/transitionEnd.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/components/core/transition/min/transitionEnd-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/components/core/transition/transitionStart.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/components/core/transition/min/transitionStart-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/components/core/translate/getTranslate.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/components/core/translate/min/getTranslate-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/components/core/translate/index.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/components/core/translate/min/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/components/core/translate/maxTranslate.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/components/core/translate/min/maxTranslate-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/components/core/translate/minTranslate.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/components/core/translate/min/minTranslate-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/components/core/translate/setTranslate.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/components/core/translate/min/setTranslate-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/components/core/translate/translateTo.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/components/core/translate/min/translateTo-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/components/core/update/index.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/components/core/update/min/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/components/core/update/updateActiveIndex.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/components/core/update/min/updateActiveIndex-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/components/core/update/updateAutoHeight.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/components/core/update/min/updateAutoHeight-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/components/core/update/updateClickedSlide.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/components/core/update/min/updateClickedSlide-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/components/core/update/updateProgress.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/components/core/update/min/updateProgress-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/components/core/update/updateSize.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/components/core/update/min/updateSize-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/components/core/update/updateSlides.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/components/core/update/min/updateSlides-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/components/core/update/updateSlidesClasses.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/components/core/update/min/updateSlidesClasses-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/components/core/update/updateSlidesOffset.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/components/core/update/min/updateSlidesOffset-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/components/core/update/updateSlidesProgress.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/components/core/update/min/updateSlidesProgress-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/components/effect-cube/effect-cube.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/components/effect-cube/min/effect-cube-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/components/effect-flip/effect-flip.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/components/effect-flip/min/effect-flip-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/components/lazy/lazy.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/components/lazy/min/lazy-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/components/virtual/virtual.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/components/virtual/min/virtual-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/modules/observer/observer.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/modules/observer/min/observer-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/modules/resize/resize.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/modules/resize/min/resize-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/utils/dom.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/utils/min/dom-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/utils/get-browser.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/utils/min/get-browser-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/utils/get-device.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/utils/min/get-device-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/utils/get-support.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/utils/min/get-support-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/esm/utils/utils.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/esm/utils/min/utils-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swup/lib/index.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swup/lib/min/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/tippy.js/dist/tippy.esm.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/tippy.js/dist/min/tippy.esm-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/package-lock.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/package-lock-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
 		},
 	"/package.json": {
 		"ft": 524288,
@@ -2798,32 +2476,1604 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"/robots.txt": {
+	"/storage": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "/build/storage",
+		"oF": 0
+		},
+	"/templates/default/404.twig": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/robots.txt",
+		"oAP": "/templates/default/404.twig",
 		"oF": 0
 		},
-	"/stills.md": {
+	"/templates/default/503.twig": {
 		"cB": 0,
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
+		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/stills.md",
-		"oF": 1,
-		"oFM": 9,
+		"oAP": "/templates/default/503.twig",
+		"oF": 0
+		},
+	"/templates/default/_includes/blocks/excerpt-archive.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/default/_includes/blocks/excerpt-archive.twig",
+		"oF": 0
+		},
+	"/templates/default/_includes/blocks/excerpt.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/templates/default/_includes/blocks/excerpt.twig",
+		"oF": 0
+		},
+	"/templates/default/_includes/blocks/note.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/default/_includes/blocks/note.twig",
+		"oF": 0
+		},
+	"/templates/default/_includes/global/analytics.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/templates/default/_includes/global/analytics.twig",
+		"oF": 0
+		},
+	"/templates/default/_includes/global/footer.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/default/_includes/global/footer.twig",
+		"oF": 0
+		},
+	"/templates/default/_includes/global/head.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/templates/default/_includes/global/head.twig",
+		"oF": 0
+		},
+	"/templates/default/_includes/global/navigation.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/templates/default/_includes/global/navigation.twig",
+		"oF": 0
+		},
+	"/templates/default/_includes/global/scripts.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/templates/default/_includes/global/scripts.twig",
+		"oF": 0
+		},
+	"/templates/default/_includes/global/socials.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/default/_includes/global/socials.twig",
+		"oF": 0
+		},
+	"/templates/default/_includes/images/contained/1-1/interchange-img-small-12-medium-12.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/templates/default/_includes/images/contained/1-1/interchange-img-small-12-medium-12.twig",
+		"oF": 0
+		},
+	"/templates/default/_includes/images/contained/1-1/interchange-img-small-12-medium-4.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/templates/default/_includes/images/contained/1-1/interchange-img-small-12-medium-4.twig",
+		"oF": 0
+		},
+	"/templates/default/_includes/images/contained/1-1/interchange-img-small-12-medium-6.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/templates/default/_includes/images/contained/1-1/interchange-img-small-12-medium-6.twig",
+		"oF": 0
+		},
+	"/templates/default/_includes/images/contained/16-9/interchange-img-small-12-medium-12.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/templates/default/_includes/images/contained/16-9/interchange-img-small-12-medium-12.twig",
+		"oF": 0
+		},
+	"/templates/default/_includes/images/contained/16-9/interchange-img-small-12-medium-4.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/templates/default/_includes/images/contained/16-9/interchange-img-small-12-medium-4.twig",
+		"oF": 0
+		},
+	"/templates/default/_includes/images/contained/16-9/interchange-img-small-12-medium-6.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/templates/default/_includes/images/contained/16-9/interchange-img-small-12-medium-6.twig",
+		"oF": 0
+		},
+	"/templates/default/_includes/images/contained/3-4/interchange-img-small-12-medium-12.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/default/_includes/images/contained/3-4/interchange-img-small-12-medium-12.twig",
+		"oF": 0
+		},
+	"/templates/default/_includes/images/contained/3-4/interchange-img-small-12-medium-4.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/default/_includes/images/contained/3-4/interchange-img-small-12-medium-4.twig",
+		"oF": 0
+		},
+	"/templates/default/_includes/images/contained/3-4/interchange-img-small-12-medium-6.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/default/_includes/images/contained/3-4/interchange-img-small-12-medium-6.twig",
+		"oF": 0
+		},
+	"/templates/default/_includes/images/contained/4-6/interchange-img-small-12-medium-12.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/default/_includes/images/contained/4-6/interchange-img-small-12-medium-12.twig",
+		"oF": 0
+		},
+	"/templates/default/_includes/images/contained/4-6/interchange-img-small-12-medium-4.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/default/_includes/images/contained/4-6/interchange-img-small-12-medium-4.twig",
+		"oF": 0
+		},
+	"/templates/default/_includes/images/contained/4-6/interchange-img-small-12-medium-6.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/default/_includes/images/contained/4-6/interchange-img-small-12-medium-6.twig",
+		"oF": 0
+		},
+	"/templates/default/_includes/images/contained/5-4/interchange-img-small-12-medium-12.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/templates/default/_includes/images/contained/5-4/interchange-img-small-12-medium-12.twig",
+		"oF": 0
+		},
+	"/templates/default/_includes/images/contained/5-4/interchange-img-small-12-medium-4.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/templates/default/_includes/images/contained/5-4/interchange-img-small-12-medium-4.twig",
+		"oF": 0
+		},
+	"/templates/default/_includes/images/contained/5-4/interchange-img-small-12-medium-6.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/templates/default/_includes/images/contained/5-4/interchange-img-small-12-medium-6.twig",
+		"oF": 0
+		},
+	"/templates/default/_includes/images/contained/5-7/interchange-img-small-12-medium-12.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/templates/default/_includes/images/contained/5-7/interchange-img-small-12-medium-12.twig",
+		"oF": 0
+		},
+	"/templates/default/_includes/images/contained/5-7/interchange-img-small-12-medium-4.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/templates/default/_includes/images/contained/5-7/interchange-img-small-12-medium-4.twig",
+		"oF": 0
+		},
+	"/templates/default/_includes/images/contained/5-7/interchange-img-small-12-medium-6.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/templates/default/_includes/images/contained/5-7/interchange-img-small-12-medium-6.twig",
+		"oF": 0
+		},
+	"/templates/default/_includes/images/contained/6-4/interchange-img-small-12-medium-12.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/templates/default/_includes/images/contained/6-4/interchange-img-small-12-medium-12.twig",
+		"oF": 0
+		},
+	"/templates/default/_includes/images/contained/6-4/interchange-img-small-12-medium-4.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/templates/default/_includes/images/contained/6-4/interchange-img-small-12-medium-4.twig",
+		"oF": 0
+		},
+	"/templates/default/_includes/images/contained/6-4/interchange-img-small-12-medium-6.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/templates/default/_includes/images/contained/6-4/interchange-img-small-12-medium-6.twig",
+		"oF": 0
+		},
+	"/templates/default/_includes/images/contained/7-5/interchange-img-small-12-medium-12.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/templates/default/_includes/images/contained/7-5/interchange-img-small-12-medium-12.twig",
+		"oF": 0
+		},
+	"/templates/default/_includes/images/contained/7-5/interchange-img-small-12-medium-4.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/templates/default/_includes/images/contained/7-5/interchange-img-small-12-medium-4.twig",
+		"oF": 0
+		},
+	"/templates/default/_includes/images/contained/7-5/interchange-img-small-12-medium-6.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/templates/default/_includes/images/contained/7-5/interchange-img-small-12-medium-6.twig",
+		"oF": 0
+		},
+	"/templates/default/_includes/images/full/1-1/interchange-img-small-12-medium-12.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/templates/default/_includes/images/full/1-1/interchange-img-small-12-medium-12.twig",
+		"oF": 0
+		},
+	"/templates/default/_includes/images/full/1-1/interchange-img-small-12-medium-4.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/templates/default/_includes/images/full/1-1/interchange-img-small-12-medium-4.twig",
+		"oF": 0
+		},
+	"/templates/default/_includes/images/full/1-1/interchange-img-small-12-medium-6.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/templates/default/_includes/images/full/1-1/interchange-img-small-12-medium-6.twig",
+		"oF": 0
+		},
+	"/templates/default/_includes/images/full/16-9/interchange-img-small-12-medium-12.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/templates/default/_includes/images/full/16-9/interchange-img-small-12-medium-12.twig",
+		"oF": 0
+		},
+	"/templates/default/_includes/images/full/16-9/interchange-img-small-12-medium-4.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/templates/default/_includes/images/full/16-9/interchange-img-small-12-medium-4.twig",
+		"oF": 0
+		},
+	"/templates/default/_includes/images/full/16-9/interchange-img-small-12-medium-6.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/templates/default/_includes/images/full/16-9/interchange-img-small-12-medium-6.twig",
+		"oF": 0
+		},
+	"/templates/default/_includes/images/full/24-1/interchange-img-small-12-medium-12.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/default/_includes/images/full/24-1/interchange-img-small-12-medium-12.twig",
+		"oF": 0
+		},
+	"/templates/default/_includes/images/full/24-1/interchange-img-small-12-medium-4.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/default/_includes/images/full/24-1/interchange-img-small-12-medium-4.twig",
+		"oF": 0
+		},
+	"/templates/default/_includes/images/full/24-1/interchange-img-small-12-medium-6.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/default/_includes/images/full/24-1/interchange-img-small-12-medium-6.twig",
+		"oF": 0
+		},
+	"/templates/default/_includes/images/full/3-4/interchange-img-small-12-medium-12.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/default/_includes/images/full/3-4/interchange-img-small-12-medium-12.twig",
+		"oF": 0
+		},
+	"/templates/default/_includes/images/full/3-4/interchange-img-small-12-medium-4.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/default/_includes/images/full/3-4/interchange-img-small-12-medium-4.twig",
+		"oF": 0
+		},
+	"/templates/default/_includes/images/full/3-4/interchange-img-small-12-medium-6.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/default/_includes/images/full/3-4/interchange-img-small-12-medium-6.twig",
+		"oF": 0
+		},
+	"/templates/default/_includes/images/full/5-4/interchange-img-small-12-medium-12.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/templates/default/_includes/images/full/5-4/interchange-img-small-12-medium-12.twig",
+		"oF": 0
+		},
+	"/templates/default/_includes/images/full/5-4/interchange-img-small-12-medium-4.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/templates/default/_includes/images/full/5-4/interchange-img-small-12-medium-4.twig",
+		"oF": 0
+		},
+	"/templates/default/_includes/images/full/5-4/interchange-img-small-12-medium-6.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/templates/default/_includes/images/full/5-4/interchange-img-small-12-medium-6.twig",
+		"oF": 0
+		},
+	"/templates/default/_includes/images/full/5-7/interchange-img-small-12-medium-12.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/templates/default/_includes/images/full/5-7/interchange-img-small-12-medium-12.twig",
+		"oF": 0
+		},
+	"/templates/default/_includes/images/full/5-7/interchange-img-small-12-medium-4.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/templates/default/_includes/images/full/5-7/interchange-img-small-12-medium-4.twig",
+		"oF": 0
+		},
+	"/templates/default/_includes/images/full/5-7/interchange-img-small-12-medium-6.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/templates/default/_includes/images/full/5-7/interchange-img-small-12-medium-6.twig",
+		"oF": 0
+		},
+	"/templates/default/_includes/images/full/6-4/interchange-img-small-12-medium-12.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/templates/default/_includes/images/full/6-4/interchange-img-small-12-medium-12.twig",
+		"oF": 0
+		},
+	"/templates/default/_includes/images/full/6-4/interchange-img-small-12-medium-4.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/templates/default/_includes/images/full/6-4/interchange-img-small-12-medium-4.twig",
+		"oF": 0
+		},
+	"/templates/default/_includes/images/full/6-4/interchange-img-small-12-medium-6.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/templates/default/_includes/images/full/6-4/interchange-img-small-12-medium-6.twig",
+		"oF": 0
+		},
+	"/templates/default/_includes/images/full/7-5/interchange-img-small-12-medium-12.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/templates/default/_includes/images/full/7-5/interchange-img-small-12-medium-12.twig",
+		"oF": 0
+		},
+	"/templates/default/_includes/images/full/7-5/interchange-img-small-12-medium-4.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/templates/default/_includes/images/full/7-5/interchange-img-small-12-medium-4.twig",
+		"oF": 0
+		},
+	"/templates/default/_includes/images/full/7-5/interchange-img-small-12-medium-6.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/templates/default/_includes/images/full/7-5/interchange-img-small-12-medium-6.twig",
+		"oF": 0
+		},
+	"/templates/default/_includes/images/full/full/interchange-img-small-12-medium-12.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/templates/default/_includes/images/full/full/interchange-img-small-12-medium-12.twig",
+		"oF": 0
+		},
+	"/templates/default/_includes/reveal/navigation.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/templates/default/_includes/reveal/navigation.twig",
+		"oF": 0
+		},
+	"/templates/default/_layouts/base.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/templates/default/_layouts/base.twig",
+		"oF": 0
+		},
+	"/templates/default/_layouts/site.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/templates/default/_layouts/site.twig",
+		"oF": 0
+		},
+	"/templates/default/_macros/isactive.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/default/_macros/isactive.twig",
+		"oF": 0
+		},
+	"/templates/default/all/index.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/default/all/index.twig",
+		"oF": 0
+		},
+	"/templates/default/category/category.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/default/category/category.twig",
+		"oF": 0
+		},
+	"/templates/default/error.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/templates/default/error.twig",
+		"oF": 0
+		},
+	"/templates/default/index.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/templates/default/index.twig",
+		"oF": 0
+		},
+	"/templates/default/information/information.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/default/information/information.twig",
+		"oF": 0
+		},
+	"/templates/default/offline.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/templates/default/offline.twig",
+		"oF": 0
+		},
+	"/templates/default/page/page.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/templates/default/page/page.twig",
+		"oF": 0
+		},
+	"/templates/default/works/index.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/default/works/index.twig",
+		"oF": 0
+		},
+	"/templates/default/works/work.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/default/works/work.twig",
+		"oF": 0
+		},
+	"/vendor": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "/build/vendor",
+		"oF": 0
+		},
+	"/web/.htaccess": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/web/.htaccess",
+		"oF": 0
+		},
+	"/web/assets/css/app.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "/web/assets/css/app-ck.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"/web/assets/favicons/android-chrome-192x192.png": {
+		"ft": 32768,
+		"iS": 2739,
+		"oA": 0,
+		"oAP": "/web/assets/favicons/android-chrome-192x192.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/web/assets/favicons/android-chrome-512x512.png": {
+		"ft": 32768,
+		"iS": 7368,
+		"oA": 0,
+		"oAP": "/web/assets/favicons/android-chrome-512x512.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/web/assets/favicons/apple-touch-icon.png": {
+		"ft": 32768,
+		"iS": 1806,
+		"oA": 0,
+		"oAP": "/web/assets/favicons/apple-touch-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/web/assets/favicons/browserconfig.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/web/assets/favicons/browserconfig.xml",
+		"oF": 0
+		},
+	"/web/assets/favicons/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 575,
+		"oA": 0,
+		"oAP": "/web/assets/favicons/favicon-16x16.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/web/assets/favicons/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 725,
+		"oA": 0,
+		"oAP": "/web/assets/favicons/favicon-32x32.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/web/assets/favicons/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/web/assets/favicons/favicon.ico",
+		"oF": 0
+		},
+	"/web/assets/favicons/mstile-144x144.png": {
+		"ft": 32768,
+		"iS": 1798,
+		"oA": 0,
+		"oAP": "/web/assets/favicons/mstile-144x144.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/web/assets/favicons/mstile-150x150.png": {
+		"ft": 32768,
+		"iS": 1836,
+		"oA": 0,
+		"oAP": "/web/assets/favicons/mstile-150x150.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/web/assets/favicons/mstile-310x150.png": {
+		"ft": 32768,
+		"iS": 2033,
+		"oA": 0,
+		"oAP": "/web/assets/favicons/mstile-310x150.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/web/assets/favicons/mstile-310x310.png": {
+		"ft": 32768,
+		"iS": 3939,
+		"oA": 0,
+		"oAP": "/web/assets/favicons/mstile-310x310.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/web/assets/favicons/mstile-70x70.png": {
+		"ft": 32768,
+		"iS": 1230,
+		"oA": 0,
+		"oAP": "/web/assets/favicons/mstile-70x70.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/web/assets/favicons/safari-pinned-tab.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/web/assets/favicons/safari-pinned-tab.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/web/assets/favicons/site.webmanifest": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/web/assets/favicons/site.webmanifest",
+		"oF": 0
+		},
+	"/web/assets/fonts/arnhem-blond.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/web/assets/fonts/arnhem-blond.ttf",
+		"oF": 0
+		},
+	"/web/assets/fonts/arnhem-blond.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/web/assets/fonts/arnhem-blond.woff",
+		"oF": 0
+		},
+	"/web/assets/fonts/arnhem-blond.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/web/assets/fonts/arnhem-blond.woff2",
+		"oF": 0
+		},
+	"/web/assets/fonts/bradford-regular.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/web/assets/fonts/bradford-regular.ttf",
+		"oF": 0
+		},
+	"/web/assets/fonts/bradford-regular.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/web/assets/fonts/bradford-regular.woff",
+		"oF": 0
+		},
+	"/web/assets/fonts/bradford-regular.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/web/assets/fonts/bradford-regular.woff2",
+		"oF": 0
+		},
+	"/web/assets/icons/symbol-defs.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/web/assets/icons/symbol-defs.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/web/assets/img/arrow-left.png": {
+		"ft": 32768,
+		"iS": 178,
+		"oA": 0,
+		"oAP": "/web/assets/img/arrow-left.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/web/assets/img/arrow-left.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/web/assets/img/arrow-left.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/web/assets/img/arrow-left@2x.png": {
+		"ft": 32768,
+		"iS": 297,
+		"oA": 0,
+		"oAP": "/web/assets/img/arrow-left@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/web/assets/img/arrow-left@3x.png": {
+		"ft": 32768,
+		"iS": 502,
+		"oA": 0,
+		"oAP": "/web/assets/img/arrow-left@3x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/web/assets/img/arrow-right.png": {
+		"ft": 32768,
+		"iS": 189,
+		"oA": 0,
+		"oAP": "/web/assets/img/arrow-right.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/web/assets/img/arrow-right.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/web/assets/img/arrow-right.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/web/assets/img/arrow-right@2x.png": {
+		"ft": 32768,
+		"iS": 333,
+		"oA": 0,
+		"oAP": "/web/assets/img/arrow-right@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/web/assets/img/arrow-right@3x.png": {
+		"ft": 32768,
+		"iS": 517,
+		"oA": 0,
+		"oAP": "/web/assets/img/arrow-right@3x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/web/assets/js/app.js": {
+		"bF": 4,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/web/assets/js/min/app-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 1
+		},
+	"/web/assets/js/min/app-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/web/assets/js/min/min/app-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/web/assets/js/min/map-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/web/assets/js/min/min/map-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/web/assets/js/min/svgxuse-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/web/assets/js/min/min/svgxuse-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/web/assets/js/svgxuse.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/web/assets/js/min/svgxuse-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/web/assets/scss/_colors.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/web/assets/css/_colors.css",
+		"oF": 0,
 		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
+		"sct": 1
+		},
+	"/web/assets/scss/_fonts.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/web/assets/css/_fonts.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/web/assets/scss/_icons.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/web/assets/css/_icons.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/web/assets/scss/_layout.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/web/assets/css/_layout.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/web/assets/scss/_plyr.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/web/assets/css/_plyr.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/web/assets/scss/_settings.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/web/assets/css/_settings.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/web/assets/scss/_swiper.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/web/assets/css/_swiper.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/web/assets/scss/_tippy.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/web/assets/css/_tippy.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/web/assets/scss/_transitions.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/web/assets/css/_transitions.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/web/assets/scss/_typography.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/web/assets/css/_typography.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/web/assets/scss/_variables.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/web/assets/css/_variables.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/web/assets/scss/app.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/web/assets/css/app.css",
+		"oF": 0,
+		"oS": 3,
+		"sct": 1
+		},
+	"/web/assets/scss/hamburgers/_base.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/web/assets/scss/css/_base.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/web/assets/scss/hamburgers/hamburgers.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/web/assets/scss/css/hamburgers.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/web/assets/scss/hamburgers/types/_3dx-r.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/web/assets/scss/hamburgers/css/_3dx-r.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/web/assets/scss/hamburgers/types/_3dx.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/web/assets/scss/hamburgers/css/_3dx.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/web/assets/scss/hamburgers/types/_3dy-r.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/web/assets/scss/hamburgers/css/_3dy-r.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/web/assets/scss/hamburgers/types/_3dy.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/web/assets/scss/hamburgers/css/_3dy.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/web/assets/scss/hamburgers/types/_arrow-r.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/web/assets/scss/hamburgers/css/_arrow-r.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/web/assets/scss/hamburgers/types/_arrow.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/web/assets/scss/hamburgers/css/_arrow.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/web/assets/scss/hamburgers/types/_arrowalt-r.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/web/assets/scss/hamburgers/css/_arrowalt-r.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/web/assets/scss/hamburgers/types/_arrowalt.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/web/assets/scss/hamburgers/css/_arrowalt.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/web/assets/scss/hamburgers/types/_boring.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/web/assets/scss/hamburgers/css/_boring.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/web/assets/scss/hamburgers/types/_collapse-r.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/web/assets/scss/hamburgers/css/_collapse-r.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/web/assets/scss/hamburgers/types/_collapse.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/web/assets/scss/hamburgers/css/_collapse.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/web/assets/scss/hamburgers/types/_elastic-r.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/web/assets/scss/hamburgers/css/_elastic-r.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/web/assets/scss/hamburgers/types/_elastic.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/web/assets/scss/hamburgers/css/_elastic.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/web/assets/scss/hamburgers/types/_emphatic-r.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/web/assets/scss/hamburgers/css/_emphatic-r.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/web/assets/scss/hamburgers/types/_emphatic.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/web/assets/scss/hamburgers/css/_emphatic.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/web/assets/scss/hamburgers/types/_slider-r.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/web/assets/scss/hamburgers/css/_slider-r.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/web/assets/scss/hamburgers/types/_slider.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/web/assets/scss/hamburgers/css/_slider.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/web/assets/scss/hamburgers/types/_spin-r.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/web/assets/scss/hamburgers/css/_spin-r.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/web/assets/scss/hamburgers/types/_spin.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/web/assets/scss/hamburgers/css/_spin.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/web/assets/scss/hamburgers/types/_spring-r.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/web/assets/scss/hamburgers/css/_spring-r.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/web/assets/scss/hamburgers/types/_spring.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/web/assets/scss/hamburgers/css/_spring.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/web/assets/scss/hamburgers/types/_squeeze.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/web/assets/scss/hamburgers/css/_squeeze.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/web/assets/scss/hamburgers/types/_stand-r.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/web/assets/scss/hamburgers/css/_stand-r.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/web/assets/scss/hamburgers/types/_stand.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/web/assets/scss/hamburgers/css/_stand.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/web/assets/scss/hamburgers/types/_vortex-r.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/web/assets/scss/hamburgers/css/_vortex-r.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/web/assets/scss/hamburgers/types/_vortex.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/web/assets/scss/hamburgers/css/_vortex.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/web/assets/scss/scroll/_animations.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/web/assets/scss/css/_animations.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/web/assets/scss/scroll/_core.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/web/assets/scss/css/_core.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/web/assets/scss/scroll/_easing.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/web/assets/scss/css/_easing.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/web/assets/scss/scroll/aos.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/web/assets/scss/css/aos.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/web/cpresources": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "/build/web/cpresources",
+		"oF": 0
+		},
+	"/web/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/web/index.php",
+		"oF": 0
+		},
+	"/web/robots.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/web/robots.txt",
+		"oF": 0
+		},
+	"/web/web.config": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/web/web.config",
+		"oF": 0
+		},
+	"/yarn.lock": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/yarn.lock",
+		"oF": 0
 		}
 	},
 "hooks": [
@@ -2831,16 +4081,16 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 499792706,
+	"creationDate": 499797547,
 	"displayValue": "Frederick Paxton",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "/assets/favicons/apple-touch-icon.png",
+	"iconImageName": "/web/assets/favicons/apple-touch-icon.png",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
 	"allowInjectionReloads": 1,
-	"alwaysUseExternalServer": 0,
+	"alwaysUseExternalServer": 1,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerEnableIEGrid": 0,
@@ -3308,8 +4558,7 @@
 			"optionString": "{'before': true, 'after': true}"
 			},
 		"block-scoped-var": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"block-spacing": {
 			"active": 0,
@@ -3364,24 +4613,20 @@
 			"optionString": "'that'"
 			},
 		"constructor-super": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"curly": {
 			"active": 0,
 			"optionString": "'all'"
 			},
 		"default-case": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"default-case-last": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"default-param-last": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"dot-location": {
 			"active": 0,
@@ -3400,8 +4645,7 @@
 			"optionString": "'always', {'null': 'always'}"
 			},
 		"for-direction": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"func-call-spacing": {
 			"active": 0,
@@ -3432,16 +4676,14 @@
 			"optionString": "{'allowImplicit': false}"
 			},
 		"global-require": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"grouped-accessor-pairs": {
 			"active": 0,
 			"optionString": "'anyOrder'"
 			},
 		"guard-for-in": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"handle-callback-err": {
 			"active": 0,
@@ -3556,44 +4798,35 @@
 			"optionString": "{'ignoreChainWithDepth': 2}"
 			},
 		"no-alert": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-array-constructor": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-async-promise-executor": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-await-in-loop": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-bitwise": {
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
 			},
 		"no-buffer-constructor": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-caller": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-case-declarations": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-class-assign": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-compare-neg-zero": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-cond-assign": {
 			"active": 1,
@@ -3608,124 +4841,101 @@
 			"optionString": "{'allow': ['warn', 'error']}"
 			},
 		"no-const-assign": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-constant-condition": {
 			"active": 1,
 			"optionString": "{'checkLoops': true}"
 			},
 		"no-constructor-return": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-continue": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-control-regex": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-debugger": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-delete-var": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-div-regex": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-dupe-args": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-dupe-class-members": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-dupe-else-if": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-dupe-keys": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-duplicate-imports": {
 			"active": 0,
 			"optionString": "{'includeExports': false}"
 			},
 		"no-else-return": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-empty": {
 			"active": 1,
 			"optionString": "{'allowEmptyCatch': false}"
 			},
 		"no-empty-character-class": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-empty-function": {
 			"active": 0,
 			"optionString": "{'allow': []}"
 			},
 		"no-empty-pattern": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-eq-null": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-eval": {
 			"active": 0,
 			"optionString": "{'allowIndirect': false}"
 			},
 		"no-ex-assign": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-extend-native": {
 			"active": 0,
 			"optionString": "{'exceptions': []}"
 			},
 		"no-extra-bind": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-extra-boolean-cast": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-extra-labels": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-extra-parens": {
 			"active": 1,
 			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false}"
 			},
 		"no-extra-semi": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-fallthrough": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-floating-decimal": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-func-assign": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-global-assign": {
 			"active": 0,
@@ -3736,20 +4946,16 @@
 			"optionString": "{'boolean': true, 'number': true, 'string': true, 'allow': []}"
 			},
 		"no-implicit-globals": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-implied-eval": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-import-assign": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-inline-comments": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-inner-declarations": {
 			"active": 1,
@@ -3768,40 +4974,33 @@
 			"optionString": "{'skipStrings': true, 'skipComments': false, 'skipRegExps': true, 'skipTemplates': true}"
 			},
 		"no-iterator": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-label-var": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-labels": {
 			"active": 0,
 			"optionString": "{'allowLoop': false, 'allowSwitch': false}"
 			},
 		"no-lone-blocks": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-lonely-if": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-loop-func": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-loss-of-precision": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-magic-numbers": {
 			"active": 0,
 			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
 			},
 		"no-misleading-character-class": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-mixed-operators": {
 			"active": 0,
@@ -3816,100 +5015,84 @@
 			"optionString": ""
 			},
 		"no-multi-assign": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-multi-spaces": {
 			"active": 0,
 			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
 			},
 		"no-multi-str": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-multiple-empty-lines": {
 			"active": 0,
 			"optionString": "{'max': 2, 'maxBOF': 2, 'maxEOF': 2}"
 			},
 		"no-negated-condition": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-nested-ternary": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-new": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-new-func": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-new-object": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-new-require": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-new-symbol": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-new-wrappers": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-obj-calls": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-octal": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-octal-escape": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-param-reassign": {
 			"active": 0,
 			"optionString": "{'props': false}"
 			},
 		"no-path-concat": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-plusplus": {
 			"active": 0,
 			"optionString": "{'allowForLoopAfterthoughts': false}"
 			},
 		"no-process-env": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-process-exit": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
+			},
+		"no-promise-executor-return": {
+			"active": 0
 			},
 		"no-proto": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-prototype-builtins": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-redeclare": {
 			"active": 1,
 			"optionString": "{'builtinGlobals': false}"
 			},
 		"no-regex-spaces": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-restricted-exports": {
 			"active": 0,
@@ -3920,8 +5103,7 @@
 			"optionString": "'event', 'fdescribe'"
 			},
 		"no-restricted-imports": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-restricted-modules": {
 			"active": 0,
@@ -3940,40 +5122,33 @@
 			"optionString": "'except-parens'"
 			},
 		"no-return-await": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-script-url": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-self-assign": {
 			"active": 1,
 			"optionString": "{'props': false}"
 			},
 		"no-self-compare": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-sequences": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-setter-return": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-shadow": {
 			"active": 0,
 			"optionString": "{'builtinGlobals': false, 'hoist': 'functions', 'allow': []}"
 			},
 		"no-shadow-restricted-names": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-sparse-arrays": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-sync": {
 			"active": 0,
@@ -3984,20 +5159,16 @@
 			"optionString": ""
 			},
 		"no-template-curly-in-string": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-ternary": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-this-before-super": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-throw-literal": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-trailing-spaces": {
 			"active": 0,
@@ -4008,36 +5179,34 @@
 			"optionString": "{'typeof': false}"
 			},
 		"no-undef-init": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-undefined": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-underscore-dangle": {
 			"active": 0,
 			"optionString": "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false}"
 			},
 		"no-unexpected-multiline": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-unmodified-loop-condition": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-unneeded-ternary": {
 			"active": 0,
 			"optionString": "{'defaultAssignment': true}"
 			},
 		"no-unreachable": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
+			},
+		"no-unreachable-loop": {
+			"active": 0,
+			"optionString": "{'ignore': []}"
 			},
 		"no-unsafe-finally": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-unsafe-negation": {
 			"active": 0,
@@ -4048,8 +5217,7 @@
 			"optionString": "{'allowShortCircuit': false, 'allowTernary': false}"
 			},
 		"no-unused-labels": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-unused-vars": {
 			"active": 1,
@@ -4060,44 +5228,36 @@
 			"optionString": "{'functions': true, 'classes': true}"
 			},
 		"no-useless-backreference": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-useless-call": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-useless-catch": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-useless-computed-key": {
 			"active": 1,
 			"optionString": ""
 			},
 		"no-useless-concat": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-useless-constructor": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-useless-escape": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-useless-rename": {
 			"active": 0,
 			"optionString": "{'ignoreDestructuring': false, 'ignoreImport': false, 'ignoreExport': false}"
 			},
 		"no-useless-return": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-var": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-void": {
 			"active": 0,
@@ -4108,12 +5268,10 @@
 			"optionString": "{'terms': ['todo', 'fixme', 'xxx'], 'location': 'start'}"
 			},
 		"no-whitespace-before-property": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-with": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"nonblock-statement-body-position": {
 			"active": 0,
@@ -4160,8 +5318,7 @@
 			"optionString": "{blankLine: 'always', prev:'*', next:'return'}"
 			},
 		"prefer-arrow-callback": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"prefer-const": {
 			"active": 0,
@@ -4172,40 +5329,32 @@
 			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
 			},
 		"prefer-exponentiation-operator": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"prefer-named-capture-group": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"prefer-numeric-literals": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"prefer-object-spread": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"prefer-promise-reject-errors": {
 			"active": 0,
 			"optionString": "{'allowEmptyReject': false}"
 			},
 		"prefer-regex-literals": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"prefer-rest-params": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"prefer-spread": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"prefer-template": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"quote-props": {
 			"active": 0,
@@ -4213,31 +5362,27 @@
 			},
 		"quotes": {
 			"active": 0,
-			"optionString": "'double', {'avoidEscape': true, 'allowTemplateLiterals': true}"
+			"optionString": "'double', 'avoid-escape'"
 			},
 		"radix": {
 			"active": 0,
 			"optionString": "'always'"
 			},
 		"require-atomic-updates": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"require-await": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"require-jsdoc": {
 			"active": 0,
-			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
+			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false}}"
 			},
 		"require-unicode-regexp": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"require-yield": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"rest-spread-spacing": {
 			"active": 0,
@@ -4300,8 +5445,7 @@
 			"optionString": "{'after': true, 'before': false}"
 			},
 		"symbol-description": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"template-curly-spacing": {
 			"active": 0,
@@ -4328,16 +5472,14 @@
 			"optionString": "{'requireStringLiterals': true}"
 			},
 		"vars-on-top": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"wrap-iife": {
 			"active": 0,
 			"optionString": "'outside'"
 			},
 		"wrap-regex": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"yield-star-spacing": {
 			"active": 0,
@@ -4349,7 +5491,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http://localhost:8888",
+	"externalServerAddress": "https://frederickpaxton.test",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
@@ -4716,13 +5858,13 @@
 		},
 	"languageDefaultsCSS": {
 		"autoOutputAction": 2,
-		"autoOutputPathFilenamePattern": "*-min.css",
+		"autoOutputPathFilenamePattern": "*-ck.css",
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 0,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0
 		},
@@ -4732,7 +5874,9 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"webpOptimizationPresetUUID": "lpckwebp-none",
+		"webpRGBQuality": 75
 		},
 	"languageDefaultsHAML": {
 		"autoOutputAction": 0,
@@ -4758,7 +5902,9 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"outputFormat": 0,
-		"quality": 100
+		"quality": 100,
+		"webpOptimizationPresetUUID": "lpckwebp-none",
+		"webpRGBQuality": 75
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
@@ -4787,8 +5933,8 @@
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.html",
 		"autoOutputPathRelativePath": "",
-		"autoOutputPathReplace1": "kit",
-		"autoOutputPathReplace2": "html",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"shouldRunCacheBuster": 0,
 		"shouldRunHTMLMinifier": 0
@@ -4801,7 +5947,7 @@
 		"autoOutputPathReplace1": "less",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 2,
-		"createSourceMap": 1,
+		"createSourceMap": 0,
 		"enableJavascript": 0,
 		"mathStyle": 0,
 		"outputStyle": 0,
@@ -4850,7 +5996,9 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"optimizerType": 1,
-		"quality": 100
+		"quality": 100,
+		"webpOptimizationPresetUUID": "lpckwebp-none",
+		"webpRGBQuality": 75
 		},
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,
@@ -4934,6 +6082,17 @@
 		"targetECMAVersion": 0
 		},
 	"languageDefaultsUserDefined": [
+		{
+			"autoOutputAction": 0,
+			"autoOutputPathFilenamePattern": "*.twig",
+			"autoOutputPathRelativePath": "",
+			"autoOutputPathReplace1": "",
+			"autoOutputPathReplace2": "",
+			"autoOutputPathStyle": 0,
+			"fileExtension": "twig",
+			"shouldRunCacheBuster": 0,
+			"shouldRunHTMLMinifier": 0
+			}
 		],
 	"npmAbbreviatedPath": "",
 	"npmCreatePackageLock": 1,
@@ -4945,7 +6104,7 @@
 	"rollupExternals": "",
 	"rollupReplacements": "process.env.NODE_ENV:::$NODE_ENV,,,ENVIRONMENT:::$NODE_ENV",
 	"rollupTreeshakingEnabled": 1,
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, /storage/framework/sessions, node_modules, /_site",
+	"skippedFoldersString": "/storage/framework/sessions,storage,node_modules,modules,cpresources,_logs,logs,log,_cache,cache,vendor",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
 	"tsAllowSyntheticDefaultImports": 0,
@@ -5251,7 +6410,9 @@
 		},
 	"uglifyMangleNames": 1,
 	"uglifyReservedNamesString": "$",
-	"websiteRelativeRoot": "/_site"
+	"webpPresets": {
+		},
+	"websiteRelativeRoot": ""
 	},
 "settingsFileVersion": "3"
 }
