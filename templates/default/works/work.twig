@@ -26,21 +26,6 @@
 
 {% block main %}
 
-<div class="grid-x grid-padding-x align-center">
-  <div class="small-12 medium-12 cell">
-    <ul class="menu simple padding-top-1">
-    <li>
-      {{entry.title}}, {% if entry.isOngoing %}Ongoing{% else %}{{ entry.postDate|date('Y') }}{% endif %}
-    </li>
-    {% if entry.copy|length %}
-    <li>
-    <a class="" data-open="reveal{{entry.id}}">About</a>
-    </li>
-    {% endif %}
-    </ul>
-  </div>
-</div>
-
 <!-- Content -->
 <div class="grid-x grid-padding-x grid-padding-y align-center padding-bottom-2">
 
@@ -68,6 +53,24 @@
 </div>
 </div>
 {% endif %}
+
+<div class="grid-container">
+  <div class="grid-x grid-padding-y grid-padding-x align-center">
+    <div class="small-12 medium-12 cell">
+      <ul class="menu simple">
+      <li>
+        {{entry.title}}, {% if entry.isOngoing %}Ongoing{% else %}{{ entry.postDate|date('Y') }}{% endif %}
+      </li>
+      {% if entry.copy|length %}
+      <li>
+      <a class="" data-open="reveal{{entry.id}}">About</a>
+      </li>
+      {% endif %}
+      </ul>
+    </div>
+  </div>
+</div>
+
 
 <!-- Images -->
 <div class="grid-container">
